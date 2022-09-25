@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MilitaryRecruitmentMicroServiceV0.1", "MilitaryRecruitmentMicroServiceV0.1\MilitaryRecruitmentMicroServiceV0.1.csproj", "{17F90D29-3120-4B6B-9001-C506C8B03FC4}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthMinAPI", "HealthMinAPI\HealthMinAPI.csproj", "{51B3D882-DFBC-413D-B9A7-F2E6EFD8DB3E}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{B7DCD425-E602-47E8-9434-1B3BAFA01C3E}"
@@ -15,10 +13,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{17F90D29-3120-4B6B-9001-C506C8B03FC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{17F90D29-3120-4B6B-9001-C506C8B03FC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{17F90D29-3120-4B6B-9001-C506C8B03FC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{17F90D29-3120-4B6B-9001-C506C8B03FC4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{51B3D882-DFBC-413D-B9A7-F2E6EFD8DB3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{51B3D882-DFBC-413D-B9A7-F2E6EFD8DB3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51B3D882-DFBC-413D-B9A7-F2E6EFD8DB3E}.Release|Any CPU.ActiveCfg = Release|Any CPU

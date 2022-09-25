@@ -1,0 +1,7 @@
+D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\HealthMinAPI\obj\Debug\net5.0\HealthMinAPI.csproj.AssemblyReference.cache
+D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\HealthMinAPI\obj\Debug\net5.0\HealthMinAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\HealthMinAPI\obj\Debug\net5.0\HealthMinAPI.AssemblyInfoInputs.cache
+D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\HealthMinAPI\obj\Debug\net5.0\HealthMinAPI.AssemblyInfo.cs
+D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\HealthMinAPI\obj\Debug\net5.0\HealthMinAPI.csproj.CoreCompileInputs.cache
+D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\HealthMinAPI\obj\Debug\net5.0\HealthMinAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\HealthMinAPI\obj\Debug\net5.0\HealthMinAPI.MvcApplicationPartsAssemblyInfo.cache
