@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  healthminapi:
+    image: ${DOCKER_REGISTRY-}healthminapi
+    build:
+      context: .
+      dockerfile: HealthMinAPI/Dockerfile
