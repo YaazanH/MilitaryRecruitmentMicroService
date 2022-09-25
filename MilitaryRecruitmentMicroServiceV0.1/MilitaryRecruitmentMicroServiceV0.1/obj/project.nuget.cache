@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "JkVXnCz3wCzEfw4BJUhHk22tM54WRatf6YUTQY1rs9oLzmnEDQnJJ1dGHG2uKX0Ip145H6ZDfgq6ot8+dsqNFQ==",
+  "success": true,
+  "projectFilePath": "D:\\jounier\\git\\MilitaryRecruitmentMicroServiceV0.1\\MilitaryRecruitmentMicroServiceV0.1\\MilitaryRecruitmentMicroServiceV0.1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\yazon\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.14.0\\microsoft.visualstudio.azure.containers.tools.targets.1.14.0.nupkg.sha512"
+  ],
+  "logs": []
+}
