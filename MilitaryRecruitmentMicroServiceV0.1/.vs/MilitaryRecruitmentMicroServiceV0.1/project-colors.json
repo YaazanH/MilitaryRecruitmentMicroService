@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "51b3d882-dfbc-413d-b9a7-f2e6efd8db3e": {
+      "ProjectGuid": "51b3d882-dfbc-413d-b9a7-f2e6efd8db3e",
+      "DisplayName": "HealthMinAPI",
+      "ColorIndex": 0
+    },
+    "17f90d29-3120-4b6b-9001-c506c8b03fc4": {
+      "ProjectGuid": "17f90d29-3120-4b6b-9001-c506c8b03fc4",
+      "DisplayName": "MilitaryRecruitmentMicroServiceV0.1",
+      "ColorIndex": 1
+    },
+    "b7dcd425-e602-47e8-9434-1b3bafa01c3e": {
+      "ProjectGuid": "b7dcd425-e602-47e8-9434-1b3bafa01c3e",
+      "DisplayName": "docker-compose",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}
