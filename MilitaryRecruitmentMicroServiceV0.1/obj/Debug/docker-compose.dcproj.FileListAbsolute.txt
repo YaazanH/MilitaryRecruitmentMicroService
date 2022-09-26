@@ -22,3 +22,9 @@ D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\obj\Debug\docker-compose.dcpr
 D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
 D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
 D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\Microsoft.Data.SqlClient.dll
+D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\HighEduMinAPI.deps.json
+D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\HighEduMinAPI.runtimeconfig.json
+D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\HighEduMinAPI.runtimeconfig.dev.json
+D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\HighEduMinAPI.exe
+D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\HighEduMinAPI.dll
+D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\HighEduMinAPI.pdb

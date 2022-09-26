@@ -51,7 +51,7 @@ namespace HighEduMinAPI
                 Tags = new[] { $"https://host.docker.internal:{serviceUri.Port}/HighEduMin/GetIsAStudent?id=1" },
                 Check = new AgentCheckRegistration()
                 {
-                    HTTP = $"http://host.docker.internal:{serviceUri.Port}/HighEduMin/GetIsAStudent?id=1",
+                    HTTP = $"http://host.docker.internal:49933/HighEduMin/GetIsAStudent?id=1",
                     Interval = TimeSpan.FromSeconds(10)
                     
                 }

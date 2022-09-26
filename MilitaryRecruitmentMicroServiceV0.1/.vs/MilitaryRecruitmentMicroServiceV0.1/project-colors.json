@@ -15,7 +15,22 @@
       "ProjectGuid": "b7dcd425-e602-47e8-9434-1b3bafa01c3e",
       "DisplayName": "docker-compose",
       "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "9ab13a2c-72df-42cf-8ff7-9bd8927438ed": {
+      "ProjectGuid": "9ab13a2c-72df-42cf-8ff7-9bd8927438ed",
+      "DisplayName": "HighEduMinAPI",
+      "ColorIndex": 3
+    },
+    "7460e2e7-7320-4cdd-80de-8ea95b9f2f05": {
+      "ProjectGuid": "7460e2e7-7320-4cdd-80de-8ea95b9f2f05",
+      "DisplayName": "HighEduMinAPI",
+      "ColorIndex": 4
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 5
 }
