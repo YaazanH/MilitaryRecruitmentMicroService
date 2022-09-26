@@ -30,7 +30,17 @@
       "ProjectGuid": "7460e2e7-7320-4cdd-80de-8ea95b9f2f05",
       "DisplayName": "HighEduMinAPI",
       "ColorIndex": 4
+    },
+    "f10f2552-caf0-4141-acf5-cb8c9fb15f6a": {
+      "ProjectGuid": "f10f2552-caf0-4141-acf5-cb8c9fb15f6a",
+      "DisplayName": "AirLineAPI",
+      "ColorIndex": 5
+    },
+    "7243e6df-bd08-402a-9bce-8c56e05ca656": {
+      "ProjectGuid": "7243e6df-bd08-402a-9bce-8c56e05ca656",
+      "DisplayName": "PoliticalPartiesAPI",
+      "ColorIndex": 6
     }
   },
-  "NextColorIndex": 5
+  "NextColorIndex": 7
 }
