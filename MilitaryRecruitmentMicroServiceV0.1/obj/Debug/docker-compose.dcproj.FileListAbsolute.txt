@@ -28,3 +28,9 @@ D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\HighEduMinAPI.runti
 D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\HighEduMinAPI.exe
 D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\HighEduMinAPI.dll
 D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\HighEduMinAPI.pdb
+D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\AirLineAPI.deps.json
+D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\AirLineAPI.runtimeconfig.json
+D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\AirLineAPI.runtimeconfig.dev.json
+D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\AirLineAPI.exe
+D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\AirLineAPI.dll
+D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\AirLineAPI.pdb
