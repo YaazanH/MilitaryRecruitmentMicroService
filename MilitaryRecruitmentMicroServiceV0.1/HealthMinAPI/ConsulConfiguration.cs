@@ -48,11 +48,12 @@ namespace HealthMinAPI
                 Name = _serviceConfiguration.ServiceName,
                 Port = serviceUri.Port,
                 ID = _serviceConfiguration.ServiceId,
-                Tags = new[] { $"https://host.docker.internal:{serviceUri.Port}/swagger/index.html" },
+                Tags = new[] { $"https://host.docker.internal:{serviceUri.Port}/HealthMinister/GetHaveProb?id=4" },
                 Check = new AgentCheckRegistration()
                 {
-                    HTTP = $"http://host.docker.internal:{serviceUri.Port}/swagger/index.html",
+                    HTTP = $"http://host.docker.internal:{serviceUri.Port}/HealthMinister/GetHaveProb?id=4",
                     Interval = TimeSpan.FromSeconds(10)
+                    
                 }
             };
 

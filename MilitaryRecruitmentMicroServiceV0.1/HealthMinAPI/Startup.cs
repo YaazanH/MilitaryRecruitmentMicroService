@@ -6,6 +6,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using System;
+using HealthMinAPI.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace HealthMinAPI
 {
@@ -29,13 +31,16 @@ namespace HealthMinAPI
             });
 
             services.AddSingleton<IHostedService, ConsulRegisterService>();
-            services.Configure<ServiceConfiguration>(Configuration.GetSection("Test"));
+            services.Configure<ServiceConfiguration>(Configuration.GetSection("Service"));
             services.Configure<ConsulConfiguration>(Configuration.GetSection("Consul"));
 
             var consulAddress = Configuration.GetSection("Consul")["Url"];
 
             services.AddSingleton<IConsulClient, ConsulClient>(provider =>
                 new ConsulClient(config => config.Address = new Uri(consulAddress)));
+
+            services.AddDbContext<HealthMinContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("HealthMinContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
