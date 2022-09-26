@@ -26,8 +26,8 @@ namespace HealthMinAPI.Controllers
         }
 
         [HttpGet]
-        [Route("GetWorker/")]
-        public ActionResult<bool> GetWorker(int id)
+        [Route("GetIsAWorker/")]
+        public ActionResult<bool> GetIsAWorker(int id)
         {
             var worker = _context.HealthMinDBS.Where(x => x.ID == id).FirstOrDefault();
             if (worker == null) return NotFound();

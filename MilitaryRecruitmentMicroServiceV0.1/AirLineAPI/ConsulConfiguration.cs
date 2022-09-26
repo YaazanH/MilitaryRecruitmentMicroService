@@ -48,10 +48,10 @@ namespace AirLineAPI
                 Name = _serviceConfiguration.ServiceName,
                 Port = serviceUri.Port,
                 ID = _serviceConfiguration.ServiceId,
-                Tags = new[] { $"https://host.docker.internal:{serviceUri.Port}/HealthMinister/GetHaveProb?id=4" },
+                Tags = new[] { $"https://host.docker.internal:{serviceUri.Port}/AirLine/GetIsAWorker?id=1" },
                 Check = new AgentCheckRegistration()
                 {
-                    HTTP = $"http://host.docker.internal:{serviceUri.Port}/HealthMinister/GetHaveProb?id=4",
+                    HTTP = $"http://host.docker.internal:{serviceUri.Port}/AirLine/GetIsAWorker?id=1",
                     Interval = TimeSpan.FromSeconds(10)
                     
                 }
