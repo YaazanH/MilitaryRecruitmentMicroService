@@ -20,3 +20,10 @@ services:
       context: .
       dockerfile: AirLineAPI/Dockerfile
 
+
+  politicalpartiesapi:
+    image: ${DOCKER_REGISTRY-}politicalpartiesapi
+    build:
+      context: .
+      dockerfile: PoliticalPartiesAPI/Dockerfile
+

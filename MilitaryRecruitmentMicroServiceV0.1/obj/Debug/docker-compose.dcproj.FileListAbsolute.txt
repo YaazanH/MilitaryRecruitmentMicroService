@@ -34,3 +34,9 @@ D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\AirLineAPI.runtimec
 D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\AirLineAPI.exe
 D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\AirLineAPI.dll
 D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\AirLineAPI.pdb
+D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\PoliticalPartiesAPI.deps.json
+D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\PoliticalPartiesAPI.runtimeconfig.json
+D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\PoliticalPartiesAPI.runtimeconfig.dev.json
+D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\PoliticalPartiesAPI.exe
+D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\PoliticalPartiesAPI.dll
+D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\PoliticalPartiesAPI.pdb
