@@ -1,6 +1,27 @@
 version: '3.4'
 
 services:
+
+  consul:
+    image: consul:latest
+    container_name: consul_server
+    network_mode: bridge
+    ports:
+      - "8500:8500"
+      -  "8600:8600/udp"
+    command:  consul agent -dev -server -ui -node=server-1 -bootstrap-expect=1 -client="0.0.0.0"
+
+  sql-server-db:
+    container_name: SQL_Server
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    volumes:
+      - sqlvol:/var/opt/mssql
+    ports:
+      - "1403:1433"
+    environment:
+      SA_PASSWORD: "r00t.R00T"
+      ACCEPT_EULA: "Y"
+
   healthminapi:
     image: ${DOCKER_REGISTRY-}healthminapi
     build:
@@ -27,3 +48,7 @@ services:
       context: .
       dockerfile: PoliticalPartiesAPI/Dockerfile
 
+
+
+volumes:
+  sqlvol:
