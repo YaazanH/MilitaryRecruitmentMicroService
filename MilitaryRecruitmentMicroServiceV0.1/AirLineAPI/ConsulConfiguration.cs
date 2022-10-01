@@ -44,11 +44,12 @@ namespace AirLineAPI
 
             var ServiceCheck = new AgentServiceCheck()
             {
-                HTTP = $"http://{serviceUri.Host}:{serviceUri.Port}/swagger/index.html",
-                Notes = "Checks /health/status on localhost",
+                HTTP = $"http://{serviceUri.Host}:{serviceUri.Port}/AirLine/GetIsAWorker?id=2",
+                Notes = "http://localhost:40002/AirLine/GetIsAWorker?id=2",
                 Timeout = TimeSpan.FromSeconds(3),
                 Interval = TimeSpan.FromSeconds(10)
             };
+            
 
             var serviceRegistration = new AgentServiceRegistration()
             {
