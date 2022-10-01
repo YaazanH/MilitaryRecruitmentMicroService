@@ -27,5 +27,12 @@ namespace AirLineAPI.Controllers
             return worker.GetIsAWorker;
         }
 
+        [HttpGet]
+        [Route("CheckHealth/")]
+        public IActionResult Ping()
+        {
+            return Ok();
+        }
+
     }
 }

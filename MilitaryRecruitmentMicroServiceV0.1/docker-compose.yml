@@ -27,12 +27,18 @@ services:
     build:
       context: .
       dockerfile: HealthMinAPI/Dockerfile
+    ports:
+      - "41003:80"
+      - "40003:443"
 
   higheduminapi:
     image: ${DOCKER_REGISTRY-}higheduminapi
     build:
       context: .
       dockerfile: HighEduMinAPI/Dockerfile
+    ports:
+      - "41001:80"
+      - "40001:443"
 
 
   airlineapi:
@@ -40,14 +46,18 @@ services:
     build:
       context: .
       dockerfile: AirLineAPI/Dockerfile
-
+    ports:
+      - "41002:80"
+      - "40002:443"
 
   politicalpartiesapi:
     image: ${DOCKER_REGISTRY-}politicalpartiesapi
     build:
       context: .
       dockerfile: PoliticalPartiesAPI/Dockerfile
-
+    ports:
+      - "41004:80"
+      - "40004:443"
 
 
 volumes:

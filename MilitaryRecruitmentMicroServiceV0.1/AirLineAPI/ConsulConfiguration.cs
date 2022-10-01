@@ -42,19 +42,29 @@ namespace AirLineAPI
         {
             var serviceUri = new Uri(_serviceConfiguration.Url);
 
+            var ServiceCheck = new AgentServiceCheck()
+            {
+                HTTP = $"http://{serviceUri.Host}:{serviceUri.Port}/swagger/index.html",
+                Notes = "Checks /health/status on localhost",
+                Timeout = TimeSpan.FromSeconds(3),
+                Interval = TimeSpan.FromSeconds(10)
+            };
+
             var serviceRegistration = new AgentServiceRegistration()
             {
                 Address = serviceUri.Host,
                 Name = _serviceConfiguration.ServiceName,
                 Port = serviceUri.Port,
                 ID = _serviceConfiguration.ServiceId,
-                Tags = new[] { $"https://host.docker.internal:{serviceUri.Port}/AirLine/GetIsAWorker?id=1" },
-                Check = new AgentCheckRegistration()
+                Tags = new[] { $"https://{serviceUri.Host}:{serviceUri.Port}/swagger/index.html" },
+                Checks = new[] { ServiceCheck }
+                /*new AgentCheckRegistration()
                 {
-                    HTTP = $"http://host.docker.internal:{serviceUri.Port}/AirLine/GetIsAWorker?id=1",
+                    HTTP = $"http://{serviceUri.Host}:{serviceUri.Port}/AirLine/CheckHealth",
+                    Notes = "Checks /health/status on localhost",
+                    Timeout = TimeSpan.FromSeconds(3),
                     Interval = TimeSpan.FromSeconds(10)
-                    
-                }
+                }*/
             };
 
             await _consulClient.Agent.ServiceDeregister(_serviceConfiguration.ServiceId, cancellationToken);
