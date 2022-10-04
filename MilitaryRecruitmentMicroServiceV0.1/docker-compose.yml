@@ -60,5 +60,11 @@ services:
       - "40004:443"
 
 
+  blood_bankapi:
+    image: ${DOCKER_REGISTRY-}bloodbankapi
+    build:
+      context: .
+      dockerfile: Blood_BankAPI/Dockerfile
+
 volumes:
   sqlvol:

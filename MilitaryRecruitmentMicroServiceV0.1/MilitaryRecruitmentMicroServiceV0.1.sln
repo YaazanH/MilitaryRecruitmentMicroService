@@ -9,9 +9,11 @@ Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-co
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HighEduMinAPI", "HighEduMinAPI\HighEduMinAPI.csproj", "{7460E2E7-7320-4CDD-80DE-8EA95B9F2F05}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirLineAPI", "AirLineAPI\AirLineAPI.csproj", "{F10F2552-CAF0-4141-ACF5-CB8C9FB15F6A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AirLineAPI", "AirLineAPI\AirLineAPI.csproj", "{F10F2552-CAF0-4141-ACF5-CB8C9FB15F6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoliticalPartiesAPI", "PoliticalPartiesAPI\PoliticalPartiesAPI.csproj", "{7243E6DF-BD08-402A-9BCE-8C56E05CA656}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PoliticalPartiesAPI", "PoliticalPartiesAPI\PoliticalPartiesAPI.csproj", "{7243E6DF-BD08-402A-9BCE-8C56E05CA656}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blood_BankAPI", "Blood_BankAPI\Blood_BankAPI.csproj", "{9D7C6C68-84C4-4529-A789-5F3DF49B8CFC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{7243E6DF-BD08-402A-9BCE-8C56E05CA656}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7243E6DF-BD08-402A-9BCE-8C56E05CA656}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7243E6DF-BD08-402A-9BCE-8C56E05CA656}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D7C6C68-84C4-4529-A789-5F3DF49B8CFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D7C6C68-84C4-4529-A789-5F3DF49B8CFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D7C6C68-84C4-4529-A789-5F3DF49B8CFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D7C6C68-84C4-4529-A789-5F3DF49B8CFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
