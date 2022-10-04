@@ -82,3 +82,4 @@ D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\bin\De
 D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
 D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
 D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\obj\Debug\docker-compose.dcproj.CopyComplete
+D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\Blood_BankAPI.dll
