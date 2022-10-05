@@ -82,3 +82,9 @@ D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\bin\De
 D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
 D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
 D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\obj\Debug\docker-compose.dcproj.CopyComplete
+D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\BloodBankAPI.deps.json
+D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\BloodBankAPI.runtimeconfig.json
+D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\BloodBankAPI.runtimeconfig.dev.json
+D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\BloodBankAPI.exe
+D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\BloodBankAPI.dll
+D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\BloodBankAPI.pdb
