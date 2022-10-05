@@ -8,6 +8,9 @@ using Microsoft.OpenApi.Models;
 using System;
 using HighEduMinAPI.Data;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 namespace HighEduMinAPI
 {
@@ -23,7 +26,21 @@ namespace HighEduMinAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-
+            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+                .AddJwtBearer(options =>
+                {
+                    options.TokenValidationParameters = new TokenValidationParameters
+                    {
+                        ValidateIssuer = true,
+                        ValidateAudience = true,
+                        ValidateLifetime = true,
+                        ValidateIssuerSigningKey = true,
+                        ValidIssuer = Configuration["jwt:Issuer"],
+                        ValidAudience = Configuration["jwt:Audience"],
+                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["jwt:key"]))
+                    };
+                });
+            services.AddMvc();
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {

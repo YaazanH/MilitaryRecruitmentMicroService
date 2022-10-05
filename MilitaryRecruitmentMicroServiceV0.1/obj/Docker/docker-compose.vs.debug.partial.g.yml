@@ -12,50 +12,23 @@ services:
     environment:
       - DOTNET_USE_POLLING_FILE_WATCHER=1
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
-      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_airlineapi$
+      - NUGET_FALLBACK_PACKAGES=/root/.nuget/fallbackpackages
     volumes:
       - D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\AirLineAPI:/app
       - D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1:/src
       - C:\Users\yazon\vsdbg\vs2017u5:/remote_debugger:rw
-#$nuget_volume_mapping_airlineapi$
+      - C:\Users\yazon\.nuget\packages\:/root/.nuget/packages:ro
+      - C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages:/root/.nuget/fallbackpackages:ro
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
 
     entrypoint: tail -f /dev/null
     labels:
       com.microsoft.visualstudio.debuggee.program: "dotnet"
-      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_airlineapi$ \"/app/bin/Debug/net5.0/AirLineAPI.dll\""
+      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /root/.nuget/packages --additionalProbingPath /root/.nuget/fallbackpackages  \"/app/bin/Debug/net5.0/AirLineAPI.dll\""
       com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
       com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
     tty: true
-  blood_bankapi:
-    image: bloodbankapi:dev
-    container_name: Blood_BankAPI
-    build:
-      target: base
-      labels:
-        com.microsoft.created-by: "visual-studio"
-        com.microsoft.visual-studio.project-name: "Blood_BankAPI"
-    environment:
-      - DOTNET_USE_POLLING_FILE_WATCHER=1
-      - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
-      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_blood_bankapi$
-    volumes:
-      - D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\Blood_BankAPI:/app
-      - D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1:/src
-      - C:\Users\yazon\vsdbg\vs2017u5:/remote_debugger:rw
-#$nuget_volume_mapping_blood_bankapi$
-      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
-      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
-
-    entrypoint: tail -f /dev/null
-    labels:
-      com.microsoft.visualstudio.debuggee.program: "dotnet"
-      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_blood_bankapi$ \"/app/bin/Debug/net5.0/Blood_BankAPI.dll\""
-      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
-      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
-    tty: true
-
   healthminapi:
     image: healthminapi:dev
     container_name: HealthMinAPI
@@ -67,19 +40,20 @@ services:
     environment:
       - DOTNET_USE_POLLING_FILE_WATCHER=1
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
-      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_healthminapi$
+      - NUGET_FALLBACK_PACKAGES=/root/.nuget/fallbackpackages
     volumes:
       - D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\HealthMinAPI:/app
       - D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1:/src
       - C:\Users\yazon\vsdbg\vs2017u5:/remote_debugger:rw
-#$nuget_volume_mapping_healthminapi$
+      - C:\Users\yazon\.nuget\packages\:/root/.nuget/packages:ro
+      - C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages:/root/.nuget/fallbackpackages:ro
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
 
     entrypoint: tail -f /dev/null
     labels:
       com.microsoft.visualstudio.debuggee.program: "dotnet"
-      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_healthminapi$ \"/app/bin/Debug/net5.0/HealthMinAPI.dll\""
+      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /root/.nuget/packages --additionalProbingPath /root/.nuget/fallbackpackages  \"/app/bin/Debug/net5.0/HealthMinAPI.dll\""
       com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
       com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
     tty: true
@@ -95,19 +69,49 @@ services:
     environment:
       - DOTNET_USE_POLLING_FILE_WATCHER=1
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
-      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_higheduminapi$
+      - NUGET_FALLBACK_PACKAGES=/root/.nuget/fallbackpackages
     volumes:
       - D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\HighEduMinAPI:/app
       - D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1:/src
       - C:\Users\yazon\vsdbg\vs2017u5:/remote_debugger:rw
-#$nuget_volume_mapping_higheduminapi$
+      - C:\Users\yazon\.nuget\packages\:/root/.nuget/packages:ro
+      - C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages:/root/.nuget/fallbackpackages:ro
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
 
     entrypoint: tail -f /dev/null
     labels:
       com.microsoft.visualstudio.debuggee.program: "dotnet"
-      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_higheduminapi$ \"/app/bin/Debug/net5.0/HighEduMinAPI.dll\""
+      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /root/.nuget/packages --additionalProbingPath /root/.nuget/fallbackpackages  \"/app/bin/Debug/net5.0/HighEduMinAPI.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+    tty: true
+
+  loginapi:
+    image: loginapi:dev
+    container_name: LoginAPI
+    build:
+      target: base
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "LoginAPI"
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
+      - NUGET_FALLBACK_PACKAGES=/root/.nuget/fallbackpackages
+    volumes:
+      - D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\LoginAPI:/app
+      - D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1:/src
+      - C:\Users\yazon\vsdbg\vs2017u5:/remote_debugger:rw
+      - C:\Users\yazon\.nuget\packages\:/root/.nuget/packages:ro
+      - C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages:/root/.nuget/fallbackpackages:ro
+      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
+      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /root/.nuget/packages --additionalProbingPath /root/.nuget/fallbackpackages  \"/app/bin/Debug/net5.0/LoginAPI.dll\""
       com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
       com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
     tty: true
@@ -123,19 +127,20 @@ services:
     environment:
       - DOTNET_USE_POLLING_FILE_WATCHER=1
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
-      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_politicalpartiesapi$
+      - NUGET_FALLBACK_PACKAGES=/root/.nuget/fallbackpackages
     volumes:
       - D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\PoliticalPartiesAPI:/app
       - D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1:/src
       - C:\Users\yazon\vsdbg\vs2017u5:/remote_debugger:rw
-#$nuget_volume_mapping_politicalpartiesapi$
+      - C:\Users\yazon\.nuget\packages\:/root/.nuget/packages:ro
+      - C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages:/root/.nuget/fallbackpackages:ro
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
 
     entrypoint: tail -f /dev/null
     labels:
       com.microsoft.visualstudio.debuggee.program: "dotnet"
-      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_politicalpartiesapi$ \"/app/bin/Debug/net5.0/PoliticalPartiesAPI.dll\""
+      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /root/.nuget/packages --additionalProbingPath /root/.nuget/fallbackpackages  \"/app/bin/Debug/net5.0/PoliticalPartiesAPI.dll\""
       com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
       com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
     tty: true

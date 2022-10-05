@@ -59,12 +59,16 @@ services:
       - "41004:80"
       - "40004:443"
 
-
-  blood_bankapi:
-    image: ${DOCKER_REGISTRY-}bloodbankapi
+  loginapi:
+    image: ${DOCKER_REGISTRY-}loginapi
     build:
       context: .
-      dockerfile: Blood_BankAPI/Dockerfile
+      dockerfile: LoginAPI/Dockerfile
+    ports:
+      - "41050:80"
+      - "40050:443"
+
 
 volumes:
   sqlvol:
+
