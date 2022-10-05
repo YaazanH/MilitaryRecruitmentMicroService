@@ -69,6 +69,16 @@ services:
       - "41005:80"
       - "40005:443"
 
+  universityapi:
+    image: ${DOCKER_REGISTRY-}universityapi
+    build:
+      context: .
+      dockerfile: UniversityAPI/Dockerfile
+    ports:
+      - "41006:80"
+      - "40006:443"
+
 volumes:
   sqlvol:
+
 

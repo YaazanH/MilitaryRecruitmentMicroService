@@ -88,3 +88,9 @@ D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\bin\De
 D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\BloodBankAPI.exe
 D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\BloodBankAPI.dll
 D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\BloodBankAPI.pdb
+D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\UniversityAPI.deps.json
+D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\UniversityAPI.runtimeconfig.json
+D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\UniversityAPI.runtimeconfig.dev.json
+D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\UniversityAPI.exe
+D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\UniversityAPI.dll
+D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\UniversityAPI.pdb
