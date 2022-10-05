@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BloodBankAPI", "BloodBankAP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniversityAPI", "UniversityAPI\UniversityAPI.csproj", "{9B36C717-8980-44A8-9D09-1A81B0570D79}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoctorsSyndicateAPI", "DoctorsSyndicateAPI\DoctorsSyndicateAPI.csproj", "{509E06F6-B70E-4EAA-A4E0-F39C3EE313F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{9B36C717-8980-44A8-9D09-1A81B0570D79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B36C717-8980-44A8-9D09-1A81B0570D79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B36C717-8980-44A8-9D09-1A81B0570D79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{509E06F6-B70E-4EAA-A4E0-F39C3EE313F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{509E06F6-B70E-4EAA-A4E0-F39C3EE313F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{509E06F6-B70E-4EAA-A4E0-F39C3EE313F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{509E06F6-B70E-4EAA-A4E0-F39C3EE313F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

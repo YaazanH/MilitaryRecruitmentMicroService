@@ -78,7 +78,17 @@ services:
       - "41006:80"
       - "40006:443"
 
+  doctorssyndicateapi:
+    image: ${DOCKER_REGISTRY-}doctorssyndicateapi
+    build:
+      context: .
+      dockerfile: DoctorsSyndicateAPI/Dockerfile
+    ports:
+      - "41007:80"
+      - "40007:443"
+
 volumes:
   sqlvol:
+
 
 
