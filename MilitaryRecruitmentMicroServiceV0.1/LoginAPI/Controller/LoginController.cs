@@ -52,12 +52,17 @@ namespace LoginAPI.Controller
                 return Ok(token);
 
             }
-            return NotFound("you have to change Username");
-
-            
-            
+            return NotFound("you have to change Username"); 
               
         }
+
+        [HttpGet]
+        [Route("CheckHealth/")]
+        public IActionResult Ping()
+        {
+            return Ok();
+        }
+
         private string Generate(Login user)
         {
             var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["jwt:key"]));

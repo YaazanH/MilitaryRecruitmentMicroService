@@ -63,6 +63,13 @@ namespace HighEduMinAPI.Controllers
            //var St = new StudyOutSideDto { ID = Student.ID, Name = Student.Name, StudyOutSide = Student.StudyOutSide };
             return Student.StudyOutSide;
         }
+
+        [HttpGet]
+        [Route("CheckHealth/")]
+        public IActionResult Ping()
+        {
+            return Ok();
+        }
         private int GetCurrentUserID()
         {
             var identity = HttpContext.User.Identity as ClaimsIdentity;

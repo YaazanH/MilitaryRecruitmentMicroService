@@ -44,7 +44,7 @@ namespace AirLineAPI
 
             var ServiceCheck = new AgentServiceCheck()
             {
-                HTTP = $"http://{serviceUri.Host}:{serviceUri.Port}/AirLine/GetIsAWorker?id=2",
+                HTTP = $"http://{serviceUri.Host}:{serviceUri.Port}/AirLine/CheckHealth",
                 Notes = "http://localhost:40002/AirLine/GetIsAWorker?id=2",
                 Timeout = TimeSpan.FromSeconds(3),
                 Interval = TimeSpan.FromSeconds(10)
@@ -57,7 +57,7 @@ namespace AirLineAPI
                 Name = _serviceConfiguration.ServiceName,
                 Port = serviceUri.Port,
                 ID = _serviceConfiguration.ServiceId,
-                Tags = new[] { $"https://{serviceUri.Host}:{serviceUri.Port}/swagger/index.html" },
+                Tags = new[] { $"https://{serviceUri.Host}:{serviceUri.Port}/AirLine/CheckHealth" },
                 Checks = new[] { ServiceCheck }
                 /*new AgentCheckRegistration()
                 {

@@ -48,10 +48,10 @@ namespace HighEduMinAPI
                 Name = _serviceConfiguration.ServiceName,
                 Port = serviceUri.Port,
                 ID = _serviceConfiguration.ServiceId,
-                Tags = new[] { $"https://host.docker.internal:{serviceUri.Port}/HighEduMin/GetIsAStudent?id=1" },
+                Tags = new[] { $"https://{serviceUri.Host}:{serviceUri.Port}/HighEduMin/CheckHealth" },
                 Check = new AgentCheckRegistration()
                 {
-                    HTTP = $"http://host.docker.internal:49933/HighEduMin/GetIsAStudent?id=1",
+                    HTTP = $"http://{serviceUri.Host}:{serviceUri.Port}/HighEduMin/CheckHealth",
                     Interval = TimeSpan.FromSeconds(10)
                     
                 }

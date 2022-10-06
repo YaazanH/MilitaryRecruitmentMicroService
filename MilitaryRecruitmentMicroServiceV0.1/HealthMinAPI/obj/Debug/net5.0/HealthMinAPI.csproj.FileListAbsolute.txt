@@ -120,3 +120,4 @@ D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\Health
 D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\HealthMinAPI\obj\Debug\net5.0\HealthMinAPI.pdb
 D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\HealthMinAPI\obj\Debug\net5.0\HealthMinAPI.genruntimeconfig.cache
 D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\HealthMinAPI\obj\Debug\net5.0\ref\HealthMinAPI.dll
+D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\HealthMinAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

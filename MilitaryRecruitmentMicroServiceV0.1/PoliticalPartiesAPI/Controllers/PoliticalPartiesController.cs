@@ -30,6 +30,12 @@ namespace PoliticalPartiesAPI.Controllers
             //var wo = new HaveProbDto { ID = worker.ID, Name = worker.Name, HaveaHealthProblem = worker.HaveaHealthProblem };
             return worker.GetIsAWorker;
         }
+        [HttpGet]
+        [Route("CheckHealth/")]
+        public IActionResult Ping()
+        {
+            return Ok();
+        }
         private int GetCurrentUserID()
         {
             var identity = HttpContext.User.Identity as ClaimsIdentity;

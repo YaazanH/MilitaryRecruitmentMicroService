@@ -120,3 +120,4 @@ D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\HighEd
 D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\HighEduMinAPI\obj\Debug\net5.0\HighEduMinAPI.pdb
 D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\HighEduMinAPI\obj\Debug\net5.0\HighEduMinAPI.genruntimeconfig.cache
 D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\HighEduMinAPI\obj\Debug\net5.0\ref\HighEduMinAPI.dll
+D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\HighEduMinAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
