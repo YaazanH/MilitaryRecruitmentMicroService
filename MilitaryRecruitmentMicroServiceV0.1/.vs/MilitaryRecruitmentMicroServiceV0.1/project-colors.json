@@ -40,7 +40,17 @@
       "ProjectGuid": "7243e6df-bd08-402a-9bce-8c56e05ca656",
       "DisplayName": "PoliticalPartiesAPI",
       "ColorIndex": 6
+    },
+    "9d7c6c68-84c4-4529-a789-5f3df49b8cfc": {
+      "ProjectGuid": "9d7c6c68-84c4-4529-a789-5f3df49b8cfc",
+      "DisplayName": "Blood_BankAPI",
+      "ColorIndex": 7
+    },
+    "7c24f5f1-531c-4e86-879d-a3196db99ec4": {
+      "ProjectGuid": "7c24f5f1-531c-4e86-879d-a3196db99ec4",
+      "DisplayName": "LoginAPI",
+      "ColorIndex": 8
     }
   },
-  "NextColorIndex": 7
+  "NextColorIndex": 9
 }

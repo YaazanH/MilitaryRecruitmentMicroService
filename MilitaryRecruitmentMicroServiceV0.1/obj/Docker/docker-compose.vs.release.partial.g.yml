@@ -120,6 +120,7 @@ services:
       com.microsoft.visual-studio.project-name: "HighEduMinAPI"
     tty: true
 
+<<<<<<< HEAD
   passportapi:
     container_name: PassportAPI
     build:
@@ -128,16 +129,33 @@ services:
         com.microsoft.visual-studio.project-name: "PassportAPI"
     volumes:
       - C:\Users\kasem saudi\vsdbg\vs2017u5:/remote_debugger:rw
+=======
+  loginapi:
+    container_name: LoginAPI
+    build:
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "LoginAPI"
+    volumes:
+      - C:\Users\yazon\vsdbg\vs2017u5:/remote_debugger:rw
+>>>>>>> 799d14935495f88c0583fe3e8a00177e5deb1059
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
 
     entrypoint: tail -f /dev/null
     labels:
       com.microsoft.visualstudio.debuggee.program: "dotnet"
+<<<<<<< HEAD
       #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_passportapi$ \"/app/PassportAPI.dll\""
       com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
       com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
       com.microsoft.visual-studio.project-name: "PassportAPI"
+=======
+      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /root/.nuget/packages --additionalProbingPath /root/.nuget/fallbackpackages  \"/app/LoginAPI.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+      com.microsoft.visual-studio.project-name: "LoginAPI"
+>>>>>>> 799d14935495f88c0583fe3e8a00177e5deb1059
     tty: true
 
   politicalpartiesapi:
