@@ -44,7 +44,7 @@ namespace AirLineAPI
 
             var ServiceCheck = new AgentServiceCheck()
             {
-                HTTPS = $"https://{serviceUri.Host}:{serviceUri.Port}/AirLine/GetIsAWorker?id=2",
+                HTTP = $"https://{serviceUri.Host}:{serviceUri.Port}/AirLine/GetIsAWorker?id=2",
                 Notes = $"https://{serviceUri.Host}:{serviceUri.Port}/AirLine/GetIsAWorker?id=2",
                 Timeout = TimeSpan.FromSeconds(3),
                 Interval = TimeSpan.FromSeconds(10)

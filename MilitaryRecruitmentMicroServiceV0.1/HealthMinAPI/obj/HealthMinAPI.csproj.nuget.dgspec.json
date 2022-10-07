@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\jounier\\git\\MilitaryRecruitmentMicroServiceV0.1\\HealthMinAPI\\HealthMinAPI.csproj": {}
+    "C:\\github\\MilitaryRecruitmentMicroService\\MilitaryRecruitmentMicroServiceV0.1\\HealthMinAPI\\HealthMinAPI.csproj": {}
   },
   "projects": {
-    "D:\\jounier\\git\\MilitaryRecruitmentMicroServiceV0.1\\HealthMinAPI\\HealthMinAPI.csproj": {
+    "C:\\github\\MilitaryRecruitmentMicroService\\MilitaryRecruitmentMicroServiceV0.1\\HealthMinAPI\\HealthMinAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\jounier\\git\\MilitaryRecruitmentMicroServiceV0.1\\HealthMinAPI\\HealthMinAPI.csproj",
+        "projectUniqueName": "C:\\github\\MilitaryRecruitmentMicroService\\MilitaryRecruitmentMicroServiceV0.1\\HealthMinAPI\\HealthMinAPI.csproj",
         "projectName": "HealthMinAPI",
-        "projectPath": "D:\\jounier\\git\\MilitaryRecruitmentMicroServiceV0.1\\HealthMinAPI\\HealthMinAPI.csproj",
-        "packagesPath": "C:\\Users\\yazon\\.nuget\\packages\\",
-        "outputPath": "D:\\jounier\\git\\MilitaryRecruitmentMicroServiceV0.1\\HealthMinAPI\\obj\\",
+        "projectPath": "C:\\github\\MilitaryRecruitmentMicroService\\MilitaryRecruitmentMicroServiceV0.1\\HealthMinAPI\\HealthMinAPI.csproj",
+        "packagesPath": "C:\\Users\\kasem saudi\\.nuget\\packages\\",
+        "outputPath": "C:\\github\\MilitaryRecruitmentMicroService\\MilitaryRecruitmentMicroServiceV0.1\\HealthMinAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\yazon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kasem saudi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -89,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.109\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
         }
       }
     }

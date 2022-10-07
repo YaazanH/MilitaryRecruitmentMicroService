@@ -60,5 +60,41 @@ services:
       - "40004:443"
 
 
+  passportapi:
+    image: ${DOCKER_REGISTRY-}passportapi
+    build:
+      context: .
+      dockerfile: PassportAPI/Dockerfile
+    ports:
+      - "41011:80"
+      - "40011:443"
+
+  awqafapi:
+    image: ${DOCKER_REGISTRY-}awqafapi
+    build:
+      context: .
+      dockerfile: AwqafAPI/Dockerfile
+    ports:
+      - "41010:80"
+      - "40010:443"
+  courtapi:
+    image: ${DOCKER_REGISTRY-}courtapi
+    build:
+      context: .
+      dockerfile: CourtAPI/Dockerfile
+    ports:
+      - "41012:80"
+      - "40012:443"
+  defenseapi:
+    image: ${DOCKER_REGISTRY-}defenseapi
+    build:
+      context: .
+      dockerfile: DefenseAPI/Dockerfile
+    ports:
+      - "41013:80"
+      - "40013:443"
 volumes:
   sqlvol:
+
+
+

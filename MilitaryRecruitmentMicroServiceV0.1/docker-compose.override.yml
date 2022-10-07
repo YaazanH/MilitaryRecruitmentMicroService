@@ -43,3 +43,43 @@ services:
     volumes:
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
+
+  passportapi:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=https://+:443;http://+:80
+    ports:
+      - "80"
+      - "443"
+    volumes:
+      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
+
+  awqafapi:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=https://+:443;http://+:80
+    ports:
+      - "80"
+      - "443"
+    volumes:
+      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
+
+  courtapi:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=https://+:443;http://+:80
+    ports:
+      - "80"
+      - "443"
+    volumes:
+      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
+
+  defenseapi:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=https://+:443;http://+:80
+    ports:
+      - "80"
+      - "443"
+    volumes:
+      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
