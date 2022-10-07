@@ -186,3 +186,4 @@ D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\HighEd
 D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\HighEduMinAPI\obj\Debug\net5.0\ref\HighEduMinAPI.dll
 D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\HighEduMinAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 >>>>>>> 799d14935495f88c0583fe3e8a00177e5deb1059
+D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\HighEduMinAPI\bin\Debug\net5.0\HighEduMinAPI.StaticWebAssets.xml

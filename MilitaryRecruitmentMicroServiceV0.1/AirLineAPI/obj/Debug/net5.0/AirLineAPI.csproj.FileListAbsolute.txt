@@ -187,3 +187,4 @@ D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\AirLin
 D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\AirLineAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\AirLineAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Abstractions.dll
 >>>>>>> 799d14935495f88c0583fe3e8a00177e5deb1059
+D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\AirLineAPI\bin\Debug\net5.0\AirLineAPI.StaticWebAssets.xml
