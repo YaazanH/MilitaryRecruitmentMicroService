@@ -44,7 +44,10 @@ services:
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of 3506de5 (قاسم)
   passportapi:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development

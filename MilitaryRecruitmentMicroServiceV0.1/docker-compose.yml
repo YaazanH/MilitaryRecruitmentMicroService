@@ -59,15 +59,6 @@ services:
       - "41004:80"
       - "40004:443"
 
-  loginapi:
-    image: ${DOCKER_REGISTRY-}loginapi
-    build:
-      context: .
-      dockerfile: LoginAPI/Dockerfile
-    ports:
-      - "41050:80"
-      - "40050:443"
-
 
   passportapi:
     image: ${DOCKER_REGISTRY-}passportapi
@@ -104,3 +95,9 @@ services:
       - "40013:443"
 volumes:
   sqlvol:
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> parent of 3506de5 (قاسم)

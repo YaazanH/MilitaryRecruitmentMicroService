@@ -1,7 +1,0 @@
-D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\Blood_BankAPI\obj\Debug\net5.0\Blood_BankAPI.csproj.AssemblyReference.cache
-D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\Blood_BankAPI\obj\Debug\net5.0\Blood_BankAPI.GeneratedMSBuildEditorConfig.editorconfig
-D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\Blood_BankAPI\obj\Debug\net5.0\Blood_BankAPI.AssemblyInfoInputs.cache
-D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\Blood_BankAPI\obj\Debug\net5.0\Blood_BankAPI.AssemblyInfo.cs
-D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\Blood_BankAPI\obj\Debug\net5.0\Blood_BankAPI.csproj.CoreCompileInputs.cache
-D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\Blood_BankAPI\obj\Debug\net5.0\Blood_BankAPI.MvcApplicationPartsAssemblyInfo.cs
-D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\Blood_BankAPI\obj\Debug\net5.0\Blood_BankAPI.MvcApplicationPartsAssemblyInfo.cache

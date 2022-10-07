@@ -48,10 +48,10 @@ namespace HealthMinAPI
                 Name = _serviceConfiguration.ServiceName,
                 Port = serviceUri.Port,
                 ID = _serviceConfiguration.ServiceId,
-                Tags = new[] { $"https://{serviceUri.Host}:{serviceUri.Port}/HealthMinister/CheckHealth" },
+                Tags = new[] { $"https://{serviceUri.Host}:{serviceUri.Port}/HealthMinister/GetHaveProb?id=4" },
                 Check = new AgentCheckRegistration()
                 {
-                    HTTP = $"http://{serviceUri.Host}:{serviceUri.Port}/HealthMinister/CheckHealth",
+                    HTTP = $"http://{serviceUri.Host}:{serviceUri.Port}/HealthMinister/GetHaveProb?id=4",
                     Interval = TimeSpan.FromSeconds(10)
                     
                 }

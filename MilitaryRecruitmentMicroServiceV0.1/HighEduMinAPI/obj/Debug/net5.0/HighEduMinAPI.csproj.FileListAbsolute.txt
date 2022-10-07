@@ -59,7 +59,6 @@ D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\HighEduMinAPI\obj\Debug\net5.
 D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\HighEduMinAPI\obj\Debug\net5.0\ref\HighEduMinAPI.dll
 D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\HighEduMinAPI\obj\Debug\net5.0\HighEduMinAPI.pdb
 D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\HighEduMinAPI\obj\Debug\net5.0\HighEduMinAPI.genruntimeconfig.cache
-<<<<<<< HEAD
 C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\HighEduMinAPI\bin\Debug\net5.0\appsettings.Development.json
 C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\HighEduMinAPI\bin\Debug\net5.0\appsettings.json
 C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\HighEduMinAPI\bin\Debug\net5.0\HighEduMinAPI.exe
@@ -122,6 +121,7 @@ C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\Hi
 C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\HighEduMinAPI\obj\Debug\net5.0\ref\HighEduMinAPI.dll
 C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\HighEduMinAPI\obj\Debug\net5.0\HighEduMinAPI.pdb
 C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\HighEduMinAPI\obj\Debug\net5.0\HighEduMinAPI.genruntimeconfig.cache
+<<<<<<< HEAD
 =======
 D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\HighEduMinAPI\bin\Debug\net5.0\appsettings.Development.json
 D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\HighEduMinAPI\bin\Debug\net5.0\appsettings.json
@@ -187,3 +187,5 @@ D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\HighEd
 D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\HighEduMinAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 >>>>>>> 799d14935495f88c0583fe3e8a00177e5deb1059
 D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\HighEduMinAPI\bin\Debug\net5.0\HighEduMinAPI.StaticWebAssets.xml
+=======
+>>>>>>> parent of 3506de5 (قاسم)

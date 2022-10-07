@@ -44,7 +44,10 @@ namespace AirLineAPI
 
             var ServiceCheck = new AgentServiceCheck()
             {
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of 3506de5 (قاسم)
                 HTTP = $"https://{serviceUri.Host}:{serviceUri.Port}/AirLine/GetIsAWorker?id=2",
                 Notes = $"https://{serviceUri.Host}:{serviceUri.Port}/AirLine/GetIsAWorker?id=2",
                 Timeout = TimeSpan.FromSeconds(3),
@@ -58,7 +61,7 @@ namespace AirLineAPI
                 Name = _serviceConfiguration.ServiceName,
                 Port = serviceUri.Port,
                 ID = _serviceConfiguration.ServiceId,
-                Tags = new[] { $"https://{serviceUri.Host}:{serviceUri.Port}/AirLine/CheckHealth" },
+                Tags = new[] { $"http://{serviceUri.Host}:{serviceUri.Port}/AirLine/GetIsAWorker?id=2" },
                 Checks = new[] { ServiceCheck }
                 /*new AgentCheckRegistration()
                 {

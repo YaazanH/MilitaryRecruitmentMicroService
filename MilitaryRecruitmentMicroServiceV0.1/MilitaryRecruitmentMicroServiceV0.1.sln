@@ -13,7 +13,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AirLineAPI", "AirLineAPI\Ai
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PoliticalPartiesAPI", "PoliticalPartiesAPI\PoliticalPartiesAPI.csproj", "{7243E6DF-BD08-402A-9BCE-8C56E05CA656}"
 EndProject
-<<<<<<< HEAD
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PassportAPI", "PassportAPI\PassportAPI.csproj", "{D90107D9-6381-4D7E-A966-857EC4C8FD56}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AwqafAPI", "AwqafAPI\AwqafAPI.csproj", "{3CC8E53F-A4EF-4D4F-B2E7-E229C9D73250}"
@@ -21,9 +20,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourtAPI", "CourtAPI\CourtAPI.csproj", "{4D84515B-FD26-4E1A-98B2-6D348C8E3EFB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefenseAPI", "DefenseAPI\DefenseAPI.csproj", "{BA3BC7B5-381B-4F8D-BFDA-CE46E1B69BF3}"
-=======
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginAPI", "LoginAPI\LoginAPI.csproj", "{7C24F5F1-531C-4E86-879D-A3196DB99EC4}"
->>>>>>> 799d14935495f88c0583fe3e8a00177e5deb1059
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,7 +47,6 @@ Global
 		{7243E6DF-BD08-402A-9BCE-8C56E05CA656}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7243E6DF-BD08-402A-9BCE-8C56E05CA656}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7243E6DF-BD08-402A-9BCE-8C56E05CA656}.Release|Any CPU.Build.0 = Release|Any CPU
-<<<<<<< HEAD
 		{D90107D9-6381-4D7E-A966-857EC4C8FD56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D90107D9-6381-4D7E-A966-857EC4C8FD56}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D90107D9-6381-4D7E-A966-857EC4C8FD56}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -68,12 +63,6 @@ Global
 		{BA3BC7B5-381B-4F8D-BFDA-CE46E1B69BF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA3BC7B5-381B-4F8D-BFDA-CE46E1B69BF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA3BC7B5-381B-4F8D-BFDA-CE46E1B69BF3}.Release|Any CPU.Build.0 = Release|Any CPU
-=======
-		{7C24F5F1-531C-4E86-879D-A3196DB99EC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7C24F5F1-531C-4E86-879D-A3196DB99EC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7C24F5F1-531C-4E86-879D-A3196DB99EC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7C24F5F1-531C-4E86-879D-A3196DB99EC4}.Release|Any CPU.Build.0 = Release|Any CPU
->>>>>>> 799d14935495f88c0583fe3e8a00177e5deb1059
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
