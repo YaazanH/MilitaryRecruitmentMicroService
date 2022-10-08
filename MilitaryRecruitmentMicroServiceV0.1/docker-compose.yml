@@ -79,16 +79,39 @@ services:
       - "40006:443"
 
   doctorssyndicateapi:
-    image: ${DOCKER_REGISTRY-}doctorssyndicateapi
+       image: ${DOCKER_REGISTRY-}doctorssyndicateapi
+       build:
+         context: .
+         dockerfile: DoctorsSyndicateAPI/Dockerfile
+       ports:
+        - "41007:80"
+        - "40007:443"
+
+  civilpoliceapi:
+    image: ${DOCKER_REGISTRY-}civilpoliceapi
     build:
       context: .
-      dockerfile: DoctorsSyndicateAPI/Dockerfile
+      dockerfile: CivilPoliceAPI/Dockerfile
     ports:
-      - "41007:80"
-      - "40007:443"
+      - "41008:80"
+      - "40008:443"
+
+  militarycollegeapi:
+    image: ${DOCKER_REGISTRY-}militarycollegeapi
+    build:
+      context: .
+      dockerfile: MilitaryCollegeAPI/Dockerfile
+    ports:
+      - "41009:80"
+      - "40009:443"
+
+
 
 volumes:
   sqlvol:
+
+
+
 
 
 

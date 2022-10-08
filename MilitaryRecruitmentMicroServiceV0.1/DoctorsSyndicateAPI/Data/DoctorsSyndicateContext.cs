@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace DoctorsSyndicate.Data
+
+namespace DoctorsSyndicateAPI.Data
 {
     public class DoctorsSyndicateContext : DbContext
     {

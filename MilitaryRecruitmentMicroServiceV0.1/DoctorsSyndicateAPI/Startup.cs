@@ -1,5 +1,5 @@
 using Consul;
-using DoctorsSyndicate.Data;
+using DoctorsSyndicateAPI.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;

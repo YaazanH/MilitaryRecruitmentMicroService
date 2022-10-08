@@ -10,7 +10,7 @@ namespace DoctorsSyndicateAPI.Models
 
         public String Name { get; set; }
 
-        public Boolean HasCliicConfirmation { get; set; }
+        public Boolean HasClinicConfirmation { get; set; }
 
         public DateTimeOffset CreatedAt { get; set; }
     }

@@ -11,7 +11,7 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("ffed2d3d-6977-4926-90a4-441dc06fa8a2")]
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("93df80df-7608-4344-8b29-fc3f21aa22b8")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("DoctorsSyndicateAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
