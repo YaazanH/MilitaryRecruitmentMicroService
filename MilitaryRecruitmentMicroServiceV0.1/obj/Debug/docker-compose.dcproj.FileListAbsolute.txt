@@ -234,3 +234,9 @@ E:\Jun\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\bin\D
 E:\Jun\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\JailAPI.exe
 E:\Jun\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\JailAPI.dll
 E:\Jun\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\JailAPI.pdb
+E:\Jun\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\CompetentAuthorityAPI.deps.json
+E:\Jun\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\CompetentAuthorityAPI.runtimeconfig.json
+E:\Jun\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\CompetentAuthorityAPI.runtimeconfig.dev.json
+E:\Jun\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\CompetentAuthorityAPI.exe
+E:\Jun\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\CompetentAuthorityAPI.dll
+E:\Jun\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\CompetentAuthorityAPI.pdb

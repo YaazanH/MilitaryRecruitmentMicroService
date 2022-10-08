@@ -154,8 +154,18 @@ services:
       - "40015:443"
 
 
+  competentauthorityapi:
+    image: ${DOCKER_REGISTRY-}competentauthorityapi
+    build:
+      context: .
+      dockerfile: CompetentAuthorityAPI/Dockerfile
+    ports:
+      - "41016:80"
+      - "40016:443"
+
 volumes:
   sqlvol:
+
 
 
 
