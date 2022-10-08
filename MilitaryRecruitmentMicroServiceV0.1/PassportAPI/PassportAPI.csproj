@@ -2,28 +2,25 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-<<<<<<<< HEAD:MilitaryRecruitmentMicroServiceV0.1/MilitaryCollegeAPI/MilitaryCollegeAPI.csproj
-    <UserSecretsId>fed0b3e6-8385-45c4-ac9d-14218f6dc0cb</UserSecretsId>
-    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
-========
->>>>>>>> c4c9bd9f6f6df766c31863df9e2fede3507db9a2:MilitaryRecruitmentMicroServiceV0.1/PassportAPI/PassportAPI.csproj
     <DockerComposeProjectPath>..\docker-compose.dcproj</DockerComposeProjectPath>
-    <UserSecretsId>7d00c238-fd18-4436-b6d7-38877c31aa79</UserSecretsId>
+    <UserSecretsId>fc1aec67-eccf-498d-9ea3-7b052e2f4c93</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Consul" Version="1.6.10.7" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.17" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.17" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.17">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.11.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.14.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
-<<<<<<<< HEAD:MilitaryRecruitmentMicroServiceV0.1/MilitaryCollegeAPI/MilitaryCollegeAPI.csproj
-    <PackageReference Include="Winton.Extensions.Configuration.Consul" Version="3.3.0-master0001" />
-========
->>>>>>>> c4c9bd9f6f6df766c31863df9e2fede3507db9a2:MilitaryRecruitmentMicroServiceV0.1/PassportAPI/PassportAPI.csproj
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
   </ItemGroup>
 
 </Project>

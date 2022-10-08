@@ -2,11 +2,11 @@
 
 namespace MilitaryCollegeAPI.Data
 {
-    public class MilitiryCollegeContext : DbContext
+    public class MilitaryCollegeContext : DbContext
     {
-        public MilitiryCollegeContext(DbContextOptions<MilitiryCollegeContext> options) : base(options)
+        public MilitaryCollegeContext(DbContextOptions<MilitaryCollegeContext> options) : base(options)
         { }
 
-        public DbSet<MilitaryCollegeAPI.Models.Solider> MilitiryCollegeDb { get; set; }
+        public DbSet<MilitaryCollegeAPI.Models.MilitaryCollege> MilitaryCollegeDBS { get; set; }
     }
 }

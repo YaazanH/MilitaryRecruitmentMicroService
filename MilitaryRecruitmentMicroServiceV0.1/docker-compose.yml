@@ -118,5 +118,33 @@ services:
     ports:
       - "41013:80"
       - "40013:443"
+  militarycollegeapi:
+    image: ${DOCKER_REGISTRY-}militarycollegeapi
+    build:
+      context: .
+      dockerfile: MilitaryCollegeAPI/Dockerfile
+    ports:
+      - "41009:80"
+      - "40009:443"
+  passportapi:
+    image: ${DOCKER_REGISTRY-}passportapi
+    build:
+      context: .
+      dockerfile: PassportAPI/Dockerfile
+    ports:
+      - "41011:80"
+      - "40011:443"
+
+  loginapi:
+    image: ${DOCKER_REGISTRY-}loginapi
+    build:
+      context: .
+      dockerfile: LoginAPI/Dockerfile
+    ports:
+      - "41050:80"
+      - "40050:443"
+
 volumes:
   sqlvol:
+
+

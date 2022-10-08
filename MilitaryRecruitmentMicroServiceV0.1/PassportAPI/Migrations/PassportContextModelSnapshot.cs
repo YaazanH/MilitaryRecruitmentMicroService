@@ -18,7 +18,7 @@ namespace PassportAPI.Migrations
                 .HasAnnotation("ProductVersion", "5.0.17")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("PassportAPI.Models.Passport", b =>
+            modelBuilder.Entity("PassportAPI.Model.Passport", b =>
                 {
                     b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
@@ -30,6 +30,9 @@ namespace PassportAPI.Migrations
 
                     b.Property<bool>("Istravel")
                         .HasColumnType("bit");
+
+                    b.Property<int>("NumberOfDaysInSideCoun")
+                        .HasColumnType("int");
 
                     b.HasKey("ID");
 

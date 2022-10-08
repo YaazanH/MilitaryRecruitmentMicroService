@@ -7,11 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-<<<<<<<< HEAD:MilitaryRecruitmentMicroServiceV0.1/MilitaryCollegeAPI/Program.cs
-namespace MilitaryCollegeAPI
-========
-namespace Passport
->>>>>>>> c4c9bd9f6f6df766c31863df9e2fede3507db9a2:MilitaryRecruitmentMicroServiceV0.1/PassportAPI/Program.cs
+namespace PassportAPI
 {
     public class Program
     {

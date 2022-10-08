@@ -11,7 +11,7 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("fed0b3e6-8385-45c4-ac9d-14218f6dc0cb")]
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("365c90b6-33f1-4d3f-badc-82a5a3c2d56b")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("MilitaryCollegeAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

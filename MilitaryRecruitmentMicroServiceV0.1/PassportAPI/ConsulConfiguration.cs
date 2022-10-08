@@ -6,11 +6,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Consul;
 
-<<<<<<<< HEAD:MilitaryRecruitmentMicroServiceV0.1/MilitaryCollegeAPI/ConsulConfiguration.cs
-namespace MilitaryCollegeAPI
-========
 namespace PassportAPI
->>>>>>>> c4c9bd9f6f6df766c31863df9e2fede3507db9a2:MilitaryRecruitmentMicroServiceV0.1/PassportAPI/ConsulConfiguration.cs
 {
     public class ConsulConfiguration
     {
@@ -46,26 +42,31 @@ namespace PassportAPI
         {
             var serviceUri = new Uri(_serviceConfiguration.Url);
 
+            var ServiceCheck = new AgentServiceCheck()
+            {
+
+                HTTP = $"https://{serviceUri.Host}:{serviceUri.Port}/AirLine/GetIsAWorker?id=2",
+                Notes = $"https://{serviceUri.Host}:{serviceUri.Port}/AirLine/GetIsAWorker?id=2",
+                Timeout = TimeSpan.FromSeconds(3),
+                Interval = TimeSpan.FromSeconds(10)
+            };
+            
+
             var serviceRegistration = new AgentServiceRegistration()
             {
                 Address = serviceUri.Host,
                 Name = _serviceConfiguration.ServiceName,
                 Port = serviceUri.Port,
                 ID = _serviceConfiguration.ServiceId,
-<<<<<<<< HEAD:MilitaryRecruitmentMicroServiceV0.1/MilitaryCollegeAPI/ConsulConfiguration.cs
-                Tags = new[] { $"https://host.docker.internal:{serviceUri.Port}/HighEduMin/GetIsAStudent?id=1" },
-                Check = new AgentCheckRegistration()
+                Tags = new[] { $"http://{serviceUri.Host}:{serviceUri.Port}/AirLine/GetIsAWorker?id=2" },
+                Checks = new[] { ServiceCheck }
+                /*new AgentCheckRegistration()
                 {
-                    HTTP = $"http://host.docker.internal:49933/HighEduMin/GetIsAStudent?id=1",
-========
-                Tags = new[] { $"https://{serviceUri.Host}:{serviceUri.Port}/Passport/GetIsAStudent?id=1" },
-                Check = new AgentCheckRegistration()
-                {
-                    HTTP = $"http://{serviceUri.Host}:49933/Passport/GetIsAStudent?id=1",
->>>>>>>> c4c9bd9f6f6df766c31863df9e2fede3507db9a2:MilitaryRecruitmentMicroServiceV0.1/PassportAPI/ConsulConfiguration.cs
+                    HTTP = $"http://{serviceUri.Host}:{serviceUri.Port}/AirLine/CheckHealth",
+                    Notes = "Checks /health/status on localhost",
+                    Timeout = TimeSpan.FromSeconds(3),
                     Interval = TimeSpan.FromSeconds(10)
-
-                }
+                }*/
             };
 
             await _consulClient.Agent.ServiceDeregister(_serviceConfiguration.ServiceId, cancellationToken);
