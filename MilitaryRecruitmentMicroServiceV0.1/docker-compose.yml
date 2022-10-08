@@ -144,7 +144,18 @@ services:
       - "41050:80"
       - "40050:443"
 
+  jailapi:
+    image: ${DOCKER_REGISTRY-}jailapi
+    build:
+      context: .
+      dockerfile: JailAPI/Dockerfile
+    ports:
+      - "41015:80"
+      - "40015:443"
+
+
 volumes:
   sqlvol:
+
 
 
