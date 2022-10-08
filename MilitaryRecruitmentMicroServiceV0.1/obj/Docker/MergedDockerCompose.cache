@@ -1,8 +1,8 @@
-name: dockercompose15709273713550869636
+name: dockercompose10068048574545575832
 services:
   airlineapi:
     build:
-      context: C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1
+      context: D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1
       dockerfile: AirLineAPI/Dockerfile
     environment:
       ASPNETCORE_ENVIRONMENT: Development
@@ -27,20 +27,20 @@ services:
       protocol: tcp
     volumes:
     - type: bind
-      source: C:\Users\kasem saudi\AppData\Roaming/Microsoft/UserSecrets
+      source: C:\Users\yazon\AppData\Roaming/Microsoft/UserSecrets
       target: /root/.microsoft/usersecrets
       read_only: true
       bind:
         create_host_path: true
     - type: bind
-      source: C:\Users\kasem saudi\AppData\Roaming/ASP.NET/Https
+      source: C:\Users\yazon\AppData\Roaming/ASP.NET/Https
       target: /root/.aspnet/https
       read_only: true
       bind:
         create_host_path: true
   awqafapi:
     build:
-      context: C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1
+      context: D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1
       dockerfile: AwqafAPI/Dockerfile
     environment:
       ASPNETCORE_ENVIRONMENT: Development
@@ -65,7 +65,83 @@ services:
       protocol: tcp
     volumes:
     - type: bind
-      source: C:\Users\kasem saudi\AppData\Roaming/ASP.NET/Https
+      source: C:\Users\yazon\AppData\Roaming/ASP.NET/Https
+      target: /root/.aspnet/https
+      read_only: true
+      bind:
+        create_host_path: true
+  bloodbankapi:
+    build:
+      context: D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1
+      dockerfile: BloodBankAPI/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: bloodbankapi
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      protocol: tcp
+    - mode: ingress
+      target: 80
+      published: "41005"
+      protocol: tcp
+    - mode: ingress
+      target: 443
+      protocol: tcp
+    - mode: ingress
+      target: 443
+      published: "40005"
+      protocol: tcp
+    volumes:
+    - type: bind
+      source: C:\Users\yazon\AppData\Roaming/Microsoft/UserSecrets
+      target: /root/.microsoft/usersecrets
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\yazon\AppData\Roaming/ASP.NET/Https
+      target: /root/.aspnet/https
+      read_only: true
+      bind:
+        create_host_path: true
+  civilpoliceapi:
+    build:
+      context: D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1
+      dockerfile: CivilPoliceAPI/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: civilpoliceapi
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      protocol: tcp
+    - mode: ingress
+      target: 80
+      published: "41008"
+      protocol: tcp
+    - mode: ingress
+      target: 443
+      protocol: tcp
+    - mode: ingress
+      target: 443
+      published: "40008"
+      protocol: tcp
+    volumes:
+    - type: bind
+      source: C:\Users\yazon\AppData\Roaming/Microsoft/UserSecrets
+      target: /root/.microsoft/usersecrets
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\yazon\AppData\Roaming/ASP.NET/Https
       target: /root/.aspnet/https
       read_only: true
       bind:
@@ -94,7 +170,7 @@ services:
       protocol: udp
   courtapi:
     build:
-      context: C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1
+      context: D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1
       dockerfile: CourtAPI/Dockerfile
     environment:
       ASPNETCORE_ENVIRONMENT: Development
@@ -119,14 +195,14 @@ services:
       protocol: tcp
     volumes:
     - type: bind
-      source: C:\Users\kasem saudi\AppData\Roaming/ASP.NET/Https
+      source: C:\Users\yazon\AppData\Roaming/ASP.NET/Https
       target: /root/.aspnet/https
       read_only: true
       bind:
         create_host_path: true
   defenseapi:
     build:
-      context: C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1
+      context: D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1
       dockerfile: DefenseAPI/Dockerfile
     environment:
       ASPNETCORE_ENVIRONMENT: Development
@@ -151,14 +227,52 @@ services:
       protocol: tcp
     volumes:
     - type: bind
-      source: C:\Users\kasem saudi\AppData\Roaming/ASP.NET/Https
+      source: C:\Users\yazon\AppData\Roaming/ASP.NET/Https
+      target: /root/.aspnet/https
+      read_only: true
+      bind:
+        create_host_path: true
+  doctorssyndicateapi:
+    build:
+      context: D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1
+      dockerfile: DoctorsSyndicateAPI/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: doctorssyndicateapi
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      protocol: tcp
+    - mode: ingress
+      target: 80
+      published: "41007"
+      protocol: tcp
+    - mode: ingress
+      target: 443
+      protocol: tcp
+    - mode: ingress
+      target: 443
+      published: "40007"
+      protocol: tcp
+    volumes:
+    - type: bind
+      source: C:\Users\yazon\AppData\Roaming/Microsoft/UserSecrets
+      target: /root/.microsoft/usersecrets
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\yazon\AppData\Roaming/ASP.NET/Https
       target: /root/.aspnet/https
       read_only: true
       bind:
         create_host_path: true
   healthminapi:
     build:
-      context: C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1
+      context: D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1
       dockerfile: HealthMinAPI/Dockerfile
     environment:
       ASPNETCORE_ENVIRONMENT: Development
@@ -183,20 +297,20 @@ services:
       protocol: tcp
     volumes:
     - type: bind
-      source: C:\Users\kasem saudi\AppData\Roaming/Microsoft/UserSecrets
+      source: C:\Users\yazon\AppData\Roaming/Microsoft/UserSecrets
       target: /root/.microsoft/usersecrets
       read_only: true
       bind:
         create_host_path: true
     - type: bind
-      source: C:\Users\kasem saudi\AppData\Roaming/ASP.NET/Https
+      source: C:\Users\yazon\AppData\Roaming/ASP.NET/Https
       target: /root/.aspnet/https
       read_only: true
       bind:
         create_host_path: true
   higheduminapi:
     build:
-      context: C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1
+      context: D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1
       dockerfile: HighEduMinAPI/Dockerfile
     environment:
       ASPNETCORE_ENVIRONMENT: Development
@@ -221,52 +335,20 @@ services:
       protocol: tcp
     volumes:
     - type: bind
-      source: C:\Users\kasem saudi\AppData\Roaming/Microsoft/UserSecrets
+      source: C:\Users\yazon\AppData\Roaming/Microsoft/UserSecrets
       target: /root/.microsoft/usersecrets
       read_only: true
       bind:
         create_host_path: true
     - type: bind
-      source: C:\Users\kasem saudi\AppData\Roaming/ASP.NET/Https
-      target: /root/.aspnet/https
-      read_only: true
-      bind:
-        create_host_path: true
-  passportapi:
-    build:
-      context: C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1
-      dockerfile: PassportAPI/Dockerfile
-    environment:
-      ASPNETCORE_ENVIRONMENT: Development
-      ASPNETCORE_URLS: https://+:443;http://+:80
-    image: passportapi
-    networks:
-      default: null
-    ports:
-    - mode: ingress
-      target: 80
-      protocol: tcp
-    - mode: ingress
-      target: 80
-      published: "41011"
-      protocol: tcp
-    - mode: ingress
-      target: 443
-      protocol: tcp
-    - mode: ingress
-      target: 443
-      published: "40011"
-      protocol: tcp
-    volumes:
-    - type: bind
-      source: C:\Users\kasem saudi\AppData\Roaming/ASP.NET/Https
+      source: C:\Users\yazon\AppData\Roaming/ASP.NET/Https
       target: /root/.aspnet/https
       read_only: true
       bind:
         create_host_path: true
   politicalpartiesapi:
     build:
-      context: C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1
+      context: D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1
       dockerfile: PoliticalPartiesAPI/Dockerfile
     environment:
       ASPNETCORE_ENVIRONMENT: Development
@@ -291,13 +373,13 @@ services:
       protocol: tcp
     volumes:
     - type: bind
-      source: C:\Users\kasem saudi\AppData\Roaming/Microsoft/UserSecrets
+      source: C:\Users\yazon\AppData\Roaming/Microsoft/UserSecrets
       target: /root/.microsoft/usersecrets
       read_only: true
       bind:
         create_host_path: true
     - type: bind
-      source: C:\Users\kasem saudi\AppData\Roaming/ASP.NET/Https
+      source: C:\Users\yazon\AppData\Roaming/ASP.NET/Https
       target: /root/.aspnet/https
       read_only: true
       bind:
@@ -320,9 +402,47 @@ services:
       source: sqlvol
       target: /var/opt/mssql
       volume: {}
+  universityapi:
+    build:
+      context: D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1
+      dockerfile: UniversityAPI/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: universityapi
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      protocol: tcp
+    - mode: ingress
+      target: 80
+      published: "41006"
+      protocol: tcp
+    - mode: ingress
+      target: 443
+      protocol: tcp
+    - mode: ingress
+      target: 443
+      published: "40006"
+      protocol: tcp
+    volumes:
+    - type: bind
+      source: C:\Users\yazon\AppData\Roaming/Microsoft/UserSecrets
+      target: /root/.microsoft/usersecrets
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\yazon\AppData\Roaming/ASP.NET/Https
+      target: /root/.aspnet/https
+      read_only: true
+      bind:
+        create_host_path: true
 networks:
   default:
-    name: dockercompose15709273713550869636_default
+    name: dockercompose10068048574545575832_default
 volumes:
   sqlvol:
-    name: dockercompose15709273713550869636_sqlvol
+    name: dockercompose10068048574545575832_sqlvol

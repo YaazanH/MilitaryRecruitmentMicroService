@@ -65,7 +65,17 @@
       "ProjectGuid": "4d84515b-fd26-4e1a-98b2-6d348c8e3efb",
       "DisplayName": "CourtAPI",
       "ColorIndex": 11
+    },
+    "9b36c717-8980-44a8-9d09-1a81b0570d79": {
+      "ProjectGuid": "9b36c717-8980-44a8-9d09-1a81b0570d79",
+      "DisplayName": "UniversityAPI",
+      "ColorIndex": 12
+    },
+    "bf4d6ae7-cbbd-4f2e-a3d9-72639f466bb6": {
+      "ProjectGuid": "bf4d6ae7-cbbd-4f2e-a3d9-72639f466bb6",
+      "DisplayName": "BloodBankAPI",
+      "ColorIndex": 13
     }
   },
-  "NextColorIndex": 12
+  "NextColorIndex": 14
 }

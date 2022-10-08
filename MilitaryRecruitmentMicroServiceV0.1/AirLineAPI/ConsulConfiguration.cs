@@ -44,10 +44,7 @@ namespace AirLineAPI
 
             var ServiceCheck = new AgentServiceCheck()
             {
-<<<<<<< HEAD
 
-=======
->>>>>>> parent of 3506de5 (قاسم)
                 HTTP = $"https://{serviceUri.Host}:{serviceUri.Port}/AirLine/GetIsAWorker?id=2",
                 Notes = $"https://{serviceUri.Host}:{serviceUri.Port}/AirLine/GetIsAWorker?id=2",
                 Timeout = TimeSpan.FromSeconds(3),

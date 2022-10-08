@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32901.82
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HealthMinAPI", "HealthMinAPI\HealthMinAPI.csproj", "{51B3D882-DFBC-413D-B9A7-F2E6EFD8DB3E}"
 EndProject
@@ -13,25 +13,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AirLineAPI", "AirLineAPI\Ai
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PoliticalPartiesAPI", "PoliticalPartiesAPI\PoliticalPartiesAPI.csproj", "{7243E6DF-BD08-402A-9BCE-8C56E05CA656}"
 EndProject
-<<<<<<< HEAD
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BloodBankAPI", "BloodBankAPI\BloodBankAPI.csproj", "{BF4D6AE7-CBBD-4F2E-A3D9-72639F466BB6}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UniversityAPI", "UniversityAPI\UniversityAPI.csproj", "{9B36C717-8980-44A8-9D09-1A81B0570D79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CivilPoliceAPI", "CivilPoliceAPI\CivilPoliceAPI.csproj", "{1594314C-B7CF-4EA5-BE80-1068F16397AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CivilPoliceAPI", "CivilPoliceAPI\CivilPoliceAPI.csproj", "{1594314C-B7CF-4EA5-BE80-1068F16397AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MilitaryCollegeAPI", "MilitaryCollegeAPI\MilitaryCollegeAPI.csproj", "{5497CFA8-1B9E-4AD5-A4D5-2A35291CB208}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoctorsSyndicateAPI", "DoctorsSyndicateAPI\DoctorsSyndicateAPI.csproj", "{EFE0839D-48B8-45C0-81AD-15B077394F69}"
-=======
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PassportAPI", "PassportAPI\PassportAPI.csproj", "{D90107D9-6381-4D7E-A966-857EC4C8FD56}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoctorsSyndicateAPI", "DoctorsSyndicateAPI\DoctorsSyndicateAPI.csproj", "{EFE0839D-48B8-45C0-81AD-15B077394F69}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AwqafAPI", "AwqafAPI\AwqafAPI.csproj", "{3CC8E53F-A4EF-4D4F-B2E7-E229C9D73250}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourtAPI", "CourtAPI\CourtAPI.csproj", "{4D84515B-FD26-4E1A-98B2-6D348C8E3EFB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourtAPI", "CourtAPI\CourtAPI.csproj", "{4D84515B-FD26-4E1A-98B2-6D348C8E3EFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefenseAPI", "DefenseAPI\DefenseAPI.csproj", "{BA3BC7B5-381B-4F8D-BFDA-CE46E1B69BF3}"
->>>>>>> c4c9bd9f6f6df766c31863df9e2fede3507db9a2
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DefenseAPI", "DefenseAPI\DefenseAPI.csproj", "{BA3BC7B5-381B-4F8D-BFDA-CE46E1B69BF3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,7 +53,6 @@ Global
 		{7243E6DF-BD08-402A-9BCE-8C56E05CA656}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7243E6DF-BD08-402A-9BCE-8C56E05CA656}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7243E6DF-BD08-402A-9BCE-8C56E05CA656}.Release|Any CPU.Build.0 = Release|Any CPU
-<<<<<<< HEAD
 		{BF4D6AE7-CBBD-4F2E-A3D9-72639F466BB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BF4D6AE7-CBBD-4F2E-A3D9-72639F466BB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF4D6AE7-CBBD-4F2E-A3D9-72639F466BB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -72,19 +65,10 @@ Global
 		{1594314C-B7CF-4EA5-BE80-1068F16397AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1594314C-B7CF-4EA5-BE80-1068F16397AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1594314C-B7CF-4EA5-BE80-1068F16397AC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5497CFA8-1B9E-4AD5-A4D5-2A35291CB208}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5497CFA8-1B9E-4AD5-A4D5-2A35291CB208}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5497CFA8-1B9E-4AD5-A4D5-2A35291CB208}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5497CFA8-1B9E-4AD5-A4D5-2A35291CB208}.Release|Any CPU.Build.0 = Release|Any CPU
 		{EFE0839D-48B8-45C0-81AD-15B077394F69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EFE0839D-48B8-45C0-81AD-15B077394F69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFE0839D-48B8-45C0-81AD-15B077394F69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFE0839D-48B8-45C0-81AD-15B077394F69}.Release|Any CPU.Build.0 = Release|Any CPU
-=======
-		{D90107D9-6381-4D7E-A966-857EC4C8FD56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D90107D9-6381-4D7E-A966-857EC4C8FD56}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D90107D9-6381-4D7E-A966-857EC4C8FD56}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D90107D9-6381-4D7E-A966-857EC4C8FD56}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3CC8E53F-A4EF-4D4F-B2E7-E229C9D73250}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3CC8E53F-A4EF-4D4F-B2E7-E229C9D73250}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CC8E53F-A4EF-4D4F-B2E7-E229C9D73250}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -97,7 +81,6 @@ Global
 		{BA3BC7B5-381B-4F8D-BFDA-CE46E1B69BF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA3BC7B5-381B-4F8D-BFDA-CE46E1B69BF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA3BC7B5-381B-4F8D-BFDA-CE46E1B69BF3}.Release|Any CPU.Build.0 = Release|Any CPU
->>>>>>> c4c9bd9f6f6df766c31863df9e2fede3507db9a2
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

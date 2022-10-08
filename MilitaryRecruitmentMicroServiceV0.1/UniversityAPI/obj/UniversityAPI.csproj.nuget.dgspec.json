@@ -1,31 +1,17 @@
 {
   "format": 1,
   "restore": {
-<<<<<<<< HEAD:MilitaryRecruitmentMicroServiceV0.1/UniversityAPI/obj/UniversityAPI.csproj.nuget.dgspec.json
-    "D:\\MS\\MilitaryRecruitmentMicroService\\MilitaryRecruitmentMicroServiceV0.1\\UniversityAPI\\UniversityAPI.csproj": {}
+    "D:\\jounier\\git\\MilitaryRecruitmentMicroServiceV0.1\\UniversityAPI\\UniversityAPI.csproj": {}
   },
   "projects": {
-    "D:\\MS\\MilitaryRecruitmentMicroService\\MilitaryRecruitmentMicroServiceV0.1\\UniversityAPI\\UniversityAPI.csproj": {
+    "D:\\jounier\\git\\MilitaryRecruitmentMicroServiceV0.1\\UniversityAPI\\UniversityAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MS\\MilitaryRecruitmentMicroService\\MilitaryRecruitmentMicroServiceV0.1\\UniversityAPI\\UniversityAPI.csproj",
+        "projectUniqueName": "D:\\jounier\\git\\MilitaryRecruitmentMicroServiceV0.1\\UniversityAPI\\UniversityAPI.csproj",
         "projectName": "UniversityAPI",
-        "projectPath": "D:\\MS\\MilitaryRecruitmentMicroService\\MilitaryRecruitmentMicroServiceV0.1\\UniversityAPI\\UniversityAPI.csproj",
-        "packagesPath": "C:\\Users\\mooha\\.nuget\\packages\\",
-        "outputPath": "D:\\MS\\MilitaryRecruitmentMicroService\\MilitaryRecruitmentMicroServiceV0.1\\UniversityAPI\\obj\\",
-========
-    "D:\\jounier\\git\\MilitaryRecruitmentMicroServiceV0.1\\CourtAPI\\CourtAPI.csproj": {}
-  },
-  "projects": {
-    "D:\\jounier\\git\\MilitaryRecruitmentMicroServiceV0.1\\CourtAPI\\CourtAPI.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\jounier\\git\\MilitaryRecruitmentMicroServiceV0.1\\CourtAPI\\CourtAPI.csproj",
-        "projectName": "CourtAPI",
-        "projectPath": "D:\\jounier\\git\\MilitaryRecruitmentMicroServiceV0.1\\CourtAPI\\CourtAPI.csproj",
+        "projectPath": "D:\\jounier\\git\\MilitaryRecruitmentMicroServiceV0.1\\UniversityAPI\\UniversityAPI.csproj",
         "packagesPath": "C:\\Users\\yazon\\.nuget\\packages\\",
-        "outputPath": "D:\\jounier\\git\\MilitaryRecruitmentMicroServiceV0.1\\CourtAPI\\obj\\",
->>>>>>>> c4c9bd9f6f6df766c31863df9e2fede3507db9a2:MilitaryRecruitmentMicroServiceV0.1/CourtAPI/obj/CourtAPI.csproj.nuget.dgspec.json
+        "outputPath": "D:\\jounier\\git\\MilitaryRecruitmentMicroServiceV0.1\\UniversityAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -70,7 +56,7 @@
             },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
-              "version": "[1.11.1, )"
+              "version": "[1.15.1, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

@@ -492,7 +492,7 @@
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {}
         }
       },
-      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.11.1": {
+      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.15.1": {
         "type": "package",
         "build": {
           "build/Microsoft.VisualStudio.Azure.Containers.Tools.Targets.props": {},
@@ -3035,10 +3035,10 @@
         "microsoft.openapi.nuspec"
       ]
     },
-    "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.11.1": {
-      "sha512": "1jHxWlSi6/ryWODk6SUjsZPHk/BdsucxqhIi1szEzwc84e8nvZWF45qRXcT2gWPISJ3Ybbyg2LsNG6yX8r7VuA==",
+    "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.15.1": {
+      "sha512": "dcsF7rjxvMnqtfckpzWYvBsZsJD51yQVHSSgd2EN5/CJ/zQigJrfo313lvAwf0VL9ZOHLnJthuboadjnBAU7Ng==",
       "type": "package",
-      "path": "microsoft.visualstudio.azure.containers.tools.targets/1.11.1",
+      "path": "microsoft.visualstudio.azure.containers.tools.targets/1.15.1",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -3066,12 +3066,13 @@
         "build/ToolsTarget.props",
         "build/ToolsTarget.targets",
         "icon.png",
-        "microsoft.visualstudio.azure.containers.tools.targets.1.11.1.nupkg.sha512",
+        "microsoft.visualstudio.azure.containers.tools.targets.1.15.1.nupkg.sha512",
         "microsoft.visualstudio.azure.containers.tools.targets.nuspec",
         "tools/Microsoft.VisualStudio.Containers.Tools.Common.dll",
         "tools/Microsoft.VisualStudio.Containers.Tools.Shared.dll",
         "tools/Microsoft.VisualStudio.Containers.Tools.Tasks.dll",
         "tools/Newtonsoft.Json.dll",
+        "tools/System.Security.Principal.Windows.dll",
         "tools/cs/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
         "tools/cs/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
         "tools/cs/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
@@ -7667,14 +7668,9 @@
     "net5.0": [
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.17",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.17",
-<<<<<<<< HEAD:MilitaryRecruitmentMicroServiceV0.1/UniversityAPI/obj/project.assets.json
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.15.1",
       "Swashbuckle.AspNetCore >= 5.6.3",
       "Winton.Extensions.Configuration.Consul >= 3.3.0-master0001"
-========
-      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.11.1",
-      "Swashbuckle.AspNetCore >= 5.6.3"
->>>>>>>> c4c9bd9f6f6df766c31863df9e2fede3507db9a2:MilitaryRecruitmentMicroServiceV0.1/CourtAPI/obj/project.assets.json
     ]
   },
   "packageFolders": {
@@ -7684,19 +7680,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<<< HEAD:MilitaryRecruitmentMicroServiceV0.1/UniversityAPI/obj/project.assets.json
-      "projectUniqueName": "D:\\MS\\MilitaryRecruitmentMicroService\\MilitaryRecruitmentMicroServiceV0.1\\UniversityAPI\\UniversityAPI.csproj",
+      "projectUniqueName": "D:\\jounier\\git\\MilitaryRecruitmentMicroServiceV0.1\\UniversityAPI\\UniversityAPI.csproj",
       "projectName": "UniversityAPI",
-      "projectPath": "D:\\MS\\MilitaryRecruitmentMicroService\\MilitaryRecruitmentMicroServiceV0.1\\UniversityAPI\\UniversityAPI.csproj",
-      "packagesPath": "C:\\Users\\mooha\\.nuget\\packages\\",
-      "outputPath": "D:\\MS\\MilitaryRecruitmentMicroService\\MilitaryRecruitmentMicroServiceV0.1\\UniversityAPI\\obj\\",
-========
-      "projectUniqueName": "D:\\jounier\\git\\MilitaryRecruitmentMicroServiceV0.1\\CourtAPI\\CourtAPI.csproj",
-      "projectName": "CourtAPI",
-      "projectPath": "D:\\jounier\\git\\MilitaryRecruitmentMicroServiceV0.1\\CourtAPI\\CourtAPI.csproj",
+      "projectPath": "D:\\jounier\\git\\MilitaryRecruitmentMicroServiceV0.1\\UniversityAPI\\UniversityAPI.csproj",
       "packagesPath": "C:\\Users\\yazon\\.nuget\\packages\\",
-      "outputPath": "D:\\jounier\\git\\MilitaryRecruitmentMicroServiceV0.1\\CourtAPI\\obj\\",
->>>>>>>> c4c9bd9f6f6df766c31863df9e2fede3507db9a2:MilitaryRecruitmentMicroServiceV0.1/CourtAPI/obj/project.assets.json
+      "outputPath": "D:\\jounier\\git\\MilitaryRecruitmentMicroServiceV0.1\\UniversityAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -7741,7 +7729,7 @@
           },
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
             "target": "Package",
-            "version": "[1.11.1, )"
+            "version": "[1.15.1, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",

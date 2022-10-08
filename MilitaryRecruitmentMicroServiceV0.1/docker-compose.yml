@@ -30,7 +30,6 @@ services:
     ports:
       - "41003:80"
       - "40003:443"
-
   higheduminapi:
     image: ${DOCKER_REGISTRY-}higheduminapi
     build:
@@ -59,8 +58,6 @@ services:
       - "41004:80"
       - "40004:443"
 
-
-<<<<<<< HEAD
   bloodbankapi:
     image: ${DOCKER_REGISTRY-}bloodbankapi
     build:
@@ -97,27 +94,6 @@ services:
       - "41008:80"
       - "40008:443"
 
-  militarycollegeapi:
-    image: ${DOCKER_REGISTRY-}militarycollegeapi
-    build:
-      context: .
-      dockerfile: MilitaryCollegeAPI/Dockerfile
-    ports:
-      - "41009:80"
-      - "40009:443"
-
-
-=======
-  passportapi:
-    image: ${DOCKER_REGISTRY-}passportapi
-    build:
-      context: .
-      dockerfile: PassportAPI/Dockerfile
-    ports:
-      - "41011:80"
-      - "40011:443"
->>>>>>> c4c9bd9f6f6df766c31863df9e2fede3507db9a2
-
   awqafapi:
     image: ${DOCKER_REGISTRY-}awqafapi
     build:
@@ -144,18 +120,3 @@ services:
       - "40013:443"
 volumes:
   sqlvol:
-<<<<<<< HEAD
-
-
-
-
-
-
-=======
-<<<<<<< HEAD
-=======
-
-
-
->>>>>>> parent of 3506de5 (قاسم)
->>>>>>> c4c9bd9f6f6df766c31863df9e2fede3507db9a2
