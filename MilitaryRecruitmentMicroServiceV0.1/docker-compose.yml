@@ -60,6 +60,7 @@ services:
       - "40004:443"
 
 
+<<<<<<< HEAD
   bloodbankapi:
     image: ${DOCKER_REGISTRY-}bloodbankapi
     build:
@@ -106,12 +107,55 @@ services:
       - "40009:443"
 
 
+=======
+  passportapi:
+    image: ${DOCKER_REGISTRY-}passportapi
+    build:
+      context: .
+      dockerfile: PassportAPI/Dockerfile
+    ports:
+      - "41011:80"
+      - "40011:443"
+>>>>>>> c4c9bd9f6f6df766c31863df9e2fede3507db9a2
 
+  awqafapi:
+    image: ${DOCKER_REGISTRY-}awqafapi
+    build:
+      context: .
+      dockerfile: AwqafAPI/Dockerfile
+    ports:
+      - "41010:80"
+      - "40010:443"
+  courtapi:
+    image: ${DOCKER_REGISTRY-}courtapi
+    build:
+      context: .
+      dockerfile: CourtAPI/Dockerfile
+    ports:
+      - "41012:80"
+      - "40012:443"
+  defenseapi:
+    image: ${DOCKER_REGISTRY-}defenseapi
+    build:
+      context: .
+      dockerfile: DefenseAPI/Dockerfile
+    ports:
+      - "41013:80"
+      - "40013:443"
 volumes:
   sqlvol:
+<<<<<<< HEAD
 
 
 
 
 
 
+=======
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> parent of 3506de5 (قاسم)
+>>>>>>> c4c9bd9f6f6df766c31863df9e2fede3507db9a2

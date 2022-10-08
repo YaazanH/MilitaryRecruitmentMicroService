@@ -1,0 +1,15 @@
+is_global = true
+build_property.TargetFramework = net5.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+<<<<<<<< HEAD:MilitaryRecruitmentMicroServiceV0.1/BloodBankAPI/obj/Debug/net5.0/BloodBankAPI.GeneratedMSBuildEditorConfig.editorconfig
+build_property.RootNamespace = BloodBankAPI
+build_property.ProjectDir = D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\BloodBankAPI\
+========
+build_property.RootNamespace = PassportAPI
+build_property.ProjectDir = D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\PassportAPI\
+>>>>>>>> c4c9bd9f6f6df766c31863df9e2fede3507db9a2:MilitaryRecruitmentMicroServiceV0.1/PassportAPI/obj/Debug/net5.0/PassportAPI.GeneratedMSBuildEditorConfig.editorconfig

@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<<< HEAD:MilitaryRecruitmentMicroServiceV0.1/UniversityAPI/obj/UniversityAPI.csproj.nuget.dgspec.json
     "D:\\MS\\MilitaryRecruitmentMicroService\\MilitaryRecruitmentMicroServiceV0.1\\UniversityAPI\\UniversityAPI.csproj": {}
   },
   "projects": {
@@ -12,9 +13,26 @@
         "projectPath": "D:\\MS\\MilitaryRecruitmentMicroService\\MilitaryRecruitmentMicroServiceV0.1\\UniversityAPI\\UniversityAPI.csproj",
         "packagesPath": "C:\\Users\\mooha\\.nuget\\packages\\",
         "outputPath": "D:\\MS\\MilitaryRecruitmentMicroService\\MilitaryRecruitmentMicroServiceV0.1\\UniversityAPI\\obj\\",
+========
+    "D:\\jounier\\git\\MilitaryRecruitmentMicroServiceV0.1\\CourtAPI\\CourtAPI.csproj": {}
+  },
+  "projects": {
+    "D:\\jounier\\git\\MilitaryRecruitmentMicroServiceV0.1\\CourtAPI\\CourtAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\jounier\\git\\MilitaryRecruitmentMicroServiceV0.1\\CourtAPI\\CourtAPI.csproj",
+        "projectName": "CourtAPI",
+        "projectPath": "D:\\jounier\\git\\MilitaryRecruitmentMicroServiceV0.1\\CourtAPI\\CourtAPI.csproj",
+        "packagesPath": "C:\\Users\\yazon\\.nuget\\packages\\",
+        "outputPath": "D:\\jounier\\git\\MilitaryRecruitmentMicroServiceV0.1\\CourtAPI\\obj\\",
+>>>>>>>> c4c9bd9f6f6df766c31863df9e2fede3507db9a2:MilitaryRecruitmentMicroServiceV0.1/CourtAPI/obj/CourtAPI.csproj.nuget.dgspec.json
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\mooha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\yazon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,8 +40,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://www.nuget.org/api/v2": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
@@ -53,7 +70,7 @@
             },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
-              "version": "[1.15.1, )"
+              "version": "[1.11.1, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -70,8 +87,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -83,7 +99,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.109\\RuntimeIdentifierGraph.json"
         }
       }
     }

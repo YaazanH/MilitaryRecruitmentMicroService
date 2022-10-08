@@ -8,32 +8,42 @@ services:
         com.microsoft.created-by: "visual-studio"
         com.microsoft.visual-studio.project-name: "AirLineAPI"
     volumes:
-      - C:\Users\mooha\vsdbg\vs2017u5:/remote_debugger:rw
+      - C:\Users\yazon\vsdbg\vs2017u5:/remote_debugger:rw
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
 
     entrypoint: tail -f /dev/null
     labels:
       com.microsoft.visualstudio.debuggee.program: "dotnet"
-      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /root/.nuget/packages  \"/app/AirLineAPI.dll\""
+      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /root/.nuget/packages --additionalProbingPath /root/.nuget/fallbackpackages  \"/app/AirLineAPI.dll\""
       com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
       com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
       com.microsoft.visual-studio.project-name: "AirLineAPI"
     tty: true
+<<<<<<< HEAD
   bloodbankapi:
     container_name: BloodBankAPI
     build:
       labels:
         com.microsoft.created-by: "visual-studio"
         com.microsoft.visual-studio.project-name: "BloodBankAPI"
+=======
+  awqafapi:
+    container_name: AwqafAPI
+    build:
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "AwqafAPI"
+>>>>>>> c4c9bd9f6f6df766c31863df9e2fede3507db9a2
     volumes:
-      - C:\Users\mooha\vsdbg\vs2017u5:/remote_debugger:rw
+      - C:\Users\yazon\vsdbg\vs2017u5:/remote_debugger:rw
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
 
     entrypoint: tail -f /dev/null
     labels:
       com.microsoft.visualstudio.debuggee.program: "dotnet"
+<<<<<<< HEAD
       com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /root/.nuget/packages  \"/app/BloodBankAPI.dll\""
       com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
       com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
@@ -48,12 +58,29 @@ services:
         com.microsoft.visual-studio.project-name: "CivilPoliceAPI"
     volumes:
       - C:\Users\mooha\vsdbg\vs2017u5:/remote_debugger:rw
+=======
+      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /root/.nuget/packages --additionalProbingPath /root/.nuget/fallbackpackages  \"/app/AwqafAPI.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+      com.microsoft.visual-studio.project-name: "AwqafAPI"
+    tty: true
+
+  courtapi:
+    container_name: CourtAPI
+    build:
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "CourtAPI"
+    volumes:
+      - C:\Users\yazon\vsdbg\vs2017u5:/remote_debugger:rw
+>>>>>>> c4c9bd9f6f6df766c31863df9e2fede3507db9a2
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
 
     entrypoint: tail -f /dev/null
     labels:
       com.microsoft.visualstudio.debuggee.program: "dotnet"
+<<<<<<< HEAD
       com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /root/.nuget/packages  \"/app/CivilPoliceAPI.dll\""
       com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
       com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
@@ -68,16 +95,39 @@ services:
         com.microsoft.visual-studio.project-name: "DoctorsSyndicateAPI"
     volumes:
       - C:\Users\mooha\vsdbg\vs2017u5:/remote_debugger:rw
+=======
+      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /root/.nuget/packages --additionalProbingPath /root/.nuget/fallbackpackages  \"/app/CourtAPI.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+      com.microsoft.visual-studio.project-name: "CourtAPI"
+    tty: true
+
+  defenseapi:
+    container_name: DefenseAPI
+    build:
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "DefenseAPI"
+    volumes:
+      - C:\Users\yazon\vsdbg\vs2017u5:/remote_debugger:rw
+>>>>>>> c4c9bd9f6f6df766c31863df9e2fede3507db9a2
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
 
     entrypoint: tail -f /dev/null
     labels:
       com.microsoft.visualstudio.debuggee.program: "dotnet"
+<<<<<<< HEAD
       com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /root/.nuget/packages  \"/app/DoctorsSyndicateAPI.dll\""
       com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
       com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
       com.microsoft.visual-studio.project-name: "DoctorsSyndicateAPI"
+=======
+      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /root/.nuget/packages --additionalProbingPath /root/.nuget/fallbackpackages  \"/app/DefenseAPI.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+      com.microsoft.visual-studio.project-name: "DefenseAPI"
+>>>>>>> c4c9bd9f6f6df766c31863df9e2fede3507db9a2
     tty: true
 
   healthminapi:
@@ -87,14 +137,14 @@ services:
         com.microsoft.created-by: "visual-studio"
         com.microsoft.visual-studio.project-name: "HealthMinAPI"
     volumes:
-      - C:\Users\mooha\vsdbg\vs2017u5:/remote_debugger:rw
+      - C:\Users\yazon\vsdbg\vs2017u5:/remote_debugger:rw
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
 
     entrypoint: tail -f /dev/null
     labels:
       com.microsoft.visualstudio.debuggee.program: "dotnet"
-      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /root/.nuget/packages  \"/app/HealthMinAPI.dll\""
+      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /root/.nuget/packages --additionalProbingPath /root/.nuget/fallbackpackages  \"/app/HealthMinAPI.dll\""
       com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
       com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
       com.microsoft.visual-studio.project-name: "HealthMinAPI"
@@ -107,19 +157,20 @@ services:
         com.microsoft.created-by: "visual-studio"
         com.microsoft.visual-studio.project-name: "HighEduMinAPI"
     volumes:
-      - C:\Users\mooha\vsdbg\vs2017u5:/remote_debugger:rw
+      - C:\Users\yazon\vsdbg\vs2017u5:/remote_debugger:rw
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
 
     entrypoint: tail -f /dev/null
     labels:
       com.microsoft.visualstudio.debuggee.program: "dotnet"
-      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /root/.nuget/packages  \"/app/HighEduMinAPI.dll\""
+      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /root/.nuget/packages --additionalProbingPath /root/.nuget/fallbackpackages  \"/app/HighEduMinAPI.dll\""
       com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
       com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
       com.microsoft.visual-studio.project-name: "HighEduMinAPI"
     tty: true
 
+<<<<<<< HEAD
   militarycollegeapi:
     container_name: MilitaryCollegeAPI
     build:
@@ -128,16 +179,53 @@ services:
         com.microsoft.visual-studio.project-name: "MilitaryCollegeAPI"
     volumes:
       - C:\Users\mooha\vsdbg\vs2017u5:/remote_debugger:rw
+=======
+  loginapi:
+    container_name: LoginAPI
+    build:
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "LoginAPI"
+    volumes:
+      - C:\Users\yazon\vsdbg\vs2017u5:/remote_debugger:rw
+>>>>>>> c4c9bd9f6f6df766c31863df9e2fede3507db9a2
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
 
     entrypoint: tail -f /dev/null
     labels:
       com.microsoft.visualstudio.debuggee.program: "dotnet"
+<<<<<<< HEAD
       com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /root/.nuget/packages  \"/app/MilitaryCollegeAPI.dll\""
       com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
       com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
       com.microsoft.visual-studio.project-name: "MilitaryCollegeAPI"
+=======
+      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /root/.nuget/packages --additionalProbingPath /root/.nuget/fallbackpackages  \"/app/LoginAPI.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+      com.microsoft.visual-studio.project-name: "LoginAPI"
+    tty: true
+
+  passportapi:
+    container_name: PassportAPI
+    build:
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "PassportAPI"
+    volumes:
+      - C:\Users\yazon\vsdbg\vs2017u5:/remote_debugger:rw
+      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
+      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /root/.nuget/packages --additionalProbingPath /root/.nuget/fallbackpackages  \"/app/PassportAPI.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+      com.microsoft.visual-studio.project-name: "PassportAPI"
+>>>>>>> c4c9bd9f6f6df766c31863df9e2fede3507db9a2
     tty: true
 
   politicalpartiesapi:
@@ -147,14 +235,14 @@ services:
         com.microsoft.created-by: "visual-studio"
         com.microsoft.visual-studio.project-name: "PoliticalPartiesAPI"
     volumes:
-      - C:\Users\mooha\vsdbg\vs2017u5:/remote_debugger:rw
+      - C:\Users\yazon\vsdbg\vs2017u5:/remote_debugger:rw
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
 
     entrypoint: tail -f /dev/null
     labels:
       com.microsoft.visualstudio.debuggee.program: "dotnet"
-      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /root/.nuget/packages  \"/app/PoliticalPartiesAPI.dll\""
+      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /root/.nuget/packages --additionalProbingPath /root/.nuget/fallbackpackages  \"/app/PoliticalPartiesAPI.dll\""
       com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
       com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
       com.microsoft.visual-studio.project-name: "PoliticalPartiesAPI"

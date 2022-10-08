@@ -40,7 +40,32 @@
       "ProjectGuid": "7243e6df-bd08-402a-9bce-8c56e05ca656",
       "DisplayName": "PoliticalPartiesAPI",
       "ColorIndex": 6
+    },
+    "9d7c6c68-84c4-4529-a789-5f3df49b8cfc": {
+      "ProjectGuid": "9d7c6c68-84c4-4529-a789-5f3df49b8cfc",
+      "DisplayName": "Blood_BankAPI",
+      "ColorIndex": 7
+    },
+    "7c24f5f1-531c-4e86-879d-a3196db99ec4": {
+      "ProjectGuid": "7c24f5f1-531c-4e86-879d-a3196db99ec4",
+      "DisplayName": "LoginAPI",
+      "ColorIndex": 8
+    },
+    "d90107d9-6381-4d7e-a966-857ec4c8fd56": {
+      "ProjectGuid": "d90107d9-6381-4d7e-a966-857ec4c8fd56",
+      "DisplayName": "PassportAPI",
+      "ColorIndex": 9
+    },
+    "ba3bc7b5-381b-4f8d-bfda-ce46e1b69bf3": {
+      "ProjectGuid": "ba3bc7b5-381b-4f8d-bfda-ce46e1b69bf3",
+      "DisplayName": "DefenseAPI",
+      "ColorIndex": 10
+    },
+    "4d84515b-fd26-4e1a-98b2-6d348c8e3efb": {
+      "ProjectGuid": "4d84515b-fd26-4e1a-98b2-6d348c8e3efb",
+      "DisplayName": "CourtAPI",
+      "ColorIndex": 11
     }
   },
-  "NextColorIndex": 7
+  "NextColorIndex": 12
 }
