@@ -95,9 +95,3 @@ services:
       - "40013:443"
 volumes:
   sqlvol:
-<<<<<<< HEAD
-=======
-
-
-
->>>>>>> parent of 3506de5 (قاسم)
