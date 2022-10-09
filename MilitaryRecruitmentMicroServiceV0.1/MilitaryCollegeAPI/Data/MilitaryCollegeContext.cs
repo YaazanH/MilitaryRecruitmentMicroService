@@ -7,6 +7,6 @@ namespace MilitaryCollegeAPI.Data
         public MilitaryCollegeContext(DbContextOptions<MilitaryCollegeContext> options) : base(options)
         { }
 
-        public DbSet<MilitaryCollegeAPI.Models.MilitaryCollege> MilitaryCollegeDBS { get; set; }
+        public DbSet<MilitaryCollegeAPI.Models.MilitaryCollege> MilitaryCollegeDb { get; set; }
     }
 }
