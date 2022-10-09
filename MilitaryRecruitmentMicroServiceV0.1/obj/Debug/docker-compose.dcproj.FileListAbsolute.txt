@@ -367,3 +367,15 @@ D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\Milita
 D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\MilitaryRecruitmentMicroServiceV0.1\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
 D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\MilitaryRecruitmentMicroServiceV0.1\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
 D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\MilitaryRecruitmentMicroServiceV0.1\obj\Debug\docker-compose.dcproj.CopyComplete
+D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\JailAPI.deps.json
+D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\JailAPI.runtimeconfig.json
+D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\JailAPI.runtimeconfig.dev.json
+D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\JailAPI.exe
+D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\CompetentAuthorityAPI.deps.json
+D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\CompetentAuthorityAPI.runtimeconfig.json
+D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\CompetentAuthorityAPI.runtimeconfig.dev.json
+D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\CompetentAuthorityAPI.exe
+D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\CompetentAuthorityAPI.dll
+D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\JailAPI.dll
+D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\JailAPI.pdb
+D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\CompetentAuthorityAPI.pdb

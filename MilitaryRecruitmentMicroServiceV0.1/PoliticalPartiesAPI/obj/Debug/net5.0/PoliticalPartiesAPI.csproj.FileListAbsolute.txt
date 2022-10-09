@@ -181,3 +181,4 @@ D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\Milita
 D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\MilitaryRecruitmentMicroServiceV0.1\PoliticalPartiesAPI\obj\Debug\net5.0\PoliticalPartiesAPI.pdb
 D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\MilitaryRecruitmentMicroServiceV0.1\PoliticalPartiesAPI\obj\Debug\net5.0\PoliticalPartiesAPI.genruntimeconfig.cache
 D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\MilitaryRecruitmentMicroServiceV0.1\PoliticalPartiesAPI\obj\Debug\net5.0\ref\PoliticalPartiesAPI.dll
+D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\PoliticalPartiesAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

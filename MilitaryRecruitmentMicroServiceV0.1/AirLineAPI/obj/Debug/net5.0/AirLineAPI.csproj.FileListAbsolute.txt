@@ -181,3 +181,4 @@ D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\Milita
 D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\MilitaryRecruitmentMicroServiceV0.1\AirLineAPI\obj\Debug\net5.0\AirLineAPI.pdb
 D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\MilitaryRecruitmentMicroServiceV0.1\AirLineAPI\obj\Debug\net5.0\AirLineAPI.genruntimeconfig.cache
 D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\MilitaryRecruitmentMicroServiceV0.1\AirLineAPI\obj\Debug\net5.0\ref\AirLineAPI.dll
+D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\AirLineAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

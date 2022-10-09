@@ -247,3 +247,4 @@ D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\Milita
 D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\MilitaryRecruitmentMicroServiceV0.1\DoctorsSyndicateAPI\obj\Debug\net5.0\DoctorsSyndicateAPI.genruntimeconfig.cache
 D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\MilitaryRecruitmentMicroServiceV0.1\DoctorsSyndicateAPI\obj\Debug\net5.0\ref\DoctorsSyndicateAPI.dll
 D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\MilitaryRecruitmentMicroServiceV0.1\DoctorsSyndicateAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\DoctorsSyndicateAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
