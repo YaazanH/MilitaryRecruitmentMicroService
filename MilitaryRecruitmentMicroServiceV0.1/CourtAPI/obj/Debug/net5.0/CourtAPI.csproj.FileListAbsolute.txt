@@ -247,3 +247,4 @@ D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\Milita
 D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\MilitaryRecruitmentMicroServiceV0.1\CourtAPI\obj\Debug\net5.0\CourtAPI.genruntimeconfig.cache
 D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\MilitaryRecruitmentMicroServiceV0.1\CourtAPI\obj\Debug\net5.0\ref\CourtAPI.dll
 D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\CourtAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\Jun\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\CourtAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

@@ -247,3 +247,4 @@ D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\Milita
 D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\MilitaryRecruitmentMicroServiceV0.1\AwqafAPI\obj\Debug\net5.0\AwqafAPI.genruntimeconfig.cache
 D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\MilitaryRecruitmentMicroServiceV0.1\AwqafAPI\obj\Debug\net5.0\ref\AwqafAPI.dll
 D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\AwqafAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\Jun\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\AwqafAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

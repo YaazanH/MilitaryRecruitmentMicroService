@@ -163,5 +163,14 @@ services:
       - "41016:80"
       - "40016:443"
 
+  ministryofforeignaffairsapi:
+    image: ${DOCKER_REGISTRY-}ministryofforeignaffairsapi
+    build:
+      context: .
+      dockerfile: MinistryOfForeignAffairsAPI/Dockerfile
+    ports:
+      - "41017:80"
+      - "40017:443"
+
 volumes:
   sqlvol:
