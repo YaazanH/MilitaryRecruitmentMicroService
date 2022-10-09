@@ -75,7 +75,27 @@
       "ProjectGuid": "bf4d6ae7-cbbd-4f2e-a3d9-72639f466bb6",
       "DisplayName": "BloodBankAPI",
       "ColorIndex": 13
+    },
+    "afe6a788-e1bc-4f75-913d-72540e540b26": {
+      "ProjectGuid": "afe6a788-e1bc-4f75-913d-72540e540b26",
+      "DisplayName": "MilitaryCollegeAPI",
+      "ColorIndex": 14
+    },
+    "efe0839d-48b8-45c0-81ad-15b077394f69": {
+      "ProjectGuid": "efe0839d-48b8-45c0-81ad-15b077394f69",
+      "DisplayName": "DoctorsSyndicateAPI",
+      "ColorIndex": 15
+    },
+    "1594314c-b7cf-4ea5-be80-1068f16397ac": {
+      "ProjectGuid": "1594314c-b7cf-4ea5-be80-1068f16397ac",
+      "DisplayName": "CivilPoliceAPI",
+      "ColorIndex": 0
+    },
+    "3cc8e53f-a4ef-4d4f-b2e7-e229c9d73250": {
+      "ProjectGuid": "3cc8e53f-a4ef-4d4f-b2e7-e229c9d73250",
+      "DisplayName": "AwqafAPI",
+      "ColorIndex": 1
     }
   },
-  "NextColorIndex": 14
+  "NextColorIndex": 2
 }

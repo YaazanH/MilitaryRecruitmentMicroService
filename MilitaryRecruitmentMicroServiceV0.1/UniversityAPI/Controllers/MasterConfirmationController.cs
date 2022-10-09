@@ -30,8 +30,9 @@ namespace UniversityAPI.Controllers
         }
         [HttpGet]
         [Route("HasMasterConfirmation/")]
-        public ActionResult<bool> GetHasMasterConfirmation(int id)
+        public ActionResult<bool> GetHasMasterConfirmation()
         {
+            int id = GetCurrentUserID();
             var student = _context.UniversityDb.Where(x => x.id == id).FirstOrDefault();
             if (student == null) return NotFound();
 

@@ -1,8 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
+using System.Security.Claims;
 using CourtAPI.Data;
 using CourtAPI.Models;
 
@@ -10,6 +11,8 @@ namespace CourtAPI.Controllers
 {
     [ApiController]
     [Route("Court")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+
     public class CourtController : Controller
     {
         private readonly CourtContext _context;
@@ -20,12 +23,21 @@ namespace CourtAPI.Controllers
         }
         [HttpGet]
         [Route("GetById/")]
-        public ActionResult<Court> GetIsPermit(int id)
+        public ActionResult<Court> GetIsPermit()
         {
+            int id = GetCurrentUserID();
             var item = _context.CourtDBS.Where(x => x.id == id).FirstOrDefault();
             if (item == null) return NotFound();
-
             return item;
+        }
+        private int GetCurrentUserID()
+        {
+            var identity = HttpContext.User.Identity as ClaimsIdentity;
+            if (identity != null)
+            {
+                return Int32.Parse(identity.Claims.FirstOrDefault(o => o.Type == ClaimTypes.PrimarySid)?.Value);
+            }
+            return 0;
         }
     }
 }

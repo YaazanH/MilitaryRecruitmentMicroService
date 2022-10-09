@@ -16,7 +16,7 @@ namespace BloodBankAPI.Controllers
     {
       
             private readonly BloodBankContext _context;
-            private int GetCurrentUserID()
+        private int GetCurrentUserID()
         {
             var identity = HttpContext.User.Identity as ClaimsIdentity;
             if (identity != null)
@@ -32,11 +32,11 @@ namespace BloodBankAPI.Controllers
             }
             [HttpGet]
             [Route("HasDonated/")]
-            public ActionResult<bool> GetHasDonated(int id)
+            public ActionResult<bool> GetHasDonated()
             {
-                var worker = _context.BloodBankDb.Where(x => x.id == id).FirstOrDefault();
+            int id = GetCurrentUserID();
+            var worker = _context.BloodBankDb.Where(x => x.id == id).FirstOrDefault();
                 if (worker == null) return NotFound();
-
                 return worker.Donated;
             }
         }

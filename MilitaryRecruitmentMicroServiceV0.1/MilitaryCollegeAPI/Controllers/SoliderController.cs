@@ -32,8 +32,9 @@ namespace MilitaryCollegeAPI.Controllers
         }
         [HttpGet]
         [Route("GetHasFired/")]
-        public ActionResult<bool> GetHasFired(int id)
+        public ActionResult<bool> GetHasFired()
         {
+            int id = GetCurrentUserID();
             var solider = _context.MilitaryCollegeDb.Where(x => x.id == id).FirstOrDefault();
             if (solider == null) return NotFound();
           

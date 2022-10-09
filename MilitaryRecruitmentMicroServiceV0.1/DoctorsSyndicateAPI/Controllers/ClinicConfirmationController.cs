@@ -31,11 +31,11 @@ namespace DoctorsSyndicateAPI.Controllers
         }
         [HttpGet]
         [Route("GetClinicConfirmation/")]
-        public ActionResult<bool> GetClinicConfirmation(int id)
+        public ActionResult<bool> GetClinicConfirmation()
         {
+            int id = GetCurrentUserID();
             var doctor = _context.DoctorsSyndicateDb.Where(x => x.id == id).FirstOrDefault();
             if (doctor == null) return NotFound();
-       
             return doctor.HasClinicConfirmation;
         }
     }
