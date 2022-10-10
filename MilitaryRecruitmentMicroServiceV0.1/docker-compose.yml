@@ -135,14 +135,7 @@ services:
       - "41011:80"
       - "40011:443"
 
-  loginapi:
-    image: ${DOCKER_REGISTRY-}loginapi
-    build:
-      context: .
-      dockerfile: LoginAPI/Dockerfile
-    ports:
-      - "41050:80"
-      - "40050:443"
+
 
   jailapi:
     image: ${DOCKER_REGISTRY-}jailapi
@@ -172,5 +165,15 @@ services:
       - "41017:80"
       - "40017:443"
 
+  loginapi:
+    image: ${DOCKER_REGISTRY-}loginapi
+    build:
+      context: .
+      dockerfile: LoginAPI/Dockerfile
+    ports:
+      - "41050:80"
+      - "40050:443"
+
 volumes:
   sqlvol:
+

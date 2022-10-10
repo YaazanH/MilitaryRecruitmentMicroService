@@ -14,10 +14,10 @@ services:
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
       - NUGET_FALLBACK_PACKAGES=/root/.nuget/fallbackpackages
     volumes:
-      - C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\AirLineAPI:/app
-      - C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1:/src
-      - C:\Users\kasem saudi\vsdbg\vs2017u5:/remote_debugger:rw
-      - C:\Users\kasem saudi\.nuget\packages\:/root/.nuget/packages:ro
+      - D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\AirLineAPI:/app
+      - D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1:/src
+      - C:\Users\yazon\vsdbg\vs2017u5:/remote_debugger:rw
+      - C:\Users\yazon\.nuget\packages\:/root/.nuget/packages:ro
       - C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages:/root/.nuget/fallbackpackages:ro
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
@@ -42,10 +42,10 @@ services:
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
       - NUGET_FALLBACK_PACKAGES=/root/.nuget/fallbackpackages
     volumes:
-      - C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\AwqafAPI:/app
-      - C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1:/src
-      - C:\Users\kasem saudi\vsdbg\vs2017u5:/remote_debugger:rw
-      - C:\Users\kasem saudi\.nuget\packages\:/root/.nuget/packages:ro
+      - D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\AwqafAPI:/app
+      - D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1:/src
+      - C:\Users\yazon\vsdbg\vs2017u5:/remote_debugger:rw
+      - C:\Users\yazon\.nuget\packages\:/root/.nuget/packages:ro
       - C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages:/root/.nuget/fallbackpackages:ro
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
@@ -71,10 +71,10 @@ services:
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
       - NUGET_FALLBACK_PACKAGES=/root/.nuget/fallbackpackages
     volumes:
-      - C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\BloodBankAPI:/app
-      - C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1:/src
-      - C:\Users\kasem saudi\vsdbg\vs2017u5:/remote_debugger:rw
-      - C:\Users\kasem saudi\.nuget\packages\:/root/.nuget/packages:ro
+      - D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\BloodBankAPI:/app
+      - D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1:/src
+      - C:\Users\yazon\vsdbg\vs2017u5:/remote_debugger:rw
+      - C:\Users\yazon\.nuget\packages\:/root/.nuget/packages:ro
       - C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages:/root/.nuget/fallbackpackages:ro
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
@@ -100,10 +100,10 @@ services:
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
       - NUGET_FALLBACK_PACKAGES=/root/.nuget/fallbackpackages
     volumes:
-      - C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\CivilPoliceAPI:/app
-      - C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1:/src
-      - C:\Users\kasem saudi\vsdbg\vs2017u5:/remote_debugger:rw
-      - C:\Users\kasem saudi\.nuget\packages\:/root/.nuget/packages:ro
+      - D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\CivilPoliceAPI:/app
+      - D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1:/src
+      - C:\Users\yazon\vsdbg\vs2017u5:/remote_debugger:rw
+      - C:\Users\yazon\.nuget\packages\:/root/.nuget/packages:ro
       - C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages:/root/.nuget/fallbackpackages:ro
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
@@ -129,10 +129,10 @@ services:
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
       - NUGET_FALLBACK_PACKAGES=/root/.nuget/fallbackpackages
     volumes:
-      - C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\CompetentAuthorityAPI:/app
-      - C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1:/src
-      - C:\Users\kasem saudi\vsdbg\vs2017u5:/remote_debugger:rw
-      - C:\Users\kasem saudi\.nuget\packages\:/root/.nuget/packages:ro
+      - D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\CompetentAuthorityAPI:/app
+      - D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1:/src
+      - C:\Users\yazon\vsdbg\vs2017u5:/remote_debugger:rw
+      - C:\Users\yazon\.nuget\packages\:/root/.nuget/packages:ro
       - C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages:/root/.nuget/fallbackpackages:ro
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
@@ -158,10 +158,10 @@ services:
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
       - NUGET_FALLBACK_PACKAGES=/root/.nuget/fallbackpackages
     volumes:
-      - C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\CourtAPI:/app
-      - C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1:/src
-      - C:\Users\kasem saudi\vsdbg\vs2017u5:/remote_debugger:rw
-      - C:\Users\kasem saudi\.nuget\packages\:/root/.nuget/packages:ro
+      - D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\CourtAPI:/app
+      - D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1:/src
+      - C:\Users\yazon\vsdbg\vs2017u5:/remote_debugger:rw
+      - C:\Users\yazon\.nuget\packages\:/root/.nuget/packages:ro
       - C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages:/root/.nuget/fallbackpackages:ro
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
@@ -187,10 +187,10 @@ services:
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
       - NUGET_FALLBACK_PACKAGES=/root/.nuget/fallbackpackages
     volumes:
-      - C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\DefenseAPI:/app
-      - C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1:/src
-      - C:\Users\kasem saudi\vsdbg\vs2017u5:/remote_debugger:rw
-      - C:\Users\kasem saudi\.nuget\packages\:/root/.nuget/packages:ro
+      - D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\DefenseAPI:/app
+      - D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1:/src
+      - C:\Users\yazon\vsdbg\vs2017u5:/remote_debugger:rw
+      - C:\Users\yazon\.nuget\packages\:/root/.nuget/packages:ro
       - C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages:/root/.nuget/fallbackpackages:ro
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
@@ -216,10 +216,10 @@ services:
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
       - NUGET_FALLBACK_PACKAGES=/root/.nuget/fallbackpackages
     volumes:
-      - C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\DoctorsSyndicateAPI:/app
-      - C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1:/src
-      - C:\Users\kasem saudi\vsdbg\vs2017u5:/remote_debugger:rw
-      - C:\Users\kasem saudi\.nuget\packages\:/root/.nuget/packages:ro
+      - D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\DoctorsSyndicateAPI:/app
+      - D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1:/src
+      - C:\Users\yazon\vsdbg\vs2017u5:/remote_debugger:rw
+      - C:\Users\yazon\.nuget\packages\:/root/.nuget/packages:ro
       - C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages:/root/.nuget/fallbackpackages:ro
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
@@ -245,10 +245,10 @@ services:
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
       - NUGET_FALLBACK_PACKAGES=/root/.nuget/fallbackpackages
     volumes:
-      - C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\HealthMinAPI:/app
-      - C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1:/src
-      - C:\Users\kasem saudi\vsdbg\vs2017u5:/remote_debugger:rw
-      - C:\Users\kasem saudi\.nuget\packages\:/root/.nuget/packages:ro
+      - D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\HealthMinAPI:/app
+      - D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1:/src
+      - C:\Users\yazon\vsdbg\vs2017u5:/remote_debugger:rw
+      - C:\Users\yazon\.nuget\packages\:/root/.nuget/packages:ro
       - C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages:/root/.nuget/fallbackpackages:ro
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
@@ -274,10 +274,10 @@ services:
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
       - NUGET_FALLBACK_PACKAGES=/root/.nuget/fallbackpackages
     volumes:
-      - C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\HighEduMinAPI:/app
-      - C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1:/src
-      - C:\Users\kasem saudi\vsdbg\vs2017u5:/remote_debugger:rw
-      - C:\Users\kasem saudi\.nuget\packages\:/root/.nuget/packages:ro
+      - D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\HighEduMinAPI:/app
+      - D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1:/src
+      - C:\Users\yazon\vsdbg\vs2017u5:/remote_debugger:rw
+      - C:\Users\yazon\.nuget\packages\:/root/.nuget/packages:ro
       - C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages:/root/.nuget/fallbackpackages:ro
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
@@ -303,10 +303,10 @@ services:
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
       - NUGET_FALLBACK_PACKAGES=/root/.nuget/fallbackpackages
     volumes:
-      - C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\JailAPI:/app
-      - C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1:/src
-      - C:\Users\kasem saudi\vsdbg\vs2017u5:/remote_debugger:rw
-      - C:\Users\kasem saudi\.nuget\packages\:/root/.nuget/packages:ro
+      - D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\JailAPI:/app
+      - D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1:/src
+      - C:\Users\yazon\vsdbg\vs2017u5:/remote_debugger:rw
+      - C:\Users\yazon\.nuget\packages\:/root/.nuget/packages:ro
       - C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages:/root/.nuget/fallbackpackages:ro
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
@@ -332,10 +332,10 @@ services:
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
       - NUGET_FALLBACK_PACKAGES=/root/.nuget/fallbackpackages
     volumes:
-      - C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\LoginAPI:/app
-      - C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1:/src
-      - C:\Users\kasem saudi\vsdbg\vs2017u5:/remote_debugger:rw
-      - C:\Users\kasem saudi\.nuget\packages\:/root/.nuget/packages:ro
+      - D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\LoginAPI:/app
+      - D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1:/src
+      - C:\Users\yazon\vsdbg\vs2017u5:/remote_debugger:rw
+      - C:\Users\yazon\.nuget\packages\:/root/.nuget/packages:ro
       - C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages:/root/.nuget/fallbackpackages:ro
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
@@ -361,10 +361,10 @@ services:
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
       - NUGET_FALLBACK_PACKAGES=/root/.nuget/fallbackpackages
     volumes:
-      - C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\MilitaryCollegeAPI:/app
-      - C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1:/src
-      - C:\Users\kasem saudi\vsdbg\vs2017u5:/remote_debugger:rw
-      - C:\Users\kasem saudi\.nuget\packages\:/root/.nuget/packages:ro
+      - D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\MilitaryCollegeAPI:/app
+      - D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1:/src
+      - C:\Users\yazon\vsdbg\vs2017u5:/remote_debugger:rw
+      - C:\Users\yazon\.nuget\packages\:/root/.nuget/packages:ro
       - C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages:/root/.nuget/fallbackpackages:ro
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
@@ -390,10 +390,10 @@ services:
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
       - NUGET_FALLBACK_PACKAGES=/root/.nuget/fallbackpackages
     volumes:
-      - C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\MinistryOfForeignAffairsAPI:/app
-      - C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1:/src
-      - C:\Users\kasem saudi\vsdbg\vs2017u5:/remote_debugger:rw
-      - C:\Users\kasem saudi\.nuget\packages\:/root/.nuget/packages:ro
+      - D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\MinistryOfForeignAffairsAPI:/app
+      - D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1:/src
+      - C:\Users\yazon\vsdbg\vs2017u5:/remote_debugger:rw
+      - C:\Users\yazon\.nuget\packages\:/root/.nuget/packages:ro
       - C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages:/root/.nuget/fallbackpackages:ro
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
@@ -419,10 +419,10 @@ services:
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
       - NUGET_FALLBACK_PACKAGES=/root/.nuget/fallbackpackages
     volumes:
-      - C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\PassportAPI:/app
-      - C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1:/src
-      - C:\Users\kasem saudi\vsdbg\vs2017u5:/remote_debugger:rw
-      - C:\Users\kasem saudi\.nuget\packages\:/root/.nuget/packages:ro
+      - D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\PassportAPI:/app
+      - D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1:/src
+      - C:\Users\yazon\vsdbg\vs2017u5:/remote_debugger:rw
+      - C:\Users\yazon\.nuget\packages\:/root/.nuget/packages:ro
       - C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages:/root/.nuget/fallbackpackages:ro
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
@@ -448,10 +448,10 @@ services:
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
       - NUGET_FALLBACK_PACKAGES=/root/.nuget/fallbackpackages
     volumes:
-      - C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\PoliticalPartiesAPI:/app
-      - C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1:/src
-      - C:\Users\kasem saudi\vsdbg\vs2017u5:/remote_debugger:rw
-      - C:\Users\kasem saudi\.nuget\packages\:/root/.nuget/packages:ro
+      - D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\PoliticalPartiesAPI:/app
+      - D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1:/src
+      - C:\Users\yazon\vsdbg\vs2017u5:/remote_debugger:rw
+      - C:\Users\yazon\.nuget\packages\:/root/.nuget/packages:ro
       - C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages:/root/.nuget/fallbackpackages:ro
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
@@ -477,10 +477,10 @@ services:
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
       - NUGET_FALLBACK_PACKAGES=/root/.nuget/fallbackpackages
     volumes:
-      - C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\UniversityAPI:/app
-      - C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1:/src
-      - C:\Users\kasem saudi\vsdbg\vs2017u5:/remote_debugger:rw
-      - C:\Users\kasem saudi\.nuget\packages\:/root/.nuget/packages:ro
+      - D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\UniversityAPI:/app
+      - D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1:/src
+      - C:\Users\yazon\vsdbg\vs2017u5:/remote_debugger:rw
+      - C:\Users\yazon\.nuget\packages\:/root/.nuget/packages:ro
       - C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages:/root/.nuget/fallbackpackages:ro
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro

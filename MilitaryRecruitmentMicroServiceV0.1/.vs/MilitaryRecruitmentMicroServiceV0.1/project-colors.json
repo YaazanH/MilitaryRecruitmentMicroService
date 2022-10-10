@@ -95,7 +95,37 @@
       "ProjectGuid": "3cc8e53f-a4ef-4d4f-b2e7-e229c9d73250",
       "DisplayName": "AwqafAPI",
       "ColorIndex": 1
+    },
+    "03feb6d1-5b89-44b1-a654-ad70cfc19020": {
+      "ProjectGuid": "03feb6d1-5b89-44b1-a654-ad70cfc19020",
+      "DisplayName": "MinistryOfForeignAffairsAPI",
+      "ColorIndex": 2
+    },
+    "ebea6e96-5f2d-410d-9b42-de9d40e58fc4": {
+      "ProjectGuid": "ebea6e96-5f2d-410d-9b42-de9d40e58fc4",
+      "DisplayName": "PassportAPI",
+      "ColorIndex": 3
+    },
+    "861393c2-86f0-4b3c-8d60-05bb8861fedc": {
+      "ProjectGuid": "861393c2-86f0-4b3c-8d60-05bb8861fedc",
+      "DisplayName": "LoginAPI",
+      "ColorIndex": 4
+    },
+    "bdc3d95d-b2f9-4511-8f2a-75c0ce2b4772": {
+      "ProjectGuid": "bdc3d95d-b2f9-4511-8f2a-75c0ce2b4772",
+      "DisplayName": "JailAPI",
+      "ColorIndex": 5
+    },
+    "b1b9b90e-a904-43cf-a344-59cda7f9d92c": {
+      "ProjectGuid": "b1b9b90e-a904-43cf-a344-59cda7f9d92c",
+      "DisplayName": "LoginAPI",
+      "ColorIndex": 6
+    },
+    "9790ff93-efd0-429f-b813-951943a8959c": {
+      "ProjectGuid": "9790ff93-efd0-429f-b813-951943a8959c",
+      "DisplayName": "LoginAPI",
+      "ColorIndex": 7
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 8
 }

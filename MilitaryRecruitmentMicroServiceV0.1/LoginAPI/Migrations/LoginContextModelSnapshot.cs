@@ -33,7 +33,7 @@ namespace LoginAPI.Migrations
 
                     b.HasKey("ID");
 
-                    b.ToTable("HighEduMinDBS");
+                    b.ToTable("LoginDBS");
                 });
 #pragma warning restore 612, 618
         }

@@ -53,7 +53,7 @@ namespace LoginAPI
                 {
                     HTTP = $"http://{serviceUri.Host}:49933/HighEduMin/GetIsAStudent?id=1",
                     Interval = TimeSpan.FromSeconds(10)
-                    
+
                 }
             };
 

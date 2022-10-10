@@ -11,7 +11,7 @@ using System.Text;
 using LoginAPI.Data;
 using Microsoft.EntityFrameworkCore;
 using System;
-
+using Microsoft.OpenApi.Models;
 
 namespace LoginAPI
 {
@@ -43,8 +43,10 @@ namespace LoginAPI
                 });
             services.AddMvc();
             services.AddControllers();
-
-            services.AddRazorPages();
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "LoginAPI", Version = "v1" });
+            });
             services.AddSingleton<IHostedService, ConsulRegisterService>();
             services.Configure<ServiceConfiguration>(Configuration.GetSection("Service"));
             services.Configure<ConsulConfiguration>(Configuration.GetSection("Consul"));
@@ -64,26 +66,19 @@ namespace LoginAPI
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                app.UseSwagger();
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "LoginAPI v1"));
             }
-            else
-            {
-                app.UseExceptionHandler("/Error");
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-                app.UseHsts();
-            }
+
             app.UseHttpsRedirection();
-            app.UseStaticFiles();
 
             app.UseRouting();
 
             app.UseAuthorization();
 
-            app.UseAuthentication();
-
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
-                endpoints.MapRazorPages();
             });
         }
     }

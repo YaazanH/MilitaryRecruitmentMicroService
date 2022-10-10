@@ -97,8 +97,6 @@ D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\PassportAPI.runtime
 D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\PassportAPI.exe
 D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\PassportAPI.dll
 D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\PassportAPI.pdb
-D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\LoginAPI.Views.dll
-D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\LoginAPI.Views.pdb
 D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\LoginAPI.deps.json
 D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\LoginAPI.runtimeconfig.json
 D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\LoginAPI.runtimeconfig.dev.json
@@ -385,3 +383,9 @@ E:\Jun\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\bin\D
 E:\Jun\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\MinistryOfForeignAffairsAPI.runtimeconfig.dev.json
 E:\Jun\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\MinistryOfForeignAffairsAPI.exe
 E:\Jun\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\MinistryOfForeignAffairsAPI.pdb
+D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\MinistryOfForeignAffairsAPI.deps.json
+D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\MinistryOfForeignAffairsAPI.runtimeconfig.json
+D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\MinistryOfForeignAffairsAPI.runtimeconfig.dev.json
+D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\MinistryOfForeignAffairsAPI.exe
+D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\MinistryOfForeignAffairsAPI.dll
+D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\MinistryOfForeignAffairsAPI.pdb

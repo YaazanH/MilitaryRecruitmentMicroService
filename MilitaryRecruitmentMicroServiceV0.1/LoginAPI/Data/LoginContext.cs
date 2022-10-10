@@ -7,6 +7,6 @@ namespace LoginAPI.Data
         public LoginContext(DbContextOptions<LoginContext> options) : base(options)
         { }
 
-        public DbSet<LoginAPI.Models.Login> HighEduMinDBS { get; set; }
+        public DbSet<LoginAPI.Models.Login> LoginDBS { get; set; }
     }
 }
