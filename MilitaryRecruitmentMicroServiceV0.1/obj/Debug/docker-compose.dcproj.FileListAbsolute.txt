@@ -168,8 +168,6 @@ E:\Jun\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\bin\D
 E:\Jun\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\PassportAPI.runtimeconfig.json
 E:\Jun\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\PassportAPI.runtimeconfig.dev.json
 E:\Jun\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\PassportAPI.exe
-E:\Jun\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\LoginAPI.Views.dll
-E:\Jun\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\LoginAPI.Views.pdb
 E:\Jun\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\LoginAPI.deps.json
 E:\Jun\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\LoginAPI.runtimeconfig.json
 E:\Jun\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\LoginAPI.runtimeconfig.dev.json

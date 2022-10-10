@@ -11,6 +11,7 @@ namespace MinistryOfForeignAffairsAPI.Models
         public bool FamilyMemberOutsideTheCountry { get; set; }
         public bool ServedInAnotherArmy { get; set; }
         public bool Inside { get; set; }
-
+        public bool RatificationOfBeingAManOfGod { get; set; }
+        public bool Ambassadors { get; set; }
     }
 }
