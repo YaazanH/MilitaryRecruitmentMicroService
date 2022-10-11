@@ -38,5 +38,16 @@ namespace UniversityAPI.Controllers
 
             return student.HasMasterConfirmation;
         }
+
+        [HttpGet]
+        [Route("GetStudyYears/")]
+        public ActionResult<int> GetStudyYears()
+        {
+            int id = GetCurrentUserID();
+            var student = _context.UniversityDb.Where(x => x.id == id).FirstOrDefault();
+            if (student == null) return NotFound();
+
+            return student.YearsOfStudy;
+        }
     }
 }

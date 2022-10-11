@@ -13,5 +13,6 @@ namespace UniversityAPI.Models
         public Boolean HasMasterConfirmation { get; set; }
 
         public DateTimeOffset CreatedAt { get; set; }
+        public int YearsOfStudy { get; set; }
     }
 }

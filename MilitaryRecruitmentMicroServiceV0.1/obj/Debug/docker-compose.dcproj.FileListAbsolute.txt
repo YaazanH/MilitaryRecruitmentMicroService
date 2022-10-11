@@ -293,8 +293,6 @@ D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\Milita
 D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\PassportAPI.runtimeconfig.json
 D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\PassportAPI.runtimeconfig.dev.json
 D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\PassportAPI.exe
-D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\LoginAPI.Views.dll
-D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\LoginAPI.Views.pdb
 D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\LoginAPI.deps.json
 D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\LoginAPI.runtimeconfig.json
 D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\LoginAPI.runtimeconfig.dev.json
@@ -387,3 +385,9 @@ D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\MinistryOfForeignAf
 D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\MinistryOfForeignAffairsAPI.exe
 D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\MinistryOfForeignAffairsAPI.dll
 D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\MinistryOfForeignAffairsAPI.pdb
+D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\MinistryOfForeignAffairsAPI.deps.json
+D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\MinistryOfForeignAffairsAPI.runtimeconfig.json
+D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\MinistryOfForeignAffairsAPI.runtimeconfig.dev.json
+D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\MinistryOfForeignAffairsAPI.exe
+D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\MinistryOfForeignAffairsAPI.dll
+D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\MilitaryRecruitmentMicroServiceV0.1\bin\Debug\MinistryOfForeignAffairsAPI.pdb
