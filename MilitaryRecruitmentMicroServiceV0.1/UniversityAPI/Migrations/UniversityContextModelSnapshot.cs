@@ -19,7 +19,7 @@ namespace UniversityAPI.Migrations
                 .HasAnnotation("ProductVersion", "5.0.17")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("UniversityAPI.Models.MasterConfirmation", b =>
+            modelBuilder.Entity("UniversityAPI.Models.Student", b =>
                 {
                     b.Property<int>("id")
                         .ValueGeneratedOnAdd()
@@ -32,8 +32,14 @@ namespace UniversityAPI.Migrations
                     b.Property<bool>("HasMasterConfirmation")
                         .HasColumnType("bit");
 
+                    b.Property<bool>("IsStudyingNow")
+                        .HasColumnType("bit");
+
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("YearsOfStudy")
+                        .HasColumnType("int");
 
                     b.HasKey("id");
 

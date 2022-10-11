@@ -7,6 +7,6 @@ namespace UniversityAPI.Data
         public UniversityContext(DbContextOptions<UniversityContext> options) : base(options)
         { }
 
-        public DbSet<UniversityAPI.Models.MasterConfirmation> UniversityDb { get; set; }
+        public DbSet<UniversityAPI.Models.Student> UniversityDb { get; set; }
     }
 }
