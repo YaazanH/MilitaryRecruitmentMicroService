@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Linq;
 using System.Security.Claims;
+using Microsoft.AspNetCore.Mvc;
 using UniversityAPI.Data;
 
 namespace UniversityAPI.Controllers

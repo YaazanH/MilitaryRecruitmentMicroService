@@ -125,7 +125,12 @@
       "ProjectGuid": "9790ff93-efd0-429f-b813-951943a8959c",
       "DisplayName": "LoginAPI",
       "ColorIndex": 7
+    },
+    "4e29fb4b-efd9-44c0-a843-514174d3c1ae": {
+      "ProjectGuid": "4e29fb4b-efd9-44c0-a843-514174d3c1ae",
+      "DisplayName": "CompetentAuthorityAPI",
+      "ColorIndex": 8
     }
   },
-  "NextColorIndex": 8
+  "NextColorIndex": 9
 }
