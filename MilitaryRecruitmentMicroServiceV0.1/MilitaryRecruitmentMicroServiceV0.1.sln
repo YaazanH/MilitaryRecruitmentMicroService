@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.31919.166
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32901.82
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HealthMinAPI", "HealthMinAPI\HealthMinAPI.csproj", "{51B3D882-DFBC-413D-B9A7-F2E6EFD8DB3E}"
 EndProject
@@ -37,7 +37,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompetentAuthorityAPI", "Co
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinistryOfForeignAffairsAPI", "MinistryOfForeignAffairsAPI\MinistryOfForeignAffairsAPI.csproj", "{03FEB6D1-5B89-44B1-A654-AD70CFC19020}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginAPI", "LoginAPI\LoginAPI.csproj", "{9790FF93-EFD0-429F-B813-951943A8959C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoginAPI", "LoginAPI\LoginAPI.csproj", "{9790FF93-EFD0-429F-B813-951943A8959C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinestryofInteriorAffairsAPI", "MinestryofInteriorAffairsAPI\MinestryofInteriorAffairsAPI.csproj", "{5DA130DB-BF23-49D1-ACA8-6C584AF1628E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +119,10 @@ Global
 		{9790FF93-EFD0-429F-B813-951943A8959C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9790FF93-EFD0-429F-B813-951943A8959C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9790FF93-EFD0-429F-B813-951943A8959C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DA130DB-BF23-49D1-ACA8-6C584AF1628E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DA130DB-BF23-49D1-ACA8-6C584AF1628E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DA130DB-BF23-49D1-ACA8-6C584AF1628E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DA130DB-BF23-49D1-ACA8-6C584AF1628E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
