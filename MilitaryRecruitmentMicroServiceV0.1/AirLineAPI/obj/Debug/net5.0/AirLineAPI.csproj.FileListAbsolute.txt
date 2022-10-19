@@ -247,3 +247,4 @@ C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\Ai
 C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\AirLineAPI\obj\Debug\net5.0\ref\AirLineAPI.dll
 C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\AirLineAPI\obj\Debug\net5.0\AirLineAPI.pdb
 C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\AirLineAPI\obj\Debug\net5.0\AirLineAPI.genruntimeconfig.cache
+D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\MilitaryRecruitmentMicroServiceV0.1\AirLineAPI\bin\Debug\net5.0\AirLineAPI.StaticWebAssets.xml

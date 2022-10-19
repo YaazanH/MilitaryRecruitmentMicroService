@@ -247,3 +247,4 @@ C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\Mi
 C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\MilitaryCollegeAPI\obj\Debug\net5.0\ref\MilitaryCollegeAPI.dll
 C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\MilitaryCollegeAPI\obj\Debug\net5.0\MilitaryCollegeAPI.pdb
 C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\MilitaryCollegeAPI\obj\Debug\net5.0\MilitaryCollegeAPI.genruntimeconfig.cache
+D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\MilitaryRecruitmentMicroServiceV0.1\MilitaryCollegeAPI\bin\Debug\net5.0\MilitaryCollegeAPI.StaticWebAssets.xml

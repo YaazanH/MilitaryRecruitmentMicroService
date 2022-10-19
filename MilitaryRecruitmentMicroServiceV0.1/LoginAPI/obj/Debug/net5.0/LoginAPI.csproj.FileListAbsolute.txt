@@ -251,3 +251,4 @@ C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\Lo
 C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\LoginAPI\obj\Debug\net5.0\ref\LoginAPI.dll
 C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\LoginAPI\obj\Debug\net5.0\LoginAPI.pdb
 C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\LoginAPI\obj\Debug\net5.0\LoginAPI.genruntimeconfig.cache
+D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\MilitaryRecruitmentMicroServiceV0.1\LoginAPI\bin\Debug\net5.0\LoginAPI.StaticWebAssets.xml

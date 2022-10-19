@@ -247,3 +247,4 @@ C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\Pa
 C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\PassportAPI\obj\Debug\net5.0\ref\PassportAPI.dll
 C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\PassportAPI\obj\Debug\net5.0\PassportAPI.pdb
 C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\PassportAPI\obj\Debug\net5.0\PassportAPI.genruntimeconfig.cache
+D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\MilitaryRecruitmentMicroServiceV0.1\PassportAPI\bin\Debug\net5.0\PassportAPI.StaticWebAssets.xml

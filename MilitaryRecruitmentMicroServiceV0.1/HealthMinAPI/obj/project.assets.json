@@ -5706,24 +5706,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kasem saudi\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\mooha\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\github\\MilitaryRecruitmentMicroService\\MilitaryRecruitmentMicroServiceV0.1\\HealthMinAPI\\HealthMinAPI.csproj",
+      "projectUniqueName": "D:\\MS\\MilitaryRecruitmentMicroService\\MilitaryRecruitmentMicroServiceV0.1\\MilitaryRecruitmentMicroServiceV0.1\\HealthMinAPI\\HealthMinAPI.csproj",
       "projectName": "HealthMinAPI",
-      "projectPath": "C:\\github\\MilitaryRecruitmentMicroService\\MilitaryRecruitmentMicroServiceV0.1\\HealthMinAPI\\HealthMinAPI.csproj",
-      "packagesPath": "C:\\Users\\kasem saudi\\.nuget\\packages\\",
-      "outputPath": "C:\\github\\MilitaryRecruitmentMicroService\\MilitaryRecruitmentMicroServiceV0.1\\HealthMinAPI\\obj\\",
+      "projectPath": "D:\\MS\\MilitaryRecruitmentMicroService\\MilitaryRecruitmentMicroServiceV0.1\\MilitaryRecruitmentMicroServiceV0.1\\HealthMinAPI\\HealthMinAPI.csproj",
+      "packagesPath": "C:\\Users\\mooha\\.nuget\\packages\\",
+      "outputPath": "D:\\MS\\MilitaryRecruitmentMicroService\\MilitaryRecruitmentMicroServiceV0.1\\MilitaryRecruitmentMicroServiceV0.1\\HealthMinAPI\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\kasem saudi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\mooha\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5731,7 +5726,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://www.nuget.org/api/v2": {}
       },
       "frameworks": {
         "net5.0": {
@@ -5786,7 +5782,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -5798,7 +5795,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

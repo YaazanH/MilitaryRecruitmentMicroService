@@ -185,7 +185,55 @@ services:
     ports:
       - "41014:80"
       - "40014:443"
+  barassociationapi:
+    image: ${DOCKER_REGISTRY-}barassociationapi
+    build:
+      context: .
+      dockerfile: BarAssociationAPI/Dockerfile
+    ports:
+      - "41020:80"
+      - "40020:443"
+      
+
+  financeapi:
+    image: ${DOCKER_REGISTRY-}financeapi
+    build:
+      context: .
+      dockerfile: FinanceAPI/Dockerfile
+    ports:
+      - "41022:80"
+      - "40022:443"
+
+  eduminapi:
+    image: ${DOCKER_REGISTRY-}eduminapi
+    build:
+      context: .
+      dockerfile: EduMinAPI/Dockerfile
+    ports:
+      - "41021:80"
+      - "40021:443"
+  laborminapi:
+    image: ${DOCKER_REGISTRY-}laborminapi
+    build:
+      context: .
+      dockerfile: LaborMinAPI/Dockerfile
+    ports:
+      - "41024:80"
+      - "40024:443"
+  transportationminapi:
+    image: ${DOCKER_REGISTRY-}transportationminapi
+    build:
+      context: .
+      dockerfile: TransportationMinAPI/Dockerfile
+    ports:
+      - "41023:80"
+      - "40023:443"
 volumes:
   sqlvol:
+
+
+
+
+
 
 
