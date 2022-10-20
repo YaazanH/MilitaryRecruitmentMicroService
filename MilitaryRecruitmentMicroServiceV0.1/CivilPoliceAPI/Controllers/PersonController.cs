@@ -30,8 +30,8 @@ namespace CivilPoliceAPI.Controllers
             _context = context;
         }
         [HttpGet]
-        [Route("HasClinicConfirmation/")]
-        public ActionResult<int> GetHasDonated()
+        [Route("NumberOfBrothers/")]
+        public ActionResult<int> GetNumberOfBrothers()
         {
             int id = GetCurrentUserID();
             var person = _context.CivilPoliceDb.Where(x => x.id == id).FirstOrDefault();
