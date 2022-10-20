@@ -228,8 +228,15 @@ services:
     ports:
       - "41023:80"
       - "40023:443"
+  recordadminstration:
+    image: ${DOCKER_REGISTRY-}recordadminstration
+    build:
+      context: .
+      dockerfile: RecordAdminstration/Dockerfile
+
 volumes:
   sqlvol:
+
 
 
 

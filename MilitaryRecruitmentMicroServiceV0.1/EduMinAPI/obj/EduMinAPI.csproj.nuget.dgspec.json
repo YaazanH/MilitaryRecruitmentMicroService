@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MS\\MilitaryRecruitmentMicroService\\MilitaryRecruitmentMicroServiceV0.1\\MilitaryRecruitmentMicroServiceV0.1\\EduMinAPI\\EduMinAPI.csproj": {}
+    "E:\\Jun\\MilitaryRecruitmentMicroService\\MilitaryRecruitmentMicroServiceV0.1\\EduMinAPI\\EduMinAPI.csproj": {}
   },
   "projects": {
-    "D:\\MS\\MilitaryRecruitmentMicroService\\MilitaryRecruitmentMicroServiceV0.1\\MilitaryRecruitmentMicroServiceV0.1\\EduMinAPI\\EduMinAPI.csproj": {
+    "E:\\Jun\\MilitaryRecruitmentMicroService\\MilitaryRecruitmentMicroServiceV0.1\\EduMinAPI\\EduMinAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MS\\MilitaryRecruitmentMicroService\\MilitaryRecruitmentMicroServiceV0.1\\MilitaryRecruitmentMicroServiceV0.1\\EduMinAPI\\EduMinAPI.csproj",
+        "projectUniqueName": "E:\\Jun\\MilitaryRecruitmentMicroService\\MilitaryRecruitmentMicroServiceV0.1\\EduMinAPI\\EduMinAPI.csproj",
         "projectName": "EduMinAPI",
-        "projectPath": "D:\\MS\\MilitaryRecruitmentMicroService\\MilitaryRecruitmentMicroServiceV0.1\\MilitaryRecruitmentMicroServiceV0.1\\EduMinAPI\\EduMinAPI.csproj",
-        "packagesPath": "C:\\Users\\mooha\\.nuget\\packages\\",
-        "outputPath": "D:\\MS\\MilitaryRecruitmentMicroService\\MilitaryRecruitmentMicroServiceV0.1\\MilitaryRecruitmentMicroServiceV0.1\\EduMinAPI\\obj\\",
+        "projectPath": "E:\\Jun\\MilitaryRecruitmentMicroService\\MilitaryRecruitmentMicroServiceV0.1\\EduMinAPI\\EduMinAPI.csproj",
+        "packagesPath": "C:\\Users\\BeanDady\\.nuget\\packages\\",
+        "outputPath": "E:\\Jun\\MilitaryRecruitmentMicroService\\MilitaryRecruitmentMicroServiceV0.1\\EduMinAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mooha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\BeanDady\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,8 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://www.nuget.org/api/v2": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {

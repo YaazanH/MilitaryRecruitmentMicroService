@@ -41,15 +41,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoginAPI", "LoginAPI\LoginA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinestryofInteriorAffairsAPI", "MinestryofInteriorAffairsAPI\MinestryofInteriorAffairsAPI.csproj", "{5DA130DB-BF23-49D1-ACA8-6C584AF1628E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarAssociationAPI", "BarAssociationAPI\BarAssociationAPI.csproj", "{62894D7F-5EB9-4AB4-AE71-B8C8D404002D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BarAssociationAPI", "BarAssociationAPI\BarAssociationAPI.csproj", "{62894D7F-5EB9-4AB4-AE71-B8C8D404002D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinanceAPI", "FinanceAPI\FinanceAPI.csproj", "{D82DAC18-A428-48DD-BF09-3182ED3FCDF3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinanceAPI", "FinanceAPI\FinanceAPI.csproj", "{D82DAC18-A428-48DD-BF09-3182ED3FCDF3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduMinAPI", "EduMinAPI\EduMinAPI.csproj", "{A5F87FC2-D7D8-4120-A1E7-8CFA337D2DCE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EduMinAPI", "EduMinAPI\EduMinAPI.csproj", "{A5F87FC2-D7D8-4120-A1E7-8CFA337D2DCE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaborMinAPI", "LaborMinAPI\LaborMinAPI.csproj", "{D77BB05B-C24F-486E-8E0E-C6F804D28A11}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LaborMinAPI", "LaborMinAPI\LaborMinAPI.csproj", "{D77BB05B-C24F-486E-8E0E-C6F804D28A11}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransportationMinAPI", "TransportationMinAPI\TransportationMinAPI.csproj", "{5D7C58BE-CAA9-421A-B70F-CEFD10086E6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransportationMinAPI", "TransportationMinAPI\TransportationMinAPI.csproj", "{5D7C58BE-CAA9-421A-B70F-CEFD10086E6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecordAdminstrationAPI", "RecordAdminstration\RecordAdminstrationAPI.csproj", "{E4256D15-39F2-4E67-9E17-12281E6BB0A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +155,10 @@ Global
 		{5D7C58BE-CAA9-421A-B70F-CEFD10086E6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D7C58BE-CAA9-421A-B70F-CEFD10086E6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D7C58BE-CAA9-421A-B70F-CEFD10086E6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4256D15-39F2-4E67-9E17-12281E6BB0A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4256D15-39F2-4E67-9E17-12281E6BB0A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4256D15-39F2-4E67-9E17-12281E6BB0A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4256D15-39F2-4E67-9E17-12281E6BB0A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

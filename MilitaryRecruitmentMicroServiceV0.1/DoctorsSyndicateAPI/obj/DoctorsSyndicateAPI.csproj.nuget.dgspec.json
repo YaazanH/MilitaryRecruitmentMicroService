@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MS\\MilitaryRecruitmentMicroService\\MilitaryRecruitmentMicroServiceV0.1\\MilitaryRecruitmentMicroServiceV0.1\\DoctorsSyndicateAPI\\DoctorsSyndicateAPI.csproj": {}
+    "E:\\Jun\\MilitaryRecruitmentMicroService\\MilitaryRecruitmentMicroServiceV0.1\\DoctorsSyndicateAPI\\DoctorsSyndicateAPI.csproj": {}
   },
   "projects": {
-    "D:\\MS\\MilitaryRecruitmentMicroService\\MilitaryRecruitmentMicroServiceV0.1\\MilitaryRecruitmentMicroServiceV0.1\\DoctorsSyndicateAPI\\DoctorsSyndicateAPI.csproj": {
+    "E:\\Jun\\MilitaryRecruitmentMicroService\\MilitaryRecruitmentMicroServiceV0.1\\DoctorsSyndicateAPI\\DoctorsSyndicateAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MS\\MilitaryRecruitmentMicroService\\MilitaryRecruitmentMicroServiceV0.1\\MilitaryRecruitmentMicroServiceV0.1\\DoctorsSyndicateAPI\\DoctorsSyndicateAPI.csproj",
+        "projectUniqueName": "E:\\Jun\\MilitaryRecruitmentMicroService\\MilitaryRecruitmentMicroServiceV0.1\\DoctorsSyndicateAPI\\DoctorsSyndicateAPI.csproj",
         "projectName": "DoctorsSyndicateAPI",
-        "projectPath": "D:\\MS\\MilitaryRecruitmentMicroService\\MilitaryRecruitmentMicroServiceV0.1\\MilitaryRecruitmentMicroServiceV0.1\\DoctorsSyndicateAPI\\DoctorsSyndicateAPI.csproj",
-        "packagesPath": "C:\\Users\\mooha\\.nuget\\packages\\",
-        "outputPath": "D:\\MS\\MilitaryRecruitmentMicroService\\MilitaryRecruitmentMicroServiceV0.1\\MilitaryRecruitmentMicroServiceV0.1\\DoctorsSyndicateAPI\\obj\\",
+        "projectPath": "E:\\Jun\\MilitaryRecruitmentMicroService\\MilitaryRecruitmentMicroServiceV0.1\\DoctorsSyndicateAPI\\DoctorsSyndicateAPI.csproj",
+        "packagesPath": "C:\\Users\\BeanDady\\.nuget\\packages\\",
+        "outputPath": "E:\\Jun\\MilitaryRecruitmentMicroService\\MilitaryRecruitmentMicroServiceV0.1\\DoctorsSyndicateAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mooha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\BeanDady\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,8 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://www.nuget.org/api/v2": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
