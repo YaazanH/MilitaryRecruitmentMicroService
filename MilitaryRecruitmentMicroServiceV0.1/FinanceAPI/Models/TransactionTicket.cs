@@ -13,5 +13,6 @@ namespace FinanceAPI.Models
         public string CurrencyType { get; set; }
         public DateTime PaymentDate { get; set; }
         public string ExternalNotes { get; set; }
+        public bool financialclear { get; set; }
     }
 }
