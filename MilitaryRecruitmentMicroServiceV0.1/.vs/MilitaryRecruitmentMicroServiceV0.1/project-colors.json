@@ -130,7 +130,12 @@
       "ProjectGuid": "4e29fb4b-efd9-44c0-a843-514174d3c1ae",
       "DisplayName": "CompetentAuthorityAPI",
       "ColorIndex": 8
+    },
+    "e4256d15-39f2-4e67-9e17-12281e6bb0a6": {
+      "ProjectGuid": "e4256d15-39f2-4e67-9e17-12281e6bb0a6",
+      "DisplayName": "RecordAdminstrationAPI",
+      "ColorIndex": 9
     }
   },
-  "NextColorIndex": 9
+  "NextColorIndex": 10
 }

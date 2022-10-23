@@ -23,9 +23,9 @@ namespace HealthMinAPI.Controllers
         }
         [HttpGet]
         [Route("GetHaveProb/")]
-        public ActionResult<bool> GetHaveProb()
+        public ActionResult<bool> GetHaveProb(int id)
         {
-            int id = GetCurrentUserID();
+            //int id = GetCurrentUserID();
             var worker = _context.HealthMinDBS.Where(x => x.ID == id).FirstOrDefault();
             if (worker == null) return NotFound();
             //var wo = new HaveProbDto { ID = worker.ID, Name = worker.Name, HaveaHealthProblem = worker.HaveaHealthProblem };

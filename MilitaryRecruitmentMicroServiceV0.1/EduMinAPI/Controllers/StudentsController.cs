@@ -38,8 +38,8 @@ namespace EduMinAPI.Controllers
 
             return Student.IsAStudent;
         }
-        [HttpGet("{IsDroppedOut}")]
-        [Route("GetIsAStudent/")]
+        [HttpGet]
+        [Route("GetIsDroppedOut/")]
         public ActionResult<bool> GetIsDroppedOut()
         {
             int id = GetCurrentUserID();
