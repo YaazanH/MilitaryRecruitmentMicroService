@@ -62,7 +62,7 @@ namespace RecordAdminstrationAPI.Controllers
         }
 
         [HttpGet]
-        [Route("GetIfHaseMaleBrothers/")]
+        [Route("GetIfHasMaleBrothers/")]
         public ActionResult<bool> GetIfHaseMaleBrothers()
         {
             List<int> bro = new List<int>();
