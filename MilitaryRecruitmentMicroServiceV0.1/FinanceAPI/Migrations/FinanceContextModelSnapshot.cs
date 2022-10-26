@@ -44,6 +44,9 @@ namespace FinanceAPI.Migrations
                     b.Property<int>("UserID")
                         .HasColumnType("int");
 
+                    b.Property<bool>("financialclear")
+                        .HasColumnType("bit");
+
                     b.HasKey("TicketId");
 
                     b.ToTable("FinanceDb");

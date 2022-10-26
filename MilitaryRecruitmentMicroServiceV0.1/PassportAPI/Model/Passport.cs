@@ -9,5 +9,7 @@ namespace PassportAPI.Model
         public string FullName { set; get; }
         public bool Istravel { set; get; }
         public int NumberOfDaysInSideCoun { get; set; }
+
+        public int NumberOfDaysOutsideCoun { get; set; }
     }
 }

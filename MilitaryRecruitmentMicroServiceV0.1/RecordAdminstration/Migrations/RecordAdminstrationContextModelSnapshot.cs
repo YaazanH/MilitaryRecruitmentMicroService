@@ -72,7 +72,7 @@ namespace RecordAdminstrationAPI.Migrations
 
                     b.HasKey("id");
 
-                    b.ToTable("MinistryOfForeignAffairsDB");
+                    b.ToTable("RecordAdminstrationDb");
                 });
 
             modelBuilder.Entity("RecordAdminstrationAPI.Models.Brothers", b =>
