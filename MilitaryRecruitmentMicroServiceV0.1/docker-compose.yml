@@ -237,8 +237,18 @@ services:
       - "41018:80"
       - "40018:443"
 
+  apigateway:
+    image: ${DOCKER_REGISTRY-}apigateway
+    build:
+      context: .
+      dockerfile: ApiGateway/Dockerfile
+    ports:
+      - "41051:80"
+      - "40051:443"
+
 volumes:
   sqlvol:
+
 
 
 
