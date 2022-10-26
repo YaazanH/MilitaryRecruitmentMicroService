@@ -12,7 +12,7 @@ namespace CourtAPI.Models
         public int id { set; get; }
         public string FullName { set; get; }
         public string verdict { set; get; }
-        public string time { set; get; }
+        public int time { set; get; }
         public DateTimeOffset VerdictDate { set; get; }
     }
 }

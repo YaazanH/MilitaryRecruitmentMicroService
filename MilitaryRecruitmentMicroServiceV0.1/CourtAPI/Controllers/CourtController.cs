@@ -22,13 +22,14 @@ namespace CourtAPI.Controllers
             _context = context;
         }
         [HttpGet]
-        [Route("GetById/")]
-        public ActionResult<Court> GetIsPermit()
+        [Route("GetYearsRemaining/")]
+        public ActionResult<int> GetYearsRemaining()
         {
             int id = GetCurrentUserID();
             var item = _context.CourtDBS.Where(x => x.id == id).FirstOrDefault();
             if (item == null) return NotFound();
-            return item;
+            int x = item.VerdictDate.Year + item.time;
+            return x;
         }
         private int GetCurrentUserID()
         {

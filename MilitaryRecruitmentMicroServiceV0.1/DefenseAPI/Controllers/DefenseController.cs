@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Linq;
 using System.Security.Claims;
-using static DefenseAPI.Dtos;
+
 
 namespace DefenseAPI.Controllers
 {
@@ -24,13 +24,13 @@ namespace DefenseAPI.Controllers
         }
         [HttpGet]
         [Route("GetById/")]
-        public ActionResult<DefenseDto> GetById()
+        public ActionResult<bool> GetById(int id)
         {
-            int id = GetCurrentUserID();
+         
             var Solder = _context.DefensesDBS.Where(x => x.id == id).FirstOrDefault();
             if (Solder == null) return NotFound();
 
-            return Solder.AsDtos();
+            return Solder.Isin;
 
             
         }
