@@ -19,16 +19,48 @@ namespace JailAPI.Controllers
         {
             _context = context;
         }
-
+        private int GetCurrentUserID()
+        {
+            var identity = HttpContext.User.Identity as ClaimsIdentity;
+            if (identity != null)
+            {
+                return Int32.Parse(identity.Claims.FirstOrDefault(o => o.Type == ClaimTypes.PrimarySid)?.Value);
+            }
+            return 0;
+        }
 
         [HttpGet]
-        [Route("GetUser/")]
-        public ActionResult<Jail> GetIsPermit(int id)
+        [Route("GetIfInJail/")]
+        public ActionResult<bool> GetIfInJail()
         {
+            int id = GetCurrentUserID();
             var Person = _context.JailDBS.Where(x => x.id == id).FirstOrDefault();
             if (Person == null) return NotFound();
-            return Person;
+            DateTime x = DateTime.Now;
+            if (x > Person.ReleasDate)
+            {
+                return false;
+            }
+            return true;
         }
+
+        [HttpGet]
+        [Route("Period/")]
+        public ActionResult<DateTime> Period()
+        {
+            int id=GetCurrentUserID();
+            var Person = _context.JailDBS.Where(x => x.id == id).FirstOrDefault();
+            if (Person == null) return NotFound();
+
+            int year = Person.ReleasDate.Year - Person.EntryDate.Year;
+            int month = Person.ReleasDate.Month - Person.EntryDate.Month;
+            int day = Person.ReleasDate.Day - Person.EntryDate.Day;
+            DateTime x = new DateTime(year, month, day);
+            return x;
+
+        }
+
+
 
     }
 }
