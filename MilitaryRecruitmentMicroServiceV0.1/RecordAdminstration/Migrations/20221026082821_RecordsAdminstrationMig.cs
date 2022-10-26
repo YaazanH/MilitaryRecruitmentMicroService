@@ -8,7 +8,7 @@ namespace RecordAdminstrationAPI.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "MinistryOfForeignAffairsDB",
+                name: "RecordAdminstrationDb",
                 columns: table => new
                 {
                     id = table.Column<int>(type: "int", nullable: false)
@@ -23,7 +23,7 @@ namespace RecordAdminstrationAPI.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_MinistryOfForeignAffairsDB", x => x.id);
+                    table.PrimaryKey("PK_RecordAdminstrationDb", x => x.id);
                 });
 
             migrationBuilder.CreateTable(
@@ -40,9 +40,9 @@ namespace RecordAdminstrationAPI.Migrations
                 {
                     table.PrimaryKey("PK_BrothersDB", x => x.id);
                     table.ForeignKey(
-                        name: "FK_BrothersDB_MinistryOfForeignAffairsDB_RecordsAdminstrationid",
+                        name: "FK_BrothersDB_RecordAdminstrationDb_RecordsAdminstrationid",
                         column: x => x.RecordsAdminstrationid,
-                        principalTable: "MinistryOfForeignAffairsDB",
+                        principalTable: "RecordAdminstrationDb",
                         principalColumn: "id",
                         onDelete: ReferentialAction.Restrict);
                 });
@@ -59,7 +59,7 @@ namespace RecordAdminstrationAPI.Migrations
                 name: "BrothersDB");
 
             migrationBuilder.DropTable(
-                name: "MinistryOfForeignAffairsDB");
+                name: "RecordAdminstrationDb");
         }
     }
 }

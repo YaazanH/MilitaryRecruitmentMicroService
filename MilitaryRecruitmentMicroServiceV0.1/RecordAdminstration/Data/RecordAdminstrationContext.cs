@@ -7,7 +7,7 @@ namespace RecordAdminstrationAPI.Data
         public RecordAdminstrationContext(DbContextOptions<RecordAdminstrationContext> options) : base(options)
         { }
 
-        public DbSet<RecordAdminstrationAPI.Models.RecordsAdminstration> MinistryOfForeignAffairsDB { get; set; }
+        public DbSet<RecordAdminstrationAPI.Models.RecordsAdminstration> RecordAdminstrationDb { get; set; }
         public DbSet<RecordAdminstrationAPI.Models.Brothers> BrothersDB { get; set; }
     }
 } 
