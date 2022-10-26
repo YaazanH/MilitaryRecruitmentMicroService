@@ -30,13 +30,13 @@ namespace Finance.Controllers
         }
         [HttpGet]
         [Route("GetUserTransactions/")]
-        public ActionResult<TransactionTicket> GetTransaction()
+        public ActionResult<bool> GetTransaction()
         {
             int id = GetCurrentUserID();
             var Transactions = _context.FinanceDb.Where(x => x.UserID == id).FirstOrDefault();
             if (Transactions == null) return NotFound();
 
-            return Transactions;
+            return Transactions.financialclear;
         }
 
 

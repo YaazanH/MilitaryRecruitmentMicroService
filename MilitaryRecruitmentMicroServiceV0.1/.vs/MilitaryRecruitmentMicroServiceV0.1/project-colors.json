@@ -130,7 +130,42 @@
       "ProjectGuid": "4e29fb4b-efd9-44c0-a843-514174d3c1ae",
       "DisplayName": "CompetentAuthorityAPI",
       "ColorIndex": 8
+    },
+    "e4256d15-39f2-4e67-9e17-12281e6bb0a6": {
+      "ProjectGuid": "e4256d15-39f2-4e67-9e17-12281e6bb0a6",
+      "DisplayName": "RecordAdminstrationAPI",
+      "ColorIndex": 9
+    },
+    "62894d7f-5eb9-4ab4-ae71-b8c8d404002d": {
+      "ProjectGuid": "62894d7f-5eb9-4ab4-ae71-b8c8d404002d",
+      "DisplayName": "BarAssociationAPI",
+      "ColorIndex": 10
+    },
+    "a5f87fc2-d7d8-4120-a1e7-8cfa337d2dce": {
+      "ProjectGuid": "a5f87fc2-d7d8-4120-a1e7-8cfa337d2dce",
+      "DisplayName": "EduMinAPI",
+      "ColorIndex": 11
+    },
+    "d82dac18-a428-48dd-bf09-3182ed3fcdf3": {
+      "ProjectGuid": "d82dac18-a428-48dd-bf09-3182ed3fcdf3",
+      "DisplayName": "FinanceAPI",
+      "ColorIndex": 12
+    },
+    "d77bb05b-c24f-486e-8e0e-c6f804d28a11": {
+      "ProjectGuid": "d77bb05b-c24f-486e-8e0e-c6f804d28a11",
+      "DisplayName": "LaborMinAPI",
+      "ColorIndex": 13
+    },
+    "5da130db-bf23-49d1-aca8-6c584af1628e": {
+      "ProjectGuid": "5da130db-bf23-49d1-aca8-6c584af1628e",
+      "DisplayName": "MinestryofInteriorAffairsAPI",
+      "ColorIndex": 14
+    },
+    "5d7c58be-caa9-421a-b70f-cefd10086e6c": {
+      "ProjectGuid": "5d7c58be-caa9-421a-b70f-cefd10086e6c",
+      "DisplayName": "TransportationMinAPI",
+      "ColorIndex": 15
     }
   },
-  "NextColorIndex": 9
+  "NextColorIndex": 0
 }

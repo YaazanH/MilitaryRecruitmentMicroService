@@ -248,3 +248,4 @@ C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\Co
 C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\CompetentAuthorityAPI\obj\Debug\net5.0\CompetentAuthorityAPI.pdb
 C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\CompetentAuthorityAPI\obj\Debug\net5.0\CompetentAuthorityAPI.genruntimeconfig.cache
 D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\MilitaryRecruitmentMicroServiceV0.1\CompetentAuthorityAPI\bin\Debug\net5.0\CompetentAuthorityAPI.StaticWebAssets.xml
+E:\Jun\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\CompetentAuthorityAPI\bin\Debug\net5.0\CompetentAuthorityAPI.StaticWebAssets.xml

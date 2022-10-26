@@ -248,3 +248,4 @@ C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\He
 C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\HealthMinAPI\obj\Debug\net5.0\HealthMinAPI.pdb
 C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\HealthMinAPI\obj\Debug\net5.0\HealthMinAPI.genruntimeconfig.cache
 D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\MilitaryRecruitmentMicroServiceV0.1\HealthMinAPI\bin\Debug\net5.0\HealthMinAPI.StaticWebAssets.xml
+E:\Jun\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\HealthMinAPI\bin\Debug\net5.0\HealthMinAPI.StaticWebAssets.xml

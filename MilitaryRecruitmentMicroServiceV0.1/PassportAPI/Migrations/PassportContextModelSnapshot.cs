@@ -34,6 +34,9 @@ namespace PassportAPI.Migrations
                     b.Property<int>("NumberOfDaysInSideCoun")
                         .HasColumnType("int");
 
+                    b.Property<int>("NumberOfDaysOutsideCoun")
+                        .HasColumnType("int");
+
                     b.HasKey("ID");
 
                     b.ToTable("PassportDBS");

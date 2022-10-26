@@ -314,3 +314,4 @@ C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\Bl
 C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\BloodBankAPI\obj\Debug\net5.0\BloodBankAPI.pdb
 C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\BloodBankAPI\obj\Debug\net5.0\BloodBankAPI.genruntimeconfig.cache
 D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\MilitaryRecruitmentMicroServiceV0.1\BloodBankAPI\bin\Debug\net5.0\BloodBankAPI.StaticWebAssets.xml
+E:\Jun\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\BloodBankAPI\bin\Debug\net5.0\BloodBankAPI.StaticWebAssets.xml
