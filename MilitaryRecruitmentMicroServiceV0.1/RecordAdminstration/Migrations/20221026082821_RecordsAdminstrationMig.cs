@@ -1,8 +1,9 @@
-﻿using Microsoft.EntityFrameworkCore.Migrations;
+﻿using System;
+using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace RecordAdminstrationAPI.Migrations
 {
-    public partial class RecordAdminstrationMig : Migration
+    public partial class RecordsAdminstrationMig : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -17,7 +18,8 @@ namespace RecordAdminstrationAPI.Migrations
                     Gender = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     FathersName = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     MothersName = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Death = table.Column<bool>(type: "bit", nullable: false)
+                    Death = table.Column<bool>(type: "bit", nullable: false),
+                    BirthDate = table.Column<DateTimeOffset>(type: "datetimeoffset", nullable: false)
                 },
                 constraints: table =>
                 {

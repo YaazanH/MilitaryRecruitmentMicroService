@@ -52,6 +52,9 @@ namespace RecordAdminstrationAPI.Migrations
                     b.Property<int>("Age")
                         .HasColumnType("int");
 
+                    b.Property<DateTimeOffset>("BirthDate")
+                        .HasColumnType("datetimeoffset");
+
                     b.Property<bool>("Death")
                         .HasColumnType("bit");
 

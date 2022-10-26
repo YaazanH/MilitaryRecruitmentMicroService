@@ -233,6 +233,9 @@ services:
     build:
       context: .
       dockerfile: RecordAdminstration/Dockerfile
+    ports:
+      - "41018:80"
+      - "40018:443"
 
 volumes:
   sqlvol:

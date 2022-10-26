@@ -10,4 +10,4 @@ namespace RecordAdminstrationAPI.Data
         public DbSet<RecordAdminstrationAPI.Models.RecordsAdminstration> MinistryOfForeignAffairsDB { get; set; }
         public DbSet<RecordAdminstrationAPI.Models.Brothers> BrothersDB { get; set; }
     }
-}
+} 

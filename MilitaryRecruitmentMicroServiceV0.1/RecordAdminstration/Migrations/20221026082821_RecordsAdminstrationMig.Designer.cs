@@ -10,8 +10,8 @@ using RecordAdminstrationAPI.Data;
 namespace RecordAdminstrationAPI.Migrations
 {
     [DbContext(typeof(RecordAdminstrationContext))]
-    [Migration("20221020132621_RecordAdminstrationMig")]
-    partial class RecordAdminstrationMig
+    [Migration("20221026082821_RecordsAdminstrationMig")]
+    partial class RecordsAdminstrationMig
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -53,6 +53,9 @@ namespace RecordAdminstrationAPI.Migrations
 
                     b.Property<int>("Age")
                         .HasColumnType("int");
+
+                    b.Property<DateTimeOffset>("BirthDate")
+                        .HasColumnType("datetimeoffset");
 
                     b.Property<bool>("Death")
                         .HasColumnType("bit");

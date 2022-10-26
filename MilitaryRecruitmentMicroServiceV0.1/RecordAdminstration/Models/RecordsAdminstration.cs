@@ -25,10 +25,6 @@ namespace RecordAdminstrationAPI.Models
 
         public String MothersName { get; set; }
         public Boolean Death { get; set; }
-
-
-
-
-
+        public DateTimeOffset BirthDate { get; set; }
     }
 }

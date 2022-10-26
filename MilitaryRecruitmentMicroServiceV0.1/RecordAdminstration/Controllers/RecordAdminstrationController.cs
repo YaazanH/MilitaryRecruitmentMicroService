@@ -23,7 +23,7 @@ namespace RecordAdminstrationAPI.Controllers
         {
             _context = context;
         }
-        private int GetCurrentUserID()
+      private int GetCurrentUserID()
         {
             var identity = HttpContext.User.Identity as ClaimsIdentity;
             if (identity != null)
@@ -50,14 +50,18 @@ namespace RecordAdminstrationAPI.Controllers
             List<RecordsAdminstration> brother = new List<RecordsAdminstration>();
             foreach (int i in bro)
             {
-                brother = _context.MinistryOfForeignAffairsDB.Where(x => x.id == i && x.Gender == "Male").ToList();
-
+                var broth = _context.MinistryOfForeignAffairsDB.Where(x => x.id == i && x.Gender == "Male").FirstOrDefault();
+                if (broth != null)
+                {
+                    brother.Add(broth);
+                }
             }
             List<int> broID = new List<int>();
             foreach (var item in brother)
             {
                 broID.Add(item.id);
             }
+           
             return broID;
         }
 
@@ -66,7 +70,6 @@ namespace RecordAdminstrationAPI.Controllers
         public ActionResult<bool> GetIfHaseMaleBrothers()
         {
             List<int> bro = new List<int>();
-            List<int> b = new List<int>();
             int id = GetCurrentUserID();
             var cib = _context.BrothersDB.Where(x => x.Personid == id).ToList();
             if (cib == null) return NotFound();
@@ -77,8 +80,11 @@ namespace RecordAdminstrationAPI.Controllers
             List<RecordsAdminstration> brother = new List<RecordsAdminstration>();
             foreach (int i in bro)
             {
-                brother = _context.MinistryOfForeignAffairsDB.Where(x => x.id == i && x.Gender == "Male").ToList();
-
+                var broth = _context.MinistryOfForeignAffairsDB.Where(x => x.id == i && x.Gender == "Male").FirstOrDefault();
+                if (broth != null)
+                {
+                    brother.Add(broth);
+                }
             }
             if (brother.Count == 0)
             {
@@ -93,11 +99,12 @@ namespace RecordAdminstrationAPI.Controllers
 
         [HttpGet]
         [Route("GetAge/")]
-        public ActionResult<int> GetAge()
+        public int GetAge()
         {
             int id = GetCurrentUserID();
             var cib = _context.MinistryOfForeignAffairsDB.Where(x => x.id == id).FirstOrDefault();
-            return cib.Age;
+            int dt = DateTime.Now.Year - cib.BirthDate.Year;
+            return dt;
         }
 
         [HttpGet]
@@ -111,8 +118,3 @@ namespace RecordAdminstrationAPI.Controllers
 }
 
 
-/*foreach (Brothers i in brothers)
-{
-    var bro = _context.MinistryOfForeignAffairsDB.Where(x => x.id == i.BrotherId && x.Gender == "male").ToList();
-    return bro;
-}*/
