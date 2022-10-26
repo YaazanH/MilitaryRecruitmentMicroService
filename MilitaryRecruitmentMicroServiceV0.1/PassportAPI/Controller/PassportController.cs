@@ -42,6 +42,17 @@ namespace PassportAPI.Controller
             if (person == null) return NotFound();
             return person.NumberOfDaysInSideCoun;
         }
+
+        [HttpGet]
+        [Route("GetNumberOfDaysOutsideCoun/")]
+        public ActionResult<int> GetNumberOfDaysOutsideCoun()
+        {
+
+            int id = GetCurrentUserID();
+            var person = _context.PassportDBS.Where(x => x.ID == id).FirstOrDefault();
+            if (person == null) return NotFound();
+            return person.NumberOfDaysOutsideCoun;
+        }
         private int GetCurrentUserID()
         {
             var identity = HttpContext.User.Identity as ClaimsIdentity;
