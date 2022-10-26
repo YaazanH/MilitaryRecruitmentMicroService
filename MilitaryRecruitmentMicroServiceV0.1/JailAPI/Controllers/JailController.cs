@@ -46,20 +46,17 @@ namespace JailAPI.Controllers
 
         [HttpGet]
         [Route("Period/")]
-        public ActionResult<int> Period()
+        public ActionResult<DateTime> Period()
         {
             int id=GetCurrentUserID();
             var Person = _context.JailDBS.Where(x => x.id == id).FirstOrDefault();
             if (Person == null) return NotFound();
-            int ReleasYear =Person.ReleasDate.Year;
-            int EntryYear = Person.EntryDate.Year;
-            int x = ReleasYear - EntryYear;
-            if (x>0)
-            {
-                return x;
-            }
-            return 0;
 
+            int year = Person.ReleasDate.Year - Person.EntryDate.Year;
+            int month = Person.ReleasDate.Month - Person.EntryDate.Month;
+            int day = Person.ReleasDate.Day - Person.EntryDate.Day;
+            DateTime x = new DateTime(year, month, day);
+            return x;
 
         }
 
