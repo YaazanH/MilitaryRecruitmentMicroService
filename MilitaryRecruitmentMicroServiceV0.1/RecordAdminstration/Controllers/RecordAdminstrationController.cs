@@ -99,7 +99,7 @@ namespace RecordAdminstrationAPI.Controllers
 
         [HttpGet]
         [Route("GetAge/")]
-        public int GetAge()
+        public ActionResult<int> GetAge()
         {
             int id = GetCurrentUserID();
             var cib = _context.RecordAdminstrationDb.Where(x => x.id == id).FirstOrDefault();
