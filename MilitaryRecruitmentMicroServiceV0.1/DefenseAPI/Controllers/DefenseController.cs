@@ -1,5 +1,4 @@
 ﻿using DefenseAPI.Data;
-using DefenseAPI.Extensions;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
