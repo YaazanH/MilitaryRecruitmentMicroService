@@ -10,6 +10,10 @@ services:
       - "8500:8500"
       -  "8600:8600/udp"
     command:  consul agent -dev -server -ui -node=server-1 -bootstrap-expect=1 -client="0.0.0.0"
+    deploy:
+      resources:
+        limits:
+          memory: 50M
 
   sql-server-db:
     container_name: SQL_Server
@@ -22,6 +26,7 @@ services:
       SA_PASSWORD: "r00t.R00T"
       ACCEPT_EULA: "Y"
 
+
   healthminapi:
     image: ${DOCKER_REGISTRY-}healthminapi
     build:
@@ -30,6 +35,11 @@ services:
     ports:
       - "41003:80"
       - "40003:443"
+    deploy:
+      resources:
+        limits:
+          memory: 50M
+
   higheduminapi:
     image: ${DOCKER_REGISTRY-}higheduminapi
     build:
@@ -38,7 +48,10 @@ services:
     ports:
       - "41001:80"
       - "40001:443"
-
+    deploy:
+      resources:
+        limits:
+          memory: 50M
 
   airlineapi:
     image: ${DOCKER_REGISTRY-}airlineapi
@@ -48,6 +61,10 @@ services:
     ports:
       - "41002:80"
       - "40002:443"
+    deploy:
+      resources:
+        limits:
+          memory: 50M
 
   politicalpartiesapi:
     image: ${DOCKER_REGISTRY-}politicalpartiesapi
@@ -57,6 +74,10 @@ services:
     ports:
       - "41004:80"
       - "40004:443"
+    deploy:
+      resources:
+        limits:
+          memory: 50M
 
   bloodbankapi:
     image: ${DOCKER_REGISTRY-}bloodbankapi
@@ -66,6 +87,10 @@ services:
     ports:
       - "41005:80"
       - "40005:443"
+    deploy:
+      resources:
+        limits:
+          memory: 50M
 
   universityapi:
     image: ${DOCKER_REGISTRY-}universityapi
@@ -75,6 +100,10 @@ services:
     ports:
       - "41006:80"
       - "40006:443"
+    deploy:
+      resources:
+        limits:
+          memory: 50M
 
   doctorssyndicateapi:
        image: ${DOCKER_REGISTRY-}doctorssyndicateapi
@@ -84,6 +113,10 @@ services:
        ports:
         - "41007:80"
         - "40007:443"
+       deploy:
+         resources:
+           limits:
+             memory: 50M
 
   civilpoliceapi:
     image: ${DOCKER_REGISTRY-}civilpoliceapi
@@ -93,6 +126,10 @@ services:
     ports:
       - "41008:80"
       - "40008:443"
+    deploy:
+      resources:
+        limits:
+          memory: 50M
 
   awqafapi:
     image: ${DOCKER_REGISTRY-}awqafapi
@@ -102,6 +139,11 @@ services:
     ports:
       - "41010:80"
       - "40010:443"
+    deploy:
+      resources:
+        limits:
+          memory: 50M
+
   courtapi:
     image: ${DOCKER_REGISTRY-}courtapi
     build:
@@ -110,6 +152,11 @@ services:
     ports:
       - "41012:80"
       - "40012:443"
+    deploy:
+      resources:
+        limits:
+          memory: 50M
+
   defenseapi:
     image: ${DOCKER_REGISTRY-}defenseapi
     build:
@@ -118,6 +165,11 @@ services:
     ports:
       - "41013:80"
       - "40013:443"
+    deploy:
+      resources:
+        limits:
+          memory: 50M
+
   militarycollegeapi:
     image: ${DOCKER_REGISTRY-}militarycollegeapi
     build:
@@ -126,6 +178,11 @@ services:
     ports:
       - "41009:80"
       - "40009:443"
+    deploy:
+      resources:
+        limits:
+          memory: 50M
+
   passportapi:
     image: ${DOCKER_REGISTRY-}passportapi
     build:
@@ -134,7 +191,10 @@ services:
     ports:
       - "41011:80"
       - "40011:443"
-
+    deploy:
+      resources:
+        limits:
+          memory: 50M
 
 
   jailapi:
@@ -145,7 +205,10 @@ services:
     ports:
       - "41015:80"
       - "40015:443"
-
+    deploy:
+      resources:
+        limits:
+          memory: 50M
 
   competentauthorityapi:
     image: ${DOCKER_REGISTRY-}competentauthorityapi
@@ -155,6 +218,10 @@ services:
     ports:
       - "41016:80"
       - "40016:443"
+    deploy:
+      resources:
+        limits:
+          memory: 50M
 
   ministryofforeignaffairsapi:
     image: ${DOCKER_REGISTRY-}ministryofforeignaffairsapi
@@ -164,18 +231,10 @@ services:
     ports:
       - "41017:80"
       - "40017:443"
-
-  loginapi:
-    image: ${DOCKER_REGISTRY-}loginapi
-    build:
-      context: .
-      dockerfile: LoginAPI/Dockerfile
-    ports:
-      - "41050:80"
-      - "40050:443"
-
-      
-  
+    deploy:
+      resources:
+        limits:
+          memory: 50M
 
   minestryofinterioraffairsapi:
     image: ${DOCKER_REGISTRY-}minestryofinterioraffairsapi
@@ -185,6 +244,11 @@ services:
     ports:
       - "41014:80"
       - "40014:443"
+    deploy:
+      resources:
+        limits:
+          memory: 50M
+
   barassociationapi:
     image: ${DOCKER_REGISTRY-}barassociationapi
     build:
@@ -193,7 +257,10 @@ services:
     ports:
       - "41020:80"
       - "40020:443"
-      
+    deploy:
+      resources:
+        limits:
+          memory: 50M      
 
   financeapi:
     image: ${DOCKER_REGISTRY-}financeapi
@@ -203,6 +270,10 @@ services:
     ports:
       - "41022:80"
       - "40022:443"
+    deploy:
+      resources:
+        limits:
+          memory: 50M
 
   eduminapi:
     image: ${DOCKER_REGISTRY-}eduminapi
@@ -212,6 +283,11 @@ services:
     ports:
       - "41021:80"
       - "40021:443"
+    deploy:
+      resources:
+        limits:
+          memory: 50M
+
   laborminapi:
     image: ${DOCKER_REGISTRY-}laborminapi
     build:
@@ -220,6 +296,11 @@ services:
     ports:
       - "41024:80"
       - "40024:443"
+    deploy:
+      resources:
+        limits:
+          memory: 50M
+
   transportationminapi:
     image: ${DOCKER_REGISTRY-}transportationminapi
     build:
@@ -228,6 +309,11 @@ services:
     ports:
       - "41023:80"
       - "40023:443"
+    deploy:
+      resources:
+        limits:
+          memory: 50M
+
   recordadminstration:
     image: ${DOCKER_REGISTRY-}recordadminstration
     build:
@@ -236,24 +322,12 @@ services:
     ports:
       - "41018:80"
       - "40018:443"
+    deploy:
+      resources:
+        limits:
+          memory: 50M
 
-  apigateway:
-    image: ${DOCKER_REGISTRY-}apigateway
-    build:
-      context: .
-      dockerfile: ApiGateway/Dockerfile
-    ports:
-      - "41051:80"
-      - "40051:443"
 
 volumes:
   sqlvol:
-
-
-
-
-
-
-
-
 

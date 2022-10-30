@@ -249,3 +249,4 @@ C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\Hi
 C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\HighEduMinAPI\obj\Debug\net5.0\HighEduMinAPI.genruntimeconfig.cache
 D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\MilitaryRecruitmentMicroServiceV0.1\HighEduMinAPI\bin\Debug\net5.0\HighEduMinAPI.StaticWebAssets.xml
 E:\Jun\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\HighEduMinAPI\bin\Debug\net5.0\HighEduMinAPI.StaticWebAssets.xml
+D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\HighEduMinAPI\bin\Debug\net5.0\HighEduMinAPI.StaticWebAssets.xml

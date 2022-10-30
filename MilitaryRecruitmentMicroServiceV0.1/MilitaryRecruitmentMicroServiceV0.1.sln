@@ -37,8 +37,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompetentAuthorityAPI", "Co
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinistryOfForeignAffairsAPI", "MinistryOfForeignAffairsAPI\MinistryOfForeignAffairsAPI.csproj", "{03FEB6D1-5B89-44B1-A654-AD70CFC19020}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoginAPI", "LoginAPI\LoginAPI.csproj", "{9790FF93-EFD0-429F-B813-951943A8959C}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinestryofInteriorAffairsAPI", "MinestryofInteriorAffairsAPI\MinestryofInteriorAffairsAPI.csproj", "{5DA130DB-BF23-49D1-ACA8-6C584AF1628E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BarAssociationAPI", "BarAssociationAPI\BarAssociationAPI.csproj", "{62894D7F-5EB9-4AB4-AE71-B8C8D404002D}"
@@ -52,8 +50,6 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransportationMinAPI", "TransportationMinAPI\TransportationMinAPI.csproj", "{5D7C58BE-CAA9-421A-B70F-CEFD10086E6C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecordAdminstrationAPI", "RecordAdminstration\RecordAdminstrationAPI.csproj", "{E4256D15-39F2-4E67-9E17-12281E6BB0A6}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiGateway", "ApiGateway\ApiGateway.csproj", "{FD167FCF-FF38-4AF5-9A0A-CE6ECEE99D77}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,10 +125,6 @@ Global
 		{03FEB6D1-5B89-44B1-A654-AD70CFC19020}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03FEB6D1-5B89-44B1-A654-AD70CFC19020}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03FEB6D1-5B89-44B1-A654-AD70CFC19020}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9790FF93-EFD0-429F-B813-951943A8959C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9790FF93-EFD0-429F-B813-951943A8959C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9790FF93-EFD0-429F-B813-951943A8959C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9790FF93-EFD0-429F-B813-951943A8959C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5DA130DB-BF23-49D1-ACA8-6C584AF1628E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5DA130DB-BF23-49D1-ACA8-6C584AF1628E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5DA130DB-BF23-49D1-ACA8-6C584AF1628E}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -161,10 +153,6 @@ Global
 		{E4256D15-39F2-4E67-9E17-12281E6BB0A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4256D15-39F2-4E67-9E17-12281E6BB0A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4256D15-39F2-4E67-9E17-12281E6BB0A6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FD167FCF-FF38-4AF5-9A0A-CE6ECEE99D77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FD167FCF-FF38-4AF5-9A0A-CE6ECEE99D77}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FD167FCF-FF38-4AF5-9A0A-CE6ECEE99D77}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FD167FCF-FF38-4AF5-9A0A-CE6ECEE99D77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

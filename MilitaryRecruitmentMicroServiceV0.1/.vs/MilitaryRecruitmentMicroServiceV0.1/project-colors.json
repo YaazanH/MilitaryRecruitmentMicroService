@@ -165,7 +165,17 @@
       "ProjectGuid": "5d7c58be-caa9-421a-b70f-cefd10086e6c",
       "DisplayName": "TransportationMinAPI",
       "ColorIndex": 15
+    },
+    "fd167fcf-ff38-4af5-9a0a-ce6ecee99d77": {
+      "ProjectGuid": "fd167fcf-ff38-4af5-9a0a-ce6ecee99d77",
+      "DisplayName": "ApiGateway",
+      "ColorIndex": 0
+    },
+    "85e93656-72f3-4a58-ae95-40a987dd5007": {
+      "ProjectGuid": "85e93656-72f3-4a58-ae95-40a987dd5007",
+      "DisplayName": "ApiGateway",
+      "ColorIndex": 1
     }
   },
-  "NextColorIndex": 0
+  "NextColorIndex": 2
 }

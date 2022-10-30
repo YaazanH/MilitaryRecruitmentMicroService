@@ -315,3 +315,4 @@ C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\Do
 C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\DoctorsSyndicateAPI\obj\Debug\net5.0\DoctorsSyndicateAPI.genruntimeconfig.cache
 D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\MilitaryRecruitmentMicroServiceV0.1\DoctorsSyndicateAPI\bin\Debug\net5.0\DoctorsSyndicateAPI.StaticWebAssets.xml
 E:\Jun\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\DoctorsSyndicateAPI\bin\Debug\net5.0\DoctorsSyndicateAPI.StaticWebAssets.xml
+D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\DoctorsSyndicateAPI\bin\Debug\net5.0\DoctorsSyndicateAPI.StaticWebAssets.xml
