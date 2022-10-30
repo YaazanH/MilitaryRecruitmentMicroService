@@ -315,3 +315,4 @@ C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\Ci
 C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\CivilPoliceAPI\obj\Debug\net5.0\CivilPoliceAPI.genruntimeconfig.cache
 D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\MilitaryRecruitmentMicroServiceV0.1\CivilPoliceAPI\bin\Debug\net5.0\CivilPoliceAPI.StaticWebAssets.xml
 E:\Jun\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\CivilPoliceAPI\bin\Debug\net5.0\CivilPoliceAPI.StaticWebAssets.xml
+D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\CivilPoliceAPI\bin\Debug\net5.0\CivilPoliceAPI.StaticWebAssets.xml

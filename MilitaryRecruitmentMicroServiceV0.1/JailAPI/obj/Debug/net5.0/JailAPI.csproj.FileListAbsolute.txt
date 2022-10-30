@@ -249,3 +249,4 @@ C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\Ja
 C:\github\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\JailAPI\obj\Debug\net5.0\JailAPI.genruntimeconfig.cache
 D:\MS\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\MilitaryRecruitmentMicroServiceV0.1\JailAPI\bin\Debug\net5.0\JailAPI.StaticWebAssets.xml
 E:\Jun\MilitaryRecruitmentMicroService\MilitaryRecruitmentMicroServiceV0.1\JailAPI\bin\Debug\net5.0\JailAPI.StaticWebAssets.xml
+D:\jounier\git\MilitaryRecruitmentMicroServiceV0.1\JailAPI\bin\Debug\net5.0\JailAPI.StaticWebAssets.xml
