@@ -26,7 +26,7 @@ namespace PoliticalPartiesAPI.Controllers
         public ActionResult<bool> GetIsAWorker()
         {
             int id = GetCurrentUserID();
-            var worker = _context.PoliticalPartiesDBS.Where(x => x.ID == id).FirstOrDefault();
+            var worker = _context.PoliticalPartiesDBS.Where(x => x.UserID == id).FirstOrDefault();
             if (worker == null) return NotFound();
             //var wo = new HaveProbDto { ID = worker.ID, Name = worker.Name, HaveaHealthProblem = worker.HaveaHealthProblem };
             return worker.GetIsAWorker;

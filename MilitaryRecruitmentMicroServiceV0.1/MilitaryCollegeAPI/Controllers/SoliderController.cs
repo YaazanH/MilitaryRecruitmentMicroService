@@ -35,7 +35,7 @@ namespace MilitaryCollegeAPI.Controllers
         public ActionResult<bool> GetHasFired()
         {
             int id = GetCurrentUserID();
-            var solider = _context.MilitaryCollegeDb.Where(x => x.id == id).FirstOrDefault();
+            var solider = _context.MilitaryCollegeDb.Where(x => x.UserID == id).FirstOrDefault();
             if (solider == null) return NotFound();
           
             return solider.GotFired;

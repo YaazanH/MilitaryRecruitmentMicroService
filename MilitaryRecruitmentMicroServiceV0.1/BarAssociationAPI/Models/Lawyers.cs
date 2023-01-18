@@ -7,6 +7,8 @@ namespace BarAssociationAPI.Models
     {
         [Key]
         public int id { get; set; }
+
+        public int UserID { get; set; }
         public string fullname { get; set; }
         public DateTime graduationDate { get; set; }
         public DateTime joinDate { get; set; }

@@ -33,7 +33,7 @@ namespace BarAssociationAPI.Controllers
         public ActionResult<bool> Gettrainproof()
         {
             int id = GetCurrentUserID();
-            var Lawyer = _context.BarAssociationDB.Where(x => x.id == id).FirstOrDefault();
+            var Lawyer = _context.BarAssociationDB.Where(x => x.UserID == id).FirstOrDefault();
             if (Lawyer == null) return NotFound();
             DateTime after6monthsofgraduation = Lawyer.graduationDate.AddMonths(6);
             if (Lawyer.trainstartDate > after6monthsofgraduation) { return false; }

@@ -27,7 +27,7 @@ namespace DefenseAPI.Controllers
         public ActionResult<bool> GetById(int id)
         {
          
-            var Solder = _context.DefensesDBS.Where(x => x.id == id).FirstOrDefault();
+            var Solder = _context.DefensesDBS.Where(x => x.UserID == id).FirstOrDefault();
             if (Solder == null) return NotFound();
 
             return Solder.Isin;

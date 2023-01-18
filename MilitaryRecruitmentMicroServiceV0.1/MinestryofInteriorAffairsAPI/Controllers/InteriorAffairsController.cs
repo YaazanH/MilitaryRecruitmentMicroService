@@ -44,7 +44,7 @@ namespace MinestryofInteriorAffairs.Controllers
         public ActionResult<bool> GetIsPermit()
         {
             int id = GetCurrentUserID();
-            var person = _context.MinestryofInteriorAffairsDB.Where(x => x.Id == id).FirstOrDefault();
+            var person = _context.MinestryofInteriorAffairsDB.Where(x => x.UserID == id).FirstOrDefault();
             if (person == null) return NotFound();
             else {
                 if (person.NumofYear >= 10)

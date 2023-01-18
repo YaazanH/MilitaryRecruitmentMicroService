@@ -26,7 +26,7 @@ namespace HighEduMinAPI.Controllers
         public ActionResult<bool> GetIsAStudent()
         {
             int id = GetCurrentUserID();
-            var Student = _context.HighEduMinDBS.Where(x => x.ID == id).FirstOrDefault();
+            var Student = _context.HighEduMinDBS.Where(x => x.UserID == id).FirstOrDefault();
             if (Student == null) return NotFound();
             //var St = new IsAStudentDto { ID = Student.ID, Name = Student.Name, IsAStudent = Student.IsAStudent };
             return Student.IsAStudent;
@@ -37,7 +37,7 @@ namespace HighEduMinAPI.Controllers
         public ActionResult<bool> ChangeCert()
         {
             int id = GetCurrentUserID();
-            var Student = _context.HighEduMinDBS.Where(x => x.ID == id).FirstOrDefault();
+            var Student = _context.HighEduMinDBS.Where(x => x.UserID == id).FirstOrDefault();
             if (Student == null) return NotFound();
            // var St = new ChangeCertDto { ID = Student.ID, Name = Student.Name, ChangeCert = Student.ChangeCert };
             return Student.ChangeCert;
@@ -48,7 +48,7 @@ namespace HighEduMinAPI.Controllers
         public ActionResult<bool> GovSendToStudy()
         {
             int id = GetCurrentUserID();
-            var Student = _context.HighEduMinDBS.Where(x => x.ID == id).FirstOrDefault();
+            var Student = _context.HighEduMinDBS.Where(x => x.UserID == id).FirstOrDefault();
             if (Student == null) return NotFound();
             //var St = new GovSendToStudyDto { ID = Student.ID, Name = Student.Name, GovSendToStudy = Student.GovSendToStudy };
             return Student.GovSendToStudy;
@@ -59,7 +59,7 @@ namespace HighEduMinAPI.Controllers
         public ActionResult<bool> StudyOutSide()
         {
             int id = GetCurrentUserID();
-            var Student = _context.HighEduMinDBS.Where(x => x.ID == id).FirstOrDefault();
+            var Student = _context.HighEduMinDBS.Where(x => x.UserID == id).FirstOrDefault();
             if (Student == null) return NotFound();
            //var St = new StudyOutSideDto { ID = Student.ID, Name = Student.Name, StudyOutSide = Student.StudyOutSide };
             return Student.StudyOutSide;

@@ -27,7 +27,7 @@ namespace PassportAPI.Controller
         public ActionResult<bool> GetIsPermit()
         {
             int id = GetCurrentUserID();
-            var Person = _context.PassportDBS.Where(x => x.ID == id).FirstOrDefault();
+            var Person = _context.PassportDBS.Where(x => x.UserID == id).FirstOrDefault();
             if (Person == null) return NotFound();
             return Person.Istravel;
         }
@@ -38,7 +38,7 @@ namespace PassportAPI.Controller
         {
 
             int id = GetCurrentUserID();
-            var person = _context.PassportDBS.Where(x => x.ID == id).FirstOrDefault();
+            var person = _context.PassportDBS.Where(x => x.UserID == id).FirstOrDefault();
             if (person == null) return NotFound();
             return person.NumberOfDaysInSideCoun;
         }
@@ -49,7 +49,7 @@ namespace PassportAPI.Controller
         {
 
             int id = GetCurrentUserID();
-            var person = _context.PassportDBS.Where(x => x.ID == id).FirstOrDefault();
+            var person = _context.PassportDBS.Where(x => x.UserID == id).FirstOrDefault();
             if (person == null) return NotFound();
             return person.NumberOfDaysOutsideCoun;
         }

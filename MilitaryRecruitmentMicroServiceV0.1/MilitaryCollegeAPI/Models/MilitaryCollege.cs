@@ -8,6 +8,8 @@ namespace MilitaryCollegeAPI.Models
         [Key]
         public int id { get; set; }
 
+        public int UserID { get; set; }
+
         public string Name { get; set; }
 
         public bool GotFired { get; set; }

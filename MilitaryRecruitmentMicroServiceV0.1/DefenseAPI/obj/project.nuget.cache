@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+ijwIrGI7hW5Ri3G6NP7j1A13VxooCLj18sH7ahC3oOwIfWWPs8Vbji9bsqhrOtGUQvq/EHhzvBhd7Uiry+vTg==",
+  "dgSpecHash": "aYkIDhzn2PAcEtuZvWNVFpGDWFdoZ5UkCqxENwO52cpZVFvVxNruU4UzT18Op1dK/XIBFvsCtJnBR1f8v90bFw==",
   "success": true,
   "projectFilePath": "D:\\jounier\\git\\MilitaryRecruitmentMicroServiceV0.1\\DefenseAPI\\DefenseAPI.csproj",
   "expectedPackageFiles": [

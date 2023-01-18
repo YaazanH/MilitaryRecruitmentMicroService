@@ -34,7 +34,7 @@ namespace CivilPoliceAPI.Controllers
         public ActionResult<int> GetNumberOfBrothers()
         {
             int id = GetCurrentUserID();
-            var person = _context.CivilPoliceDb.Where(x => x.id == id).FirstOrDefault();
+            var person = _context.CivilPoliceDb.Where(x => x.UserID == id).FirstOrDefault();
             if (person == null) return NotFound();
             return person.NumberOfBrothers;
         }

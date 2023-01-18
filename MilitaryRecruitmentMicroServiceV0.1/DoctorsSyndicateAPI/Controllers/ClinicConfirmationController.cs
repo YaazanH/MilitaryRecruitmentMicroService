@@ -34,7 +34,7 @@ namespace DoctorsSyndicateAPI.Controllers
         public ActionResult<bool> GetClinicConfirmation()
         {
             int id = GetCurrentUserID();
-            var doctor = _context.DoctorsSyndicateDb.Where(x => x.id == id).FirstOrDefault();
+            var doctor = _context.DoctorsSyndicateDb.Where(x => x.UserID == id).FirstOrDefault();
             if (doctor == null) return NotFound();
             return doctor.HasClinicConfirmation;
         }

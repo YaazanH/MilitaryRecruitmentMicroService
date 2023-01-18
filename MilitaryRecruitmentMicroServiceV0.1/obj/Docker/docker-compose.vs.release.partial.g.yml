@@ -201,7 +201,7 @@ services:
     tty: true
 
   financeapi:
-    container_name: FinanceAPI
+    container_name: FinanceAPI_1
     build:
       labels:
         com.microsoft.created-by: "visual-studio"
