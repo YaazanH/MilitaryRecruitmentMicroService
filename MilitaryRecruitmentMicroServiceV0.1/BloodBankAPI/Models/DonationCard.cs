@@ -8,6 +8,8 @@ namespace BloodBankAPI.Models
         [Key]
         public int id { get; set; }
 
+        public int UserID { get; set; }
+
         public String Name { get; set; }
 
         public Boolean Donated { get; set; }

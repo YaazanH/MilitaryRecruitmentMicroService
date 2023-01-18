@@ -34,7 +34,7 @@ namespace JailAPI.Controllers
         public ActionResult<bool> GetIfInJail()
         {
             int id = GetCurrentUserID();
-            var Person = _context.JailDBS.Where(x => x.id == id).FirstOrDefault();
+            var Person = _context.JailDBS.Where(x => x.UserID == id).FirstOrDefault();
             if (Person == null) return NotFound();
             DateTime x = DateTime.Now;
             if (x > Person.ReleasDate)
@@ -49,7 +49,7 @@ namespace JailAPI.Controllers
         public ActionResult<DateTime> Period()
         {
             int id=GetCurrentUserID();
-            var Person = _context.JailDBS.Where(x => x.id == id).FirstOrDefault();
+            var Person = _context.JailDBS.Where(x => x.UserID == id).FirstOrDefault();
             if (Person == null) return NotFound();
 
             int year = Person.ReleasDate.Year - Person.EntryDate.Year;

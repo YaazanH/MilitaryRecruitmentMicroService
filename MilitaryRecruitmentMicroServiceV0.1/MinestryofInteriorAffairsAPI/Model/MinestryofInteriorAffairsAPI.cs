@@ -10,6 +10,8 @@ namespace MinestryofInteriorAffairs.Model
     {
         [Key]
         public int Id { set; get; }
+
+        public int UserID { get; set; }
         public string FullName { set; get; }
         
         public int NumofYear { set; get; }

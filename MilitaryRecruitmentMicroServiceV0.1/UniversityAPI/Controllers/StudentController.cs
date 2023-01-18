@@ -33,7 +33,7 @@ namespace UniversityAPI.Controllers
         public ActionResult<bool> GetHasMasterConfirmation()
         {
             int id = GetCurrentUserID();
-            var student = _context.UniversityDb.Where(x => x.id == id).FirstOrDefault();
+            var student = _context.UniversityDb.Where(x => x.UserID == id).FirstOrDefault();
             if (student == null) return NotFound();
 
             return student.HasMasterConfirmation;
@@ -44,7 +44,7 @@ namespace UniversityAPI.Controllers
         public ActionResult<int> GetStudyYears()
         {
             int id = GetCurrentUserID();
-            var student = _context.UniversityDb.Where(x => x.id == id).FirstOrDefault();
+            var student = _context.UniversityDb.Where(x => x.UserID == id).FirstOrDefault();
             if (student == null) return NotFound();
 
             return student.YearsOfStudy;
@@ -55,7 +55,7 @@ namespace UniversityAPI.Controllers
         public ActionResult<bool> GetIsStudyingNow()
         {
             int id = GetCurrentUserID();
-            var student = _context.UniversityDb.Where(x => x.id == id).FirstOrDefault();
+            var student = _context.UniversityDb.Where(x => x.UserID == id).FirstOrDefault();
             if (student == null) return NotFound();
 
             return student.IsStudyingNow;

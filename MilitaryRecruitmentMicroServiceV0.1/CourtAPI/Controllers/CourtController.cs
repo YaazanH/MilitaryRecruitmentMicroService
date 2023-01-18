@@ -26,7 +26,7 @@ namespace CourtAPI.Controllers
         public ActionResult<int> GetYearsRemaining()
         {
             int id = GetCurrentUserID();
-            var item = _context.CourtDBS.Where(x => x.id == id).FirstOrDefault();
+            var item = _context.CourtDBS.Where(x => x.UserID == id).FirstOrDefault();
             if (item == null) return NotFound();
             int x = item.VerdictDate.Year + item.time;
             return x;

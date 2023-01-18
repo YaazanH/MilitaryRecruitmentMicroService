@@ -10,6 +10,8 @@ namespace DefenseAPI.Models
     {
         [Key]
         public int id { set; get; }
+
+        public int UserID { get; set; }
         public string FullName { set; get; }
         public bool Isin { set; get; }
         public string Unit { set; get; }

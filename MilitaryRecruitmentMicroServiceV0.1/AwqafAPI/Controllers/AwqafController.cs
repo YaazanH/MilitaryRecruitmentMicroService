@@ -27,7 +27,7 @@ namespace AwqafAPI.Controllers
         public ActionResult<bool> GetIsPermit()
         {
             int id = GetCurrentUserID();
-            var Clerk = _context.AwqafDBS.Where(x => x.Id == id).FirstOrDefault();
+            var Clerk = _context.AwqafDBS.Where(x => x.UserID == id).FirstOrDefault();
             if (Clerk == null) return NotFound();
             return Clerk.Ispermit;
         }

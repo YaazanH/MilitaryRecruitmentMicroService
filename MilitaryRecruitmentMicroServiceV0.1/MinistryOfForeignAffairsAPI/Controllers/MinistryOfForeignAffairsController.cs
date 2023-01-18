@@ -35,7 +35,7 @@ namespace MinistryOfForeignAffairsAPI.Controllers
         public ActionResult<bool> GetServedInOtherCountry()
         {
             var id = GetCurrentUserID();
-            var Person = _context.MinistryOfForeignAffairsDB.Where(x => x.id == id).FirstOrDefault();
+            var Person = _context.MinistryOfForeignAffairsDB.Where(x => x.UserID == id).FirstOrDefault();
             if (Person == null) return NotFound();
             return Person.ServedInAnotherArmy;
         }
@@ -45,7 +45,7 @@ namespace MinistryOfForeignAffairsAPI.Controllers
         public ActionResult<bool> GetFamilyMemberOutsideTheCountry()
         {
             var id = GetCurrentUserID();
-            var Person = _context.MinistryOfForeignAffairsDB.Where(x => x.id == id).FirstOrDefault();
+            var Person = _context.MinistryOfForeignAffairsDB.Where(x => x.UserID == id).FirstOrDefault();
             if (Person == null) return NotFound();
             return Person.FamilyMemberOutsideTheCountry;
         }
@@ -55,7 +55,7 @@ namespace MinistryOfForeignAffairsAPI.Controllers
         public ActionResult<bool> GetRatificationOfBeingAManOfGod()
         {
             var id = GetCurrentUserID();
-            var Person = _context.MinistryOfForeignAffairsDB.Where(x => x.id == id).FirstOrDefault();
+            var Person = _context.MinistryOfForeignAffairsDB.Where(x => x.UserID == id).FirstOrDefault();
             if (Person == null) return NotFound();
             return Person.RatificationOfBeingAManOfGod;
         }
@@ -65,7 +65,7 @@ namespace MinistryOfForeignAffairsAPI.Controllers
         public ActionResult<bool> GetAmbassadors()
         {
             var id = GetCurrentUserID();
-            var Person = _context.MinistryOfForeignAffairsDB.Where(x => x.id == id).FirstOrDefault();
+            var Person = _context.MinistryOfForeignAffairsDB.Where(x => x.UserID == id).FirstOrDefault();
             if (Person == null) return NotFound();
             return Person.Ambassadors;
         }
@@ -75,7 +75,7 @@ namespace MinistryOfForeignAffairsAPI.Controllers
         public ActionResult<bool> GetInsideTheCountry()
         {
             var id = GetCurrentUserID();
-            var Person = _context.MinistryOfForeignAffairsDB.Where(x => x.id == id).FirstOrDefault();
+            var Person = _context.MinistryOfForeignAffairsDB.Where(x => x.UserID == id).FirstOrDefault();
             if (Person == null) return NotFound();
             return Person.Inside;
         }

@@ -10,6 +10,7 @@ namespace CourtAPI.Models
     {
         [Key]
         public int id { set; get; }
+        public int UserID { get; set; }
         public string FullName { set; get; }
         public string verdict { set; get; }
         public int time { set; get; }

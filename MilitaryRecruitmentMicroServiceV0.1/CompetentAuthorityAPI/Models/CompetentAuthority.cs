@@ -7,6 +7,8 @@ namespace CompetentAuthorityAPI.Models
     {
         [Key]
         public int id { get; set; }
+
+        public int UserID { get; set; }
         public string name { get; set; }
         public DateTimeOffset EntryDate { get; set; }
     }

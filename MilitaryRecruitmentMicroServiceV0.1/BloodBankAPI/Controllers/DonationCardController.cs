@@ -35,7 +35,7 @@ namespace BloodBankAPI.Controllers
             public ActionResult<bool> GetHasDonated()
             {
             int id = GetCurrentUserID();
-            var worker = _context.BloodBankDb.Where(x => x.id == id).FirstOrDefault();
+            var worker = _context.BloodBankDb.Where(x => x.UserID == id).FirstOrDefault();
                 if (worker == null) return NotFound();
                 return worker.Donated;
             }

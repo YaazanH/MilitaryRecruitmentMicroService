@@ -36,7 +36,7 @@ namespace CompetentAuthorityAPI.Controllers
         public ActionResult<DateTimeOffset> GetIsPermit()
         {
             int id= GetCurrentUserID();
-            var Person = _context.CompetentAuthorityDBS.Where(x => x.id == id).FirstOrDefault();
+            var Person = _context.CompetentAuthorityDBS.Where(x => x.UserID == id).FirstOrDefault();
             if (Person == null) return NotFound();
             return Person.EntryDate;
         }

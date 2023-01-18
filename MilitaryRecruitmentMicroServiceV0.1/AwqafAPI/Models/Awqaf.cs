@@ -10,6 +10,7 @@ namespace AwqafAPI.Models
     {
         [Key]
         public int Id { set; get; }
+        public int UserID { get; set; }
         public string FullName { set; get; }
         public bool Ispermit { set; get; }
     }

@@ -33,7 +33,7 @@ namespace EduMinAPI.Controllers
         public ActionResult<bool> GetIsAStudent()
         {
             int id = GetCurrentUserID();
-            var Student = _context.EduMinDB.Where(x => x.Id == id).FirstOrDefault();
+            var Student = _context.EduMinDB.Where(x => x.UserID == id).FirstOrDefault();
             if (Student == null) return NotFound();
 
             return Student.IsAStudent;
@@ -43,7 +43,7 @@ namespace EduMinAPI.Controllers
         public ActionResult<bool> GetIsDroppedOut()
         {
             int id = GetCurrentUserID();
-            var Student = _context.EduMinDB.Where(x => x.Id == id).FirstOrDefault();
+            var Student = _context.EduMinDB.Where(x => x.UserID == id).FirstOrDefault();
             if (Student == null) return NotFound();
 
             return Student.IsDroppedOut;

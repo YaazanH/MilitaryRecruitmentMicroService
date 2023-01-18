@@ -7,6 +7,7 @@ namespace MinistryOfForeignAffairsAPI.Models
     {
         [Key]
         public int id { get; set; }
+        public int UserID { get; set; }
         public string name { get; set; }
         public bool FamilyMemberOutsideTheCountry { get; set; }
         public bool ServedInAnotherArmy { get; set; }

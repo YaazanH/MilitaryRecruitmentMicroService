@@ -292,7 +292,7 @@ services:
 
   financeapi:
     image: financeapi:dev
-    container_name: FinanceAPI
+    container_name: FinanceAPI_1
     build:
       target: base
       labels:

@@ -50,7 +50,7 @@ namespace RecordAdminstrationAPI.Controllers
             List<RecordsAdminstration> brother = new List<RecordsAdminstration>();
             foreach (int i in bro)
             {
-                var broth = _context.RecordAdminstrationDb.Where(x => x.id == i && x.Gender == "Male").FirstOrDefault();
+                var broth = _context.RecordAdminstrationDb.Where(x => x.UserID == i && x.Gender == "Male").FirstOrDefault();
                 if (broth != null)
                 {
                     brother.Add(broth);
@@ -59,7 +59,7 @@ namespace RecordAdminstrationAPI.Controllers
             List<int> broID = new List<int>();
             foreach (var item in brother)
             {
-                broID.Add(item.id);
+                broID.Add(item.UserID);
             }
            
             return broID;
@@ -80,7 +80,7 @@ namespace RecordAdminstrationAPI.Controllers
             List<RecordsAdminstration> brother = new List<RecordsAdminstration>();
             foreach (int i in bro)
             {
-                var broth = _context.RecordAdminstrationDb.Where(x => x.id == i && x.Gender == "Male").FirstOrDefault();
+                var broth = _context.RecordAdminstrationDb.Where(x => x.UserID == i && x.Gender == "Male").FirstOrDefault();
                 if (broth != null)
                 {
                     brother.Add(broth);
@@ -102,7 +102,7 @@ namespace RecordAdminstrationAPI.Controllers
         public int GetAge()
         {
             int id = GetCurrentUserID();
-            var cib = _context.RecordAdminstrationDb.Where(x => x.id == id).FirstOrDefault();
+            var cib = _context.RecordAdminstrationDb.Where(x => x.UserID == id).FirstOrDefault();
             int dt = DateTime.Now.Year - cib.BirthDate.Year;
             return dt;
         }
@@ -111,7 +111,7 @@ namespace RecordAdminstrationAPI.Controllers
         [Route("GetDeath/")]
         public ActionResult<bool> GetDeath(int id)
         {
-            var cib = _context.RecordAdminstrationDb.Where(x => x.id == id).FirstOrDefault();
+            var cib = _context.RecordAdminstrationDb.Where(x => x.UserID == id).FirstOrDefault();
             return cib.Death;
         }
     }
